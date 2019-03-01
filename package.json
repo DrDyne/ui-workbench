@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "standard '**/*.js' '**/*.jsx'",
     "prebuild": "rimraf dist",
-    "build": "build-storybook -o dist -c .storybook",
+    "build": "build-storybook -o docs -c .storybook",
     "storybook": "start-storybook -p 6006 -c .storybook --ci",
     "format": "prettier-standard 'src/**/*.js'",
     "profile": "webpack --mode production --progress --profile --json > stats.json"
@@ -56,7 +56,8 @@
     ],
     "ignore": [
       "public",
-      "dist"
+      "dist",
+      "docs"
     ]
   },
   "husky": {
