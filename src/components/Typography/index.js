@@ -15,6 +15,7 @@ export const Branding = styled.a`
   font-size: 24px;
   text-decoration: none;
   letter-spacing: 0.3em;
+  font-family: ${font.family};
 
   :hover {
     background: rgba(255, 255, 255, 0.2);
