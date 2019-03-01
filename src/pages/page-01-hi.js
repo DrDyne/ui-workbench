@@ -22,9 +22,6 @@ const LinksBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  a {
-    margin-bottom: 2em;
-  }
 `
 
 const CenterBox = styled.div`
@@ -66,21 +63,25 @@ const Page1 = props => (
 
 Page1.defaultProps = {
   behanceLink: {
+    to: 'behance',
     logo: LogoBehance,
     title: 'behance',
     url: 'https://www.behance.net/rchaumard25b7'
   },
   tumblrLink: {
+    to: 'tumblr',
     logo: LogoTumblr,
     title: 'tumblr',
     url: 'https://dr-dyne.tumblr.com/tagged/sketch'
   },
   linkedInLink: {
+    to: 'linkedin',
     logo: LogoLinkedIn,
     title: 'linked in',
     url: 'https://linkedin.com/in/ryc'
   },
   githubLink: {
+    to: 'github',
     logo: LogoGithub,
     title: 'github',
     url: 'https://github.com/DrDyne'

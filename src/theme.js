@@ -15,19 +15,21 @@ export const font = {
 export const colors = {
   workbench: '#F1618C',
   design: '#4176FB',
-  resume: '#9EC4E7'
+  resume: '#9EC4E7',
+  tumblr: '#44546A'
 }
 
 export const pageBackground = {
   2: colors.workbench,
-  3: colors.design,
+  3: colors.design
   // 5: colors.resume,
-  6: '#000'
+  // 6: '#000'
 }
 
 export const z = {
   pageButton: 10,
-  subtitle: 1
+  subtitle: 1,
+  topbar: 11
 }
 
 export default {

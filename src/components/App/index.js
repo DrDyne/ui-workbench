@@ -17,7 +17,7 @@ const TopBarBox = styled.div`
   top: 0;
   left: 0;
   right: 0;
-  z-index: 10;
+  z-index: ${props => props.theme.z.topbar};
 `
 
 const App = props => (

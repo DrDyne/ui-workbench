@@ -55,6 +55,27 @@ export const PageBox = styled.div`
       width: 100%;
     }
   `}
+
+  ${props =>
+    props.pageIndex === 6 &&
+    `
+    .tooltip {
+      z-index: 1;
+      max-width: 750px;
+      max-height: 207px;
+      margin-left: 54px;
+      margin-top: -260px;
+    }
+
+    .dark-wash {
+      z-index: 0;
+      width: 100%;
+    }
+
+    .contact-line {
+      margin: -400px 100px 0 auto;
+    }
+  `}
 `
 
 export const ButtonBox = styled.div`

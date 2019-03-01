@@ -18,7 +18,14 @@ const linkBox = css`
 `
 
 export default ({ logo, title, url, ...other }) => (
-  <Link href={url} className={linkBox} target='_blank' light {...other}>
+  <Link
+    href={url}
+    className={linkBox}
+    target='_blank'
+    light
+    centered
+    {...other}
+  >
     <img src={logo} />
     {title}
   </Link>

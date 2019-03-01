@@ -9,6 +9,22 @@ import BlueBg from './assets/blue bg.png'
 const ContentBox = styled.div`
   display: flex;
   flex-grow: 1;
+
+  img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  && > div {
+    position: absolute;
+    margin-left: 94px;
+    left: 0;
+    bottom: 0;
+    max-width: 876px;
+    min-height: 493px;
+  }
 `
 
 const ResumeButtonBox = styled(ButtonBox)``

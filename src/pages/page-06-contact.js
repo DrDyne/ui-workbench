@@ -1,12 +1,13 @@
 import React from 'react'
-// import styled from '@emotion/styled'
-
-// import Button from '../components/Button'
-import { Subtitle } from '../components/Typography'
+import ContactLineImg from './assets/contact-line.png'
+import DarkWashImg from './assets/dark wash.png'
+import TooltipImg from './assets/tooltip.png'
 import { PageBox } from './Layout'
 
 export default () => (
   <PageBox pageIndex={6} light>
-    <Subtitle>{'Sounds interesting? Drop me a line!'}</Subtitle>
+    <img className='dark-wash' src={DarkWashImg} />
+    <img className='tooltip' src={TooltipImg} />
+    <img className='contact-line' src={ContactLineImg} />
   </PageBox>
 )
