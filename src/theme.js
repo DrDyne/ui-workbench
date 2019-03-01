@@ -26,6 +26,13 @@ export const pageBackground = {
   // 6: '#000'
 }
 
+export const hoverLinkBorderColor = {
+  behance: '#B1C6FC',
+  tumblr: '#B2B9C2',
+  github: '#F8BECF',
+  linkedin: '#D6E6F4'
+}
+
 export const z = {
   pageButton: 10,
   subtitle: 1,
@@ -36,5 +43,7 @@ export default {
   font,
   colors,
   pageBackground,
-  z
+  z,
+  lightTextVariant,
+  hoverLinkBorderColor
 }

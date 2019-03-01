@@ -6,15 +6,28 @@ import LogoBehance from '../components/TopBar/logo behance.png'
 import LogoTumblr from '../components/TopBar/logo tumblr.png'
 import LogoLinkedIn from '../components/TopBar/logo linked.png'
 import LogoGithub from '../components/TopBar/logo github.png'
-import Link from '../components/TopBar/Link'
+import TopBarLink from '../components/TopBar/Link'
 import arrowDown from './assets/arrow-down.png'
+import WhiteWashImg from './assets/white wash p1.png'
+
+const Link = props => <TopBarLink withBorder {...props} />
 
 const PageBox = styled.div`
   padding: 94px;
   padding-top: 194px;
   min-height: 900px;
+  position: relative;
+
   ${Subtitle} {
     max-width: 290px;
+  }
+
+  img.whitewash {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: -1;
   }
 `
 
@@ -28,7 +41,9 @@ const CenterBox = styled.div`
   flex-direction: column;
   display: flex;
   justify-content: center;
-  margin: 1em;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.4);
+
   ${Subtitle} {
     margin-top: 240px;
     margin: 0 auto;
@@ -49,15 +64,16 @@ const Page1 = props => (
       }
     </Subtitle>
     <LinksBox>
-      {<Link light={false} {...props.behanceLink} />}
-      {<Link light={false} {...props.tumblrLink} />}
-      {<Link light={false} {...props.linkedInLink} />}
-      {<Link light={false} {...props.githubLink} />}
+      {<Link {...props.behanceLink} />}
+      {<Link {...props.tumblrLink} />}
+      {<Link {...props.linkedInLink} />}
+      {<Link {...props.githubLink} />}
     </LinksBox>
     <CenterBox>
       <Subtitle>Read more</Subtitle>
       <img src={arrowDown} />
     </CenterBox>
+    <img className='whitewash' src={WhiteWashImg} />
   </PageBox>
 )
 

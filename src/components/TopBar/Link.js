@@ -2,6 +2,13 @@ import React from 'react'
 import { Link } from '../Typography'
 import { css } from 'emotion'
 
+// const withBorderHighlight = props => props.withBorder && `
+//  border-left: 40px solid ${props => props.theme.hoverLinkBorderColor[props.to] || 'pink' };
+//  :hover {
+//    border-left: 40px solid ${props => props.theme.hoverLinkBorderColor[props.to] || 'pink' };
+//  }
+// `
+
 const linkBox = css`
   display: flex;
   align-items: center;
@@ -18,14 +25,7 @@ const linkBox = css`
 `
 
 export default ({ logo, title, url, ...other }) => (
-  <Link
-    href={url}
-    className={linkBox}
-    target='_blank'
-    light
-    centered
-    {...other}
-  >
+  <Link href={url} className={linkBox} target='_blank' light {...other}>
     <img src={logo} />
     {title}
   </Link>

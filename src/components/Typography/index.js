@@ -86,7 +86,7 @@ export const Link = styled(({ children, to, className, ...props }) => (
     text-decoration: none;
 
     text-align: center;
-    margin-left: 30px;
+    padding-left: 30px;
     img {
       margin: 0 30px 0 0;
       align-self: center;
