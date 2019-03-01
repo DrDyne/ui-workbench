@@ -73,7 +73,7 @@ export const PageBox = styled.div`
     }
 
     .contact-line {
-      margin: -400px 100px 0 auto;
+      margin: -600px 100px 0 auto;
     }
   `}
 `

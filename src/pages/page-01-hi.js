@@ -100,7 +100,7 @@ Page1.defaultProps = {
     to: 'github',
     logo: LogoGithub,
     title: 'github',
-    url: 'https://github.com/DrDyne'
+    url: 'https://github.com/drdyne'
   }
 }
 
