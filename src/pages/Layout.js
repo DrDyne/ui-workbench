@@ -59,6 +59,7 @@ export const PageBox = styled.div`
   ${props =>
     props.pageIndex === 6 &&
     `
+    min-height: 1200px;
     .tooltip {
       z-index: 1;
       max-width: 750px;

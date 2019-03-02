@@ -7,6 +7,7 @@ import LogoTumblr from '../components/TopBar/logo tumblr.png'
 import LogoLinkedIn from '../components/TopBar/logo linked.png'
 import LogoGithub from '../components/TopBar/logo github.png'
 import TopBarLink from '../components/TopBar/Link'
+
 import arrowDown from './assets/arrow-down.png'
 import WhiteWashImg from './assets/white wash p1.png'
 
@@ -41,8 +42,9 @@ const CenterBox = styled.div`
   flex-direction: column;
   display: flex;
   justify-content: center;
-  padding: 1em;
   background: rgba(255, 255, 255, 0.4);
+  //margin-top: -400px; // adjust parallax
+  height: 100px;
 
   ${Subtitle} {
     margin-top: 240px;
@@ -56,7 +58,7 @@ const CenterBox = styled.div`
 `
 
 const Page1 = props => (
-  <PageBox light>
+  <PageBox pageIndex={1}>
     <Header>Hi,</Header>
     <Subtitle>
       {
