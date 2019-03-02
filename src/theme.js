@@ -38,11 +38,14 @@ export const z = {
   topbar: 11
 }
 
+export const breakpoint = 1200
+
 export default {
   font,
   colors,
   pageBackground,
   z,
   lightTextVariant,
-  hoverLinkBorderColor
+  hoverLinkBorderColor,
+  breakpoint
 }

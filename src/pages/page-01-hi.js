@@ -32,6 +32,10 @@ const PageBox = styled.div`
   }
 `
 
+const PageLeft = styled.section``
+
+const PageRight = styled.section``
+
 const LinksBox = styled.div`
   display: flex;
   flex-direction: column;
@@ -59,22 +63,29 @@ const CenterBox = styled.div`
 
 const Page1 = props => (
   <PageBox pageIndex={1}>
-    <Header>Hi,</Header>
-    <Subtitle>
-      {
-        "I'm a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web apps."
-      }
-    </Subtitle>
-    <LinksBox>
-      {<Link {...props.behanceLink} />}
-      {<Link {...props.tumblrLink} />}
-      {<Link {...props.linkedInLink} />}
-      {<Link {...props.githubLink} />}
-    </LinksBox>
+    <PageLeft>
+      <Header>Hi,</Header>
+      <Subtitle>
+        {
+          "I'm a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web apps."
+        }
+      </Subtitle>
+    </PageLeft>
+
+    <PageRight>
+      <LinksBox>
+        {<Link {...props.behanceLink} />}
+        {<Link {...props.tumblrLink} />}
+        {<Link {...props.linkedInLink} />}
+        {<Link {...props.githubLink} />}
+      </LinksBox>
+    </PageRight>
+
     <CenterBox>
       <Subtitle>Read more</Subtitle>
       <img src={arrowDown} />
     </CenterBox>
+
     <img className='whitewash' src={WhiteWashImg} />
   </PageBox>
 )

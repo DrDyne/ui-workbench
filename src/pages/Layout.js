@@ -21,7 +21,7 @@ export const PageBox = styled.div`
   ${props =>
     props.pageIndex === 4 &&
     `/* page 4 -- sketches (fullscreen image) */
-    min-height: 200px;
+    z-index: 3;
     .bg {
       display: block;
       width: 100%;
@@ -77,6 +77,18 @@ export const PageBox = styled.div`
       margin: -600px 100px 0 auto;
     }
   `}
+`
+
+export const PageLeft = styled.section`
+  position: relative;
+  display: flex;
+`
+
+export const PageRight = styled.section`
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  z-index: 1;
 `
 
 export const ButtonBox = styled.div`
