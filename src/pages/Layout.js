@@ -46,13 +46,26 @@ export const PageBox = styled.div`
     props.pageIndex === 5 &&
     `/* page 5 -- resume (vertical flow) */
     flex-direction: vertical;
+    justify-content: center;
+
     ${Subtitle} {
-      max-width: 876px;
-      margin-top: 100px;
+      max-width: 1088px;
+      margin: 100px 0 0 0;
+      position: relative;
+      z-index: 4;
     }
 
-    img {
-      width: 100%;
+    ${Subtitle} div {
+      background: #fff;
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-left: -10%;
+      margin-top: -3%;
+      width: 120%;
+      height: 100%;
+      opacity: .4;
+      z-index: 0;
     }
   `}
 

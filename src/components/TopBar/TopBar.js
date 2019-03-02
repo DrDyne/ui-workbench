@@ -10,7 +10,7 @@ import LogoGithub from './logo github.png'
 
 const BarBox = styled.div`
   display: flex;
-  background: #000;
+  background: linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 50%), #232729;
   padding-left: 100px;
   transition: all 0.2ms;
   div a {

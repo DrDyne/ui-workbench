@@ -119,7 +119,7 @@ const Page2 = () => (
       </ContentBox>
     </PageRight>
 
-    <Page1Parallax wash speed={-4}>
+    <Page1Parallax wash speed={-5}>
       <img src={WhiteWash} className='white-wash' />
     </Page1Parallax>
   </PageBox>

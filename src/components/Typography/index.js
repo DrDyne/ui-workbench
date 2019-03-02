@@ -24,7 +24,7 @@ export const Branding = styled.a`
   ${transitionLinkColor}
 
   border: none, none, 4px solid rgba(0,0,0, 1), none;
-  transition: border-color 0.2s ease-in;
+  transition: all 0.2s ease-in;
   :hover {
     border-color: rgba(255, 255, 255, 0.1);
   }
