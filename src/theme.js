@@ -16,14 +16,13 @@ export const colors = {
   workbench: '#F1618C',
   design: '#4176FB',
   resume: '#9EC4E7',
-  tumblr: '#44546A'
+  tumblr: '#44546A',
+  dark: '#232729'
 }
 
 export const pageBackground = {
   2: colors.workbench,
   3: colors.design
-  // 5: colors.resume,
-  // 6: '#000'
 }
 
 export const hoverLinkBorderColor = {
@@ -39,11 +38,14 @@ export const z = {
   topbar: 11
 }
 
+export const breakpoint = 1200
+
 export default {
   font,
   colors,
   pageBackground,
   z,
   lightTextVariant,
-  hoverLinkBorderColor
+  hoverLinkBorderColor,
+  breakpoint
 }

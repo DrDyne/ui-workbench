@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "standard '**/*.js' '**/*.jsx'",
-    "prebuild": "rimraf dist",
+    "prebuild": "rimraf docs",
     "build": "build-storybook -o docs -c .storybook",
     "storybook": "start-storybook -p 6006 -c .storybook --ci",
     "format": "prettier-standard 'src/**/*.js'",
@@ -82,6 +82,7 @@
     "@emotion/styled": "^10.0.7",
     "babel-plugin-emotion": "^10.0.7",
     "emotion": "^10.0.7",
-    "emotion-theming": "^10.0.7"
+    "emotion-theming": "^10.0.7",
+    "react-rellax": "^1.0.2"
   }
 }

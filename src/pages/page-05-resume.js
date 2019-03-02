@@ -27,7 +27,9 @@ const ContentBox = styled.div`
   }
 `
 
-const ResumeButtonBox = styled(ButtonBox)``
+const ResumeButtonBox = styled(ButtonBox)`
+  margin-bottom: 40px;
+`
 
 export default () => (
   <PageBox pageIndex={5}>

@@ -7,6 +7,7 @@ import LogoTumblr from '../components/TopBar/logo tumblr.png'
 import LogoLinkedIn from '../components/TopBar/logo linked.png'
 import LogoGithub from '../components/TopBar/logo github.png'
 import TopBarLink from '../components/TopBar/Link'
+
 import arrowDown from './assets/arrow-down.png'
 import WhiteWashImg from './assets/white wash p1.png'
 
@@ -31,6 +32,10 @@ const PageBox = styled.div`
   }
 `
 
+const PageLeft = styled.section``
+
+const PageRight = styled.section``
+
 const LinksBox = styled.div`
   display: flex;
   flex-direction: column;
@@ -41,8 +46,9 @@ const CenterBox = styled.div`
   flex-direction: column;
   display: flex;
   justify-content: center;
-  padding: 1em;
   background: rgba(255, 255, 255, 0.4);
+  //margin-top: -400px; // adjust parallax
+  height: 100px;
 
   ${Subtitle} {
     margin-top: 240px;
@@ -56,23 +62,30 @@ const CenterBox = styled.div`
 `
 
 const Page1 = props => (
-  <PageBox light>
-    <Header>Hi,</Header>
-    <Subtitle>
-      {
-        "I'm a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web apps."
-      }
-    </Subtitle>
-    <LinksBox>
-      {<Link {...props.behanceLink} />}
-      {<Link {...props.tumblrLink} />}
-      {<Link {...props.linkedInLink} />}
-      {<Link {...props.githubLink} />}
-    </LinksBox>
+  <PageBox pageIndex={1}>
+    <PageLeft>
+      <Header>Hi,</Header>
+      <Subtitle>
+        {
+          "I'm a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web apps."
+        }
+      </Subtitle>
+    </PageLeft>
+
+    <PageRight>
+      <LinksBox>
+        {<Link {...props.behanceLink} />}
+        {<Link {...props.tumblrLink} />}
+        {<Link {...props.linkedInLink} />}
+        {<Link {...props.githubLink} />}
+      </LinksBox>
+    </PageRight>
+
     <CenterBox>
       <Subtitle>Read more</Subtitle>
       <img src={arrowDown} />
     </CenterBox>
+
     <img className='whitewash' src={WhiteWashImg} />
   </PageBox>
 )
