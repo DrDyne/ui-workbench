@@ -90,13 +90,13 @@
           65
         ),
         _assets_arrow_down_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
-          264
+          265
         ),
         _assets_arrow_down_png__WEBPACK_IMPORTED_MODULE_9___default = __webpack_require__.n(
           _assets_arrow_down_png__WEBPACK_IMPORTED_MODULE_9__
         ),
         _assets_white_wash_p1_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
-          265
+          266
         ),
         _assets_white_wash_p1_png__WEBPACK_IMPORTED_MODULE_10___default = __webpack_require__.n(
           _assets_white_wash_p1_png__WEBPACK_IMPORTED_MODULE_10__
@@ -319,25 +319,25 @@
           4
         ),
         _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          266
+          267
         ),
         _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4__
         ),
         _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-          267
+          268
         ),
         _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
           _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5__
         ),
         _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-          268
+          269
         ),
         _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
           _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6__
         ),
         _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-          269
+          270
         ),
         _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7___default = __webpack_require__.n(
           _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7__
@@ -446,7 +446,7 @@
             ),
             react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
               Page1Parallax,
-              { wash: !0, speed: -4 },
+              { wash: !0, speed: -5 },
               react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
                 'img',
                 {
@@ -525,10 +525,15 @@
           function (props) {
             return (
               5 === props.pageIndex &&
-              '/* page 5 -- resume (vertical flow) */\n    flex-direction: vertical;\n    '.concat(
-                _components_Typography__WEBPACK_IMPORTED_MODULE_2__.d,
-                ' {\n      max-width: 876px;\n      margin-top: 100px;\n    }\n\n    img {\n      width: 100%;\n    }\n  '
-              )
+              '/* page 5 -- resume (vertical flow) */\n    flex-direction: vertical;\n    justify-content: center;\n\n    '
+                .concat(
+                  _components_Typography__WEBPACK_IMPORTED_MODULE_2__.d,
+                  ' {\n      max-width: 1088px;\n      margin: 100px 0 0 0;\n      position: relative;\n      z-index: 4;\n    }\n\n    '
+                )
+                .concat(
+                  _components_Typography__WEBPACK_IMPORTED_MODULE_2__.d,
+                  ' div {\n      background: #fff;\n      position: absolute;\n      top: 0;\n      left: 0;\n      margin-left: -10%;\n      margin-top: -3%;\n      width: 120%;\n      height: 100%;\n      opacity: .4;\n      z-index: 0;\n    }\n  '
+                )
             )
           },
           ' ',
@@ -579,7 +584,7 @@
         ),
         _Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(12),
         _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          270
+          271
         ),
         _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4__
@@ -693,7 +698,7 @@
         ),
         _Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(12),
         _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-          271
+          272
         ),
         _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
           _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_6__
@@ -769,23 +774,27 @@
         ),
         _Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(12),
         _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          272
+          124
         ),
         _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4__
         ),
-        ContentBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
+        BgBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
           'div',
           { target: 'e1epzm2c0' }
         )({
-          name: '3ukxjs',
+          name: '1i8eptl',
           styles:
-            'display:flex;flex-grow:1;img{position:absolute;left:0;right:0;bottom:0;}&& > div{position:absolute;margin-left:94px;left:0;bottom:0;max-width:876px;min-height:493px;}'
+            'position:absolute;top:0;left:0;right:0;bottom:0;justify-content:space-around;display:flex;flex-direction:column;.column{z-index:1;opacity:0.4;margin:0 auto;width:720px;display:flex;flex-direction:column;.top{height:600px;}}.row{display:flex;z-index:0;width:100%;max-height:440px;margin-bottom:-1px;img{width:50%;}.right{transform:scaleX(-1);}}'
         }),
         ResumeButtonBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
           _Layout__WEBPACK_IMPORTED_MODULE_3__.a,
           { target: 'e1epzm2c1' }
-        )({ name: '10ib5jr', styles: 'margin-bottom:40px;' })
+        )({
+          name: '5dtsdg',
+          styles:
+            'margin-bottom:40px;width:876px;height:500px;position:absolute;margin-top:435px;'
+        })
       __webpack_exports__.a = function () {
         return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
           _Layout__WEBPACK_IMPORTED_MODULE_3__.b,
@@ -796,15 +805,44 @@
             'Most of my experience is based on secure, enterprise-level, innovative web apps, with optimized bundling and offline support, developed and tested by small teams and released in fast iteration cycles through a solid CI pipeline to a wide array of devices.'
           ),
           react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-            ContentBox,
+            ResumeButtonBox,
+            null
+          ),
+          react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+            BgBox,
             null,
             react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-              ResumeButtonBox,
-              null
+              'div',
+              { className: 'column' },
+              react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                'img',
+                {
+                  className: 'top',
+                  src:
+                    _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4___default.a
+                }
+              )
             ),
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement('img', {
-              src: _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4___default.a
-            })
+            react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+              'div',
+              { className: 'row' },
+              react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                'img',
+                {
+                  className: 'left',
+                  src:
+                    _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4___default.a
+                }
+              ),
+              react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                'img',
+                {
+                  className: 'right',
+                  src:
+                    _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4___default.a
+                }
+              )
+            )
           )
         )
       }
@@ -853,41 +891,41 @@
         )
       }
     },
-    264: function (module, exports, __webpack_require__) {
+    124: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + 'be7e58f2816f4ac7b1724e0ef97cab76.png'
+        __webpack_require__.p + '81c75f494b2524fd26ea12d42565bd02.png'
     },
     265: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + 'e85b811087b5cc277431d08e3067b05b.png'
+        __webpack_require__.p + 'be7e58f2816f4ac7b1724e0ef97cab76.png'
     },
     266: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '468fcabd781f738c798265f8c0ea74bf.png'
+        __webpack_require__.p + 'e85b811087b5cc277431d08e3067b05b.png'
     },
     267: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '7de29fdc8f8e2eda4deb45d0c9183cbf.png'
+        __webpack_require__.p + '468fcabd781f738c798265f8c0ea74bf.png'
     },
     268: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '8816ff05da90adccb506956d783e714e.png'
+        __webpack_require__.p + '7de29fdc8f8e2eda4deb45d0c9183cbf.png'
     },
     269: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '7be0947c8fe5546ea0c3230108a58235.png'
+        __webpack_require__.p + '8816ff05da90adccb506956d783e714e.png'
     },
     270: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '0a0f0ab71ac53ae2b254e80df8dd43ef.png'
+        __webpack_require__.p + '7be0947c8fe5546ea0c3230108a58235.png'
     },
     271: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '82bc2804d31e833aa47371d997cf8156.png'
+        __webpack_require__.p + '0a0f0ab71ac53ae2b254e80df8dd43ef.png'
     },
     272: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + 'b74d53902c9c5dc4b7fb29bd906bfcc8.png'
+        __webpack_require__.p + '82bc2804d31e833aa47371d997cf8156.png'
     },
     273: function (module, exports, __webpack_require__) {
       module.exports =
@@ -995,7 +1033,7 @@
         function (global, module) {
           __webpack_require__(7), __webpack_require__(6), __webpack_require__(8)
           var _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-              260
+              261
             ),
             _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
               _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_3__
@@ -1005,14 +1043,14 @@
               react__WEBPACK_IMPORTED_MODULE_4__
             ),
             _storybook_react__WEBPACK_IMPORTED_MODULE_6__ = (__webpack_require__(
-              179
+              180
             ),
             __webpack_require__(81)),
             _storybook_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-              261
+              262
             ),
             _storybook_addon_options__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-              262
+              263
             ),
             _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
               111
@@ -1115,7 +1153,7 @@
           _theme__WEBPACK_IMPORTED_MODULE_4__.b.family,
           ';:hover{background:rgba(255,255,255,0.2);}',
           '\n  transition: background .4s ease-out;\n',
-          ' border:none,none,4px solid rgba(0,0,0,1),none;transition:border-color 0.2s ease-in;:hover{border-color:rgba(255,255,255,0.1);}'
+          ' border:none,none,4px solid rgba(0,0,0,1),none;transition:all 0.2s ease-in;:hover{border-color:rgba(255,255,255,0.1);}'
         ),
         Subtitle = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_2___default()(
           'h3',
@@ -1769,7 +1807,7 @@
     },
     65: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
-      var emotion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(263),
+      var emotion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(264),
         _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
           64
         ),
@@ -1864,9 +1902,9 @@
           'div',
           { target: 'e2s2wxl0' }
         )({
-          name: 'wngsno',
+          name: '1t2v523',
           styles:
-            'display:flex;background:#000;padding-left:100px;transition:all 0.2ms;div a{img{max-height:100px;}}'
+            'display:flex;background:linear-gradient(270deg,#000000 0%,rgba(0,0,0,0) 50%),#232729;padding-left:100px;transition:all 0.2ms;div a{img{max-height:100px;}}'
         }),
         LinksBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default()(
           'div',
@@ -2011,4 +2049,4 @@
   },
   [[278, 1, 2]]
 ])
-//# sourceMappingURL=main.07ffa518b0bf5aa804f6.bundle.js.map
+//# sourceMappingURL=main.d7f255e4fe7edb9b9d19.bundle.js.map
