@@ -22,7 +22,8 @@
           workbench: '#F1618C',
           design: '#4176FB',
           resume: '#9EC4E7',
-          tumblr: '#44546A'
+          tumblr: '#44546A',
+          dark: '#232729'
         },
         pageBackground = { 2: colors.workbench, 3: colors.design }
       __webpack_exports__.a = {
@@ -36,13 +37,14 @@
           tumblr: '#B2B9C2',
           github: '#F8BECF',
           linkedin: '#D6E6F4'
-        }
+        },
+        breakpoint: 1200
       }
     },
     113: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          93
+          64
         ),
         _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
           _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__
@@ -85,16 +87,16 @@
           _components_TopBar_logo_github_png__WEBPACK_IMPORTED_MODULE_7__
         ),
         _components_TopBar_Link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-          64
+          65
         ),
         _assets_arrow_down_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
-          263
+          264
         ),
         _assets_arrow_down_png__WEBPACK_IMPORTED_MODULE_9___default = __webpack_require__.n(
           _assets_arrow_down_png__WEBPACK_IMPORTED_MODULE_9__
         ),
         _assets_white_wash_p1_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
-          264
+          265
         ),
         _assets_white_wash_p1_png__WEBPACK_IMPORTED_MODULE_10___default = __webpack_require__.n(
           _assets_white_wash_p1_png__WEBPACK_IMPORTED_MODULE_10__
@@ -116,53 +118,69 @@
           _components_Typography__WEBPACK_IMPORTED_MODULE_3__.d,
           '{max-width:290px;}img.whitewash{position:absolute;right:0;bottom:0;height:100%;z-index:-1;}'
         ),
+        PageLeft = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default()(
+          'section',
+          { target: 'e1ur4wv21' }
+        )(''),
+        PageRight = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default()(
+          'section',
+          { target: 'e1ur4wv22' }
+        )(''),
         LinksBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default()(
           'div',
-          { target: 'e1ur4wv21' }
+          { target: 'e1ur4wv23' }
         )({
           name: 'qfdd9t',
           styles: 'display:flex;flex-direction:column;align-items:flex-end;'
         }),
         CenterBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default()(
           'div',
-          { target: 'e1ur4wv22' }
+          { target: 'e1ur4wv24' }
         )(
-          'flex-direction:column;display:flex;justify-content:center;padding:1em;background:rgba(255,255,255,0.4);',
+          'flex-direction:column;display:flex;justify-content:center;background:rgba(255,255,255,0.4);height:100px;',
           _components_Typography__WEBPACK_IMPORTED_MODULE_3__.d,
           '{margin-top:240px;margin:0 auto;opacity:0.4;}img{max-width:40px;margin:1em auto;}'
         ),
         Page1 = function (props) {
           return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
             PageBox,
-            { light: !0 },
+            { pageIndex: 1 },
             react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-              _components_Typography__WEBPACK_IMPORTED_MODULE_3__.b,
+              PageLeft,
               null,
-              'Hi,'
+              react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                _components_Typography__WEBPACK_IMPORTED_MODULE_3__.b,
+                null,
+                'Hi,'
+              ),
+              react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                _components_Typography__WEBPACK_IMPORTED_MODULE_3__.d,
+                null,
+                "I'm a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web apps."
+              )
             ),
             react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-              _components_Typography__WEBPACK_IMPORTED_MODULE_3__.d,
-              null,
-              "I'm a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web apps."
-            ),
-            react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-              LinksBox,
+              PageRight,
               null,
               react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-                Link,
-                props.behanceLink
-              ),
-              react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-                Link,
-                props.tumblrLink
-              ),
-              react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-                Link,
-                props.linkedInLink
-              ),
-              react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-                Link,
-                props.githubLink
+                LinksBox,
+                null,
+                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                  Link,
+                  props.behanceLink
+                ),
+                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                  Link,
+                  props.tumblrLink
+                ),
+                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                  Link,
+                  props.linkedInLink
+                ),
+                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                  Link,
+                  props.githubLink
+                )
               )
             ),
             react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
@@ -293,92 +311,148 @@
         react__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
           react__WEBPACK_IMPORTED_MODULE_1__
         ),
-        _components_Typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+        react_rellax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(119),
+        react_rellax__WEBPACK_IMPORTED_MODULE_2___default = __webpack_require__.n(
+          react_rellax__WEBPACK_IMPORTED_MODULE_2__
+        ),
+        _components_Typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
           4
         ),
-        _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-          265
-        ),
-        _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
-          _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_3__
-        ),
-        _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+        _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
           266
         ),
-        _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
-          _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_4__
+        _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
+          _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4__
         ),
-        _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+        _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
           267
         ),
-        _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
-          _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_5__
+        _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
+          _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5__
         ),
-        _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+        _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
           268
         ),
-        _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
-          _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_6__
+        _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
+          _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6__
         ),
-        _Layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(21),
+        _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+          269
+        ),
+        _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7___default = __webpack_require__.n(
+          _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7__
+        ),
+        _Layout__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(12),
         ContentBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
           'div',
           { target: 'eiui8310' }
         )({
-          name: '1c4gh59',
+          name: '1pj117i',
           styles:
-            'display:flex;flex-grow:1;min-width:560px;transition:all 0.2s;@media (min-width:740px){padding-left:200px;}img{position:absolute;left:0;top:0;}img{left:428px;top:126px;}img + img{left:316px;top:451px;z-index:1;}img + img + img{padding-left:695px;margin-top:-85px;}img + img + img + img{padding:0;left:0;bottom:0;right:0;top:auto;width:100%;z-index:0;margin-bottom:-100px;}'
+            'display:flex;flex-grow:1;min-width:560px;transition:all 0.2s;min-height:1000px;@media (min-width:740px){padding-left:200px;> div:first-child{margin-top:240px;margin-bottom:-50px;}> div.parallax{}img.react-logo{padding-left:300px;margin-top:-240px;}}'
         }),
         UIWBButtonBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
-          _Layout__WEBPACK_IMPORTED_MODULE_7__.a,
+          _Layout__WEBPACK_IMPORTED_MODULE_8__.a,
           { target: 'eiui8311' }
         )({
           name: '1ugj9xt',
           styles:
             'z-index:2;width:100%;max-width:686px;height:363px;margin-top:94px;background:#ffffff;box-shadow:0px 8px 16px rgba(0,0,0,0.25);'
         }),
+        Page1Parallax = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
+          react_rellax__WEBPACK_IMPORTED_MODULE_2___default.a,
+          { target: 'eiui8312' }
+        )(
+          'margin-left:-786px;img{position:absolute;left:0;top:0;}',
+          function (props) {
+            return (
+              props.figma &&
+              '\n    position: absolute;\n    margin-left: -120px;\n  '
+            )
+          },
+          ' .figma-logo{left:-50px;top:126px;margin-top:400px;}.storybook-logo{left:316px;top:451px;z-index:1;}.react-logo{padding-left:695px;margin-top:-85px;}',
+          function (props) {
+            return (
+              props.wash &&
+              '\n    @media(max-width: '
+                .concat(
+                  props.theme.breakpoint,
+                  'px) { opacity: 0 }\n    @media(min-width: '
+                )
+                .concat(
+                  props.theme.breakpoint,
+                  'px) {\n      position: absolute;\n      left: 0;\n      right: 0;\n      top: auto;\n      margin-top: 300px;\n      z-index: 0;\n\n      img.white-wash {\n        width: 100%;\n      }\n    }\n  '
+                )
+            )
+          },
+          ''
+        ),
         Page2 = function () {
           return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-            _Layout__WEBPACK_IMPORTED_MODULE_7__.b,
+            _Layout__WEBPACK_IMPORTED_MODULE_8__.b,
             { pageIndex: 2, light: !0 },
             react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-              _components_Typography__WEBPACK_IMPORTED_MODULE_2__.d,
+              _Layout__WEBPACK_IMPORTED_MODULE_8__.c,
               null,
-              'These days I use Figma and React, backed by Storybook to build visual libraries of components that can be tested and regressed automatically.'
+              react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                _components_Typography__WEBPACK_IMPORTED_MODULE_3__.d,
+                null,
+                'These days I use Figma and React, backed by Storybook to build visual libraries of components that can be tested and regressed automatically.'
+              )
             ),
             react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-              ContentBox,
+              _Layout__WEBPACK_IMPORTED_MODULE_8__.d,
               null,
               react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-                UIWBButtonBox,
-                null
-              ),
+                ContentBox,
+                null,
+                react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                  UIWBButtonBox,
+                  null
+                ),
+                react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                  Page1Parallax,
+                  null,
+                  react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                    'img',
+                    {
+                      src:
+                        _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+                      className: 'storybook-logo'
+                    }
+                  ),
+                  react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                    'img',
+                    {
+                      src:
+                        _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+                      className: 'react-logo'
+                    }
+                  )
+                ),
+                react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                  Page1Parallax,
+                  { speed: 4, figma: !0 },
+                  react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                    'img',
+                    {
+                      src:
+                        _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+                      className: 'figma-logo'
+                    }
+                  )
+                )
+              )
+            ),
+            react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+              Page1Parallax,
+              { wash: !0, speed: -4 },
               react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
                 'img',
                 {
                   src:
-                    _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_3___default.a
-                }
-              ),
-              react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-                'img',
-                {
-                  src:
-                    _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_5___default.a
-                }
-              ),
-              react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-                'img',
-                {
-                  src:
-                    _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_4___default.a
-                }
-              ),
-              react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-                'img',
-                {
-                  src:
-                    _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_6___default.a
+                    _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7___default.a,
+                  className: 'white-wash'
                 }
               )
             )
@@ -397,239 +471,17 @@
             path: 'src/pages/page-02-ui-workbench.js'
           })
     },
-    119: function (module, __webpack_exports__, __webpack_require__) {
-      'use strict'
-      var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          2
-        ),
-        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
-          _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__
-        ),
-        react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0),
-        react__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
-          react__WEBPACK_IMPORTED_MODULE_1__
-        ),
-        _components_Typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-          4
-        ),
-        _Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(21),
-        _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          269
-        ),
-        _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
-          _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4__
-        ),
-        ContentBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
-          'div',
-          { target: 'ep2g05l0' }
-        )({
-          name: '3l84ax',
-          styles:
-            'display:flex;flex-grow:1;margin-top:240px;&& > img{position:absolute;left:0;bottom:0;right:0;top:auto;width:100%;z-index:0;}'
-        }),
-        BehanceButtonBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
-          _Layout__WEBPACK_IMPORTED_MODULE_3__.a,
-          { target: 'ep2g05l1' }
-        )({
-          name: '1x713yq',
-          styles:
-            'z-index:2;width:100%;display:flex;flex-grow:1;margin:0 -96px -100px 54px;max-height:437px;max-width:900px;'
-        }),
-        Page2 = function () {
-          return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-            _Layout__WEBPACK_IMPORTED_MODULE_3__.b,
-            { pageIndex: 3, light: !0 },
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-              _components_Typography__WEBPACK_IMPORTED_MODULE_2__.d,
-              null,
-              'I strive to build tools that help people achieve objectives or visualize their progress, make them work faster, or simply improve their quality of life.'
-            ),
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-              ContentBox,
-              null,
-              react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-                BehanceButtonBox,
-                null
-              ),
-              react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-                'img',
-                {
-                  src:
-                    _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4___default.a
-                }
-              )
-            )
-          )
-        }
-      ;(__webpack_exports__.a = Page2),
-        (Page2.__docgenInfo = {
-          description: '',
-          methods: [],
-          displayName: 'Page2'
-        }),
-        'undefined' != typeof STORYBOOK_REACT_CLASSES &&
-          (STORYBOOK_REACT_CLASSES['src/pages/page-03-design.js'] = {
-            name: 'Page2',
-            docgenInfo: Page2.__docgenInfo,
-            path: 'src/pages/page-03-design.js'
-          })
-    },
-    120: function (module, __webpack_exports__, __webpack_require__) {
-      'use strict'
-      var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          2
-        ),
-        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
-          _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__
-        ),
-        react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0),
-        react__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
-          react__WEBPACK_IMPORTED_MODULE_1__
-        ),
-        _components_Typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-          4
-        ),
-        _Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(21),
-        _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          270
-        ),
-        _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
-          _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_4__
-        ),
-        SketchesButtonBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
-          _Layout__WEBPACK_IMPORTED_MODULE_3__.a,
-          { target: 'ej67efe0' }
-        )('')
-      __webpack_exports__.a = function () {
-        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-          _Layout__WEBPACK_IMPORTED_MODULE_3__.b,
-          { pageIndex: 4, light: !0 },
-          react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-            _components_Typography__WEBPACK_IMPORTED_MODULE_2__.d,
-            null,
-            'When I’m not coding, I can be found sketching, exploring art, design, motion or gaming.'
-          ),
-          react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-            SketchesButtonBox,
-            null
-          ),
-          react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-            'div',
-            { className: 'bg' },
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement('img', {
-              src:
-                _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_4___default.a
-            })
-          )
-        )
-      }
-    },
-    121: function (module, __webpack_exports__, __webpack_require__) {
-      'use strict'
-      var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          2
-        ),
-        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
-          _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__
-        ),
-        react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0),
-        react__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
-          react__WEBPACK_IMPORTED_MODULE_1__
-        ),
-        _components_Typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-          4
-        ),
-        _Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(21),
-        _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          271
-        ),
-        _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
-          _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4__
-        ),
-        ContentBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
-          'div',
-          { target: 'e1epzm2c0' }
-        )({
-          name: '3ukxjs',
-          styles:
-            'display:flex;flex-grow:1;img{position:absolute;left:0;right:0;bottom:0;}&& > div{position:absolute;margin-left:94px;left:0;bottom:0;max-width:876px;min-height:493px;}'
-        }),
-        ResumeButtonBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
-          _Layout__WEBPACK_IMPORTED_MODULE_3__.a,
-          { target: 'e1epzm2c1' }
-        )('')
-      __webpack_exports__.a = function () {
-        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-          _Layout__WEBPACK_IMPORTED_MODULE_3__.b,
-          { pageIndex: 5 },
-          react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-            _components_Typography__WEBPACK_IMPORTED_MODULE_2__.d,
-            null,
-            'Most of my experience is based on secure, enterprise-level, innovative web apps, with optimized bundling and offline support, developed and tested by small teams and released in fast iteration cycles through a solid CI pipeline to a wide array of devices.'
-          ),
-          react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-            ContentBox,
-            null,
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
-              ResumeButtonBox,
-              null
-            ),
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement('img', {
-              src: _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4___default.a
-            })
-          )
-        )
-      }
-    },
-    122: function (module, __webpack_exports__, __webpack_require__) {
-      'use strict'
-      var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0),
-        react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
-          react__WEBPACK_IMPORTED_MODULE_0__
-        ),
-        _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          272
-        ),
-        _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
-          _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_1__
-        ),
-        _assets_dark_wash_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-          273
-        ),
-        _assets_dark_wash_png__WEBPACK_IMPORTED_MODULE_2___default = __webpack_require__.n(
-          _assets_dark_wash_png__WEBPACK_IMPORTED_MODULE_2__
-        ),
-        _assets_tooltip_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-          274
-        ),
-        _assets_tooltip_png__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
-          _assets_tooltip_png__WEBPACK_IMPORTED_MODULE_3__
-        ),
-        _Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(21)
-      __webpack_exports__.a = function () {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-          _Layout__WEBPACK_IMPORTED_MODULE_4__.b,
-          { pageIndex: 6, light: !0 },
-          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('img', {
-            className: 'dark-wash',
-            src: _assets_dark_wash_png__WEBPACK_IMPORTED_MODULE_2___default.a
-          }),
-          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('img', {
-            className: 'tooltip',
-            src: _assets_tooltip_png__WEBPACK_IMPORTED_MODULE_3___default.a
-          }),
-          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('img', {
-            className: 'contact-line',
-            src: _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_1___default.a
-          })
-        )
-      }
-    },
-    21: function (module, __webpack_exports__, __webpack_require__) {
+    12: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.d(__webpack_exports__, 'b', function () {
         return PageBox
       }),
+        __webpack_require__.d(__webpack_exports__, 'c', function () {
+          return PageLeft
+        }),
+        __webpack_require__.d(__webpack_exports__, 'd', function () {
+          return PageRight
+        }),
         __webpack_require__.d(__webpack_exports__, 'a', function () {
           return ButtonBox
         })
@@ -663,7 +515,7 @@
           function (props) {
             return (
               4 === props.pageIndex &&
-              '/* page 4 -- sketches (fullscreen image) */\n    min-height: 200px;\n    .bg {\n      display: block;\n      width: 100%;\n      height: auto;\n      margin-top: -184px;\n      margin-bottom: -5px;\n    }\n\n    .bg > img {\n      width: 100%;\n    }\n\n    '.concat(
+              '/* page 4 -- sketches (fullscreen image) */\n    z-index: 3;\n    .bg {\n      display: block;\n      width: 100%;\n      height: auto;\n      margin-top: -184px;\n      margin-bottom: -5px;\n    }\n\n    .bg > img {\n      width: 100%;\n    }\n\n    '.concat(
                 _components_Typography__WEBPACK_IMPORTED_MODULE_2__.d,
                 ' {\n      width: 100%;\n      max-width: 800px;\n      margin: 55px auto;\n      text-align: center;\n    }\n  '
               )
@@ -683,14 +535,25 @@
           function (props) {
             return (
               6 === props.pageIndex &&
-              '\n    .tooltip {\n      z-index: 1;\n      max-width: 750px;\n      max-height: 207px;\n      margin-left: 54px;\n      margin-top: -260px;\n    }\n\n    .dark-wash {\n      z-index: 0;\n      width: 100%;\n    }\n\n    .contact-line {\n      margin: -600px 100px 0 auto;\n    }\n  '
+              '\n    min-height: 1200px;\n    .tooltip {\n      z-index: 1;\n      max-width: 750px;\n      max-height: 207px;\n      margin-left: 54px;\n      margin-top: -260px;\n    }\n\n    .dark-wash {\n      z-index: 0;\n      width: 100%;\n    }\n\n    .contact-line {\n      margin: -600px 100px 0 auto;\n    }\n  '
             )
           },
           ''
         ),
+        PageLeft = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
+          'section',
+          { target: 'e1o3p8061' }
+        )({ name: 'hyxlzm', styles: 'position:relative;display:flex;' }),
+        PageRight = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
+          'section',
+          { target: 'e1o3p8062' }
+        )({
+          name: 'dj7ba3',
+          styles: 'position:relative;display:flex;flex-grow:1;z-index:1;'
+        }),
         ButtonBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
           'div',
-          { target: 'e1o3p8061' }
+          { target: 'e1o3p8063' }
         )(
           'display:flex;width:100%;background:#fff;z-index:',
           function (props) {
@@ -699,55 +562,346 @@
           ';box-shadow:0px 8px 16px rgba(0,0,0,0.25);'
         )
     },
-    263: function (module, exports, __webpack_require__) {
-      module.exports =
-        __webpack_require__.p + 'be7e58f2816f4ac7b1724e0ef97cab76.png'
+    120: function (module, __webpack_exports__, __webpack_require__) {
+      'use strict'
+      var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+          2
+        ),
+        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
+          _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__
+        ),
+        react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0),
+        react__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
+          react__WEBPACK_IMPORTED_MODULE_1__
+        ),
+        _components_Typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+          4
+        ),
+        _Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(12),
+        _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+          270
+        ),
+        _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
+          _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4__
+        ),
+        react_rellax__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(119),
+        react_rellax__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
+          react_rellax__WEBPACK_IMPORTED_MODULE_5__
+        ),
+        ContentBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
+          'div',
+          { target: 'ep2g05l0' }
+        )({
+          name: '179asnf',
+          styles:
+            'width:100%;margin-top:240px;margin-left:auto;margin-bottom:100px;'
+        }),
+        Page2Parallax = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
+          react_rellax__WEBPACK_IMPORTED_MODULE_5___default.a,
+          { target: 'ep2g05l1' }
+        )(
+          'position:absolute;left:0;bottom:0;right:0;top:auto;z-index:0;margin-left:-384px;img{width:100%;}@media (max-width:',
+          function (props) {
+            return props.theme.breakpoint
+          },
+          'px){opacity:0;}'
+        ),
+        BehanceButtonBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
+          _Layout__WEBPACK_IMPORTED_MODULE_3__.a,
+          { target: 'ep2g05l2' }
+        )({
+          name: 'tnja20',
+          styles: 'z-index:2;margin:0 0 0 auto;height:437px;width:900px;'
+        }),
+        Page2 = function () {
+          return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+            _Layout__WEBPACK_IMPORTED_MODULE_3__.b,
+            { pageIndex: 3, light: !0 },
+            react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+              _Layout__WEBPACK_IMPORTED_MODULE_3__.c,
+              null,
+              react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                _components_Typography__WEBPACK_IMPORTED_MODULE_2__.d,
+                null,
+                'I strive to build tools that help people achieve objectives or visualize their progress, make them work faster, or simply improve their quality of life.'
+              )
+            ),
+            react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+              _Layout__WEBPACK_IMPORTED_MODULE_3__.d,
+              null,
+              react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                ContentBox,
+                null,
+                react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                  BehanceButtonBox,
+                  null
+                ),
+                react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                  Page2Parallax,
+                  { speed: -2 },
+                  react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                    'img',
+                    {
+                      src:
+                        _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4___default.a
+                    }
+                  )
+                )
+              )
+            )
+          )
+        }
+      ;(__webpack_exports__.a = Page2),
+        (Page2.__docgenInfo = {
+          description: '',
+          methods: [],
+          displayName: 'Page2'
+        }),
+        'undefined' != typeof STORYBOOK_REACT_CLASSES &&
+          (STORYBOOK_REACT_CLASSES['src/pages/page-03-design.js'] = {
+            name: 'Page2',
+            docgenInfo: Page2.__docgenInfo,
+            path: 'src/pages/page-03-design.js'
+          })
+    },
+    121: function (module, __webpack_exports__, __webpack_require__) {
+      'use strict'
+      var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+          64
+        ),
+        _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
+          _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__
+        ),
+        _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+          33
+        ),
+        _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
+          _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__
+        ),
+        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+          2
+        ),
+        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_2___default = __webpack_require__.n(
+          _emotion_styled_base__WEBPACK_IMPORTED_MODULE_2__
+        ),
+        react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(0),
+        react__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
+          react__WEBPACK_IMPORTED_MODULE_3__
+        ),
+        _components_Typography__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+          4
+        ),
+        _Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(12),
+        _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+          271
+        ),
+        _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
+          _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_6__
+        ),
+        SketchesButtonBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_2___default()(
+          _Layout__WEBPACK_IMPORTED_MODULE_5__.a,
+          { target: 'ej67efe0' }
+        )(''),
+        PageBg = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_2___default()(
+          function (_ref) {
+            var src = _ref.src,
+              children = _ref.children,
+              props = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default()(
+                _ref,
+                ['src', 'children']
+              )
+            return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
+              'div',
+              _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()(
+                { className: 'bg' },
+                props
+              ),
+              children,
+              react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
+                'img',
+                { src: src }
+              )
+            )
+          },
+          { target: 'ej67efe1' }
+        )(
+          'display:flex;flex-direction:column;align-items:top;width:100%;',
+          _components_Typography__WEBPACK_IMPORTED_MODULE_4__.d,
+          '{margin-bottom:-180px;}img{width:100%;height:auto;}'
+        )
+      __webpack_exports__.a = function () {
+        return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
+          _Layout__WEBPACK_IMPORTED_MODULE_5__.b,
+          { pageIndex: 4, light: !0 },
+          react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
+            PageBg,
+            {
+              src:
+                _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_6___default.a
+            },
+            react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
+              _components_Typography__WEBPACK_IMPORTED_MODULE_4__.d,
+              null,
+              'When I’m not coding, I can be found sketching, exploring art, design, motion or gaming.'
+            ),
+            react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
+              SketchesButtonBox,
+              null
+            )
+          )
+        )
+      }
+    },
+    122: function (module, __webpack_exports__, __webpack_require__) {
+      'use strict'
+      var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+          2
+        ),
+        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
+          _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__
+        ),
+        react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0),
+        react__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
+          react__WEBPACK_IMPORTED_MODULE_1__
+        ),
+        _components_Typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+          4
+        ),
+        _Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(12),
+        _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+          272
+        ),
+        _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
+          _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4__
+        ),
+        ContentBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
+          'div',
+          { target: 'e1epzm2c0' }
+        )({
+          name: '3ukxjs',
+          styles:
+            'display:flex;flex-grow:1;img{position:absolute;left:0;right:0;bottom:0;}&& > div{position:absolute;margin-left:94px;left:0;bottom:0;max-width:876px;min-height:493px;}'
+        }),
+        ResumeButtonBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
+          _Layout__WEBPACK_IMPORTED_MODULE_3__.a,
+          { target: 'e1epzm2c1' }
+        )({ name: '10ib5jr', styles: 'margin-bottom:40px;' })
+      __webpack_exports__.a = function () {
+        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+          _Layout__WEBPACK_IMPORTED_MODULE_3__.b,
+          { pageIndex: 5 },
+          react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+            _components_Typography__WEBPACK_IMPORTED_MODULE_2__.d,
+            null,
+            'Most of my experience is based on secure, enterprise-level, innovative web apps, with optimized bundling and offline support, developed and tested by small teams and released in fast iteration cycles through a solid CI pipeline to a wide array of devices.'
+          ),
+          react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+            ContentBox,
+            null,
+            react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+              ResumeButtonBox,
+              null
+            ),
+            react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement('img', {
+              src: _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_4___default.a
+            })
+          )
+        )
+      }
+    },
+    123: function (module, __webpack_exports__, __webpack_require__) {
+      'use strict'
+      var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0),
+        react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
+          react__WEBPACK_IMPORTED_MODULE_0__
+        ),
+        _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+          273
+        ),
+        _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
+          _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_1__
+        ),
+        _assets_dark_wash_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+          274
+        ),
+        _assets_dark_wash_png__WEBPACK_IMPORTED_MODULE_2___default = __webpack_require__.n(
+          _assets_dark_wash_png__WEBPACK_IMPORTED_MODULE_2__
+        ),
+        _assets_tooltip_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+          275
+        ),
+        _assets_tooltip_png__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
+          _assets_tooltip_png__WEBPACK_IMPORTED_MODULE_3__
+        ),
+        _Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(12)
+      __webpack_exports__.a = function () {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+          _Layout__WEBPACK_IMPORTED_MODULE_4__.b,
+          { pageIndex: 6, light: !0 },
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('img', {
+            className: 'dark-wash',
+            src: _assets_dark_wash_png__WEBPACK_IMPORTED_MODULE_2___default.a
+          }),
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('img', {
+            className: 'tooltip',
+            src: _assets_tooltip_png__WEBPACK_IMPORTED_MODULE_3___default.a
+          }),
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('img', {
+            className: 'contact-line',
+            src: _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_1___default.a
+          })
+        )
+      }
     },
     264: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + 'e85b811087b5cc277431d08e3067b05b.png'
+        __webpack_require__.p + 'be7e58f2816f4ac7b1724e0ef97cab76.png'
     },
     265: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '468fcabd781f738c798265f8c0ea74bf.png'
+        __webpack_require__.p + 'e85b811087b5cc277431d08e3067b05b.png'
     },
     266: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '7de29fdc8f8e2eda4deb45d0c9183cbf.png'
+        __webpack_require__.p + '468fcabd781f738c798265f8c0ea74bf.png'
     },
     267: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '8816ff05da90adccb506956d783e714e.png'
+        __webpack_require__.p + '7de29fdc8f8e2eda4deb45d0c9183cbf.png'
     },
     268: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '7be0947c8fe5546ea0c3230108a58235.png'
+        __webpack_require__.p + '8816ff05da90adccb506956d783e714e.png'
     },
     269: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '0a0f0ab71ac53ae2b254e80df8dd43ef.png'
+        __webpack_require__.p + '7be0947c8fe5546ea0c3230108a58235.png'
     },
     270: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '82bc2804d31e833aa47371d997cf8156.png'
+        __webpack_require__.p + '0a0f0ab71ac53ae2b254e80df8dd43ef.png'
     },
     271: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + 'b74d53902c9c5dc4b7fb29bd906bfcc8.png'
+        __webpack_require__.p + '82bc2804d31e833aa47371d997cf8156.png'
     },
     272: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '1e961780787f030094ea457fb8351afe.png'
+        __webpack_require__.p + 'b74d53902c9c5dc4b7fb29bd906bfcc8.png'
     },
     273: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '357b8e99a59b91a0544c5fd44e0a51c7.png'
+        __webpack_require__.p + '1e961780787f030094ea457fb8351afe.png'
     },
     274: function (module, exports, __webpack_require__) {
       module.exports =
+        __webpack_require__.p + '357b8e99a59b91a0544c5fd44e0a51c7.png'
+    },
+    275: function (module, exports, __webpack_require__) {
+      module.exports =
         __webpack_require__.p + '539a8b53e6057c17f180bb0216c55ff0.png'
     },
-    275: function (module, __webpack_exports__, __webpack_require__) {
+    276: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           2
@@ -774,7 +928,7 @@
           'background:#ffffff;box-shadow:0px 8px 16px rgba(0,0,0,0.25);padding:4em;'
       })
     },
-    276: function (module, __webpack_exports__, __webpack_require__) {
+    277: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var styled_base_browser_cjs = __webpack_require__(2),
         styled_base_browser_cjs_default = __webpack_require__.n(
@@ -785,12 +939,12 @@
         emotion_theming_browser_cjs = __webpack_require__(112),
         page_01_hi = __webpack_require__(113),
         page_02_ui_workbench = __webpack_require__(118),
-        page_03_design = __webpack_require__(119),
-        page_04_sketches = __webpack_require__(120),
-        page_05_resume = __webpack_require__(121),
-        page_06_contact = __webpack_require__(122),
+        page_03_design = __webpack_require__(120),
+        page_04_sketches = __webpack_require__(121),
+        page_05_resume = __webpack_require__(122),
+        page_06_contact = __webpack_require__(123),
         theme = __webpack_require__(10),
-        TopBar = __webpack_require__(79),
+        TopBar = __webpack_require__(80),
         TopBarBox = styled_base_browser_cjs_default()('div', {
           target: 'e1tovj9z0'
         })(
@@ -830,18 +984,18 @@
             path: 'src/components/App/index.js'
           })
     },
-    277: function (module, exports, __webpack_require__) {
-      __webpack_require__(278),
-        __webpack_require__(357),
-        (module.exports = __webpack_require__(358))
+    278: function (module, exports, __webpack_require__) {
+      __webpack_require__(279),
+        __webpack_require__(358),
+        (module.exports = __webpack_require__(359))
     },
-    358: function (module, __webpack_exports__, __webpack_require__) {
+    359: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (global, module) {
           __webpack_require__(7), __webpack_require__(6), __webpack_require__(8)
           var _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-              259
+              260
             ),
             _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
               _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_3__
@@ -851,14 +1005,14 @@
               react__WEBPACK_IMPORTED_MODULE_4__
             ),
             _storybook_react__WEBPACK_IMPORTED_MODULE_6__ = (__webpack_require__(
-              178
+              179
             ),
-            __webpack_require__(80)),
+            __webpack_require__(81)),
             _storybook_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-              260
+              261
             ),
             _storybook_addon_options__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-              261
+              262
             ),
             _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
               111
@@ -869,7 +1023,7 @@
             )
           global.storiesOf =
             _storybook_react__WEBPACK_IMPORTED_MODULE_6__.storiesOf
-          var req = __webpack_require__(598)
+          var req = __webpack_require__(599)
           Object(_storybook_react__WEBPACK_IMPORTED_MODULE_6__.addDecorator)(
             Object(
               _storybook_addon_options__WEBPACK_IMPORTED_MODULE_8__.withOptions
@@ -919,7 +1073,7 @@
               },
               module
             )
-        }.call(this, __webpack_require__(26), __webpack_require__(51)(module))
+        }.call(this, __webpack_require__(22), __webpack_require__(51)(module))
     },
     4: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
@@ -935,9 +1089,9 @@
         __webpack_require__.d(__webpack_exports__, 'c', function () {
           return Link
         })
-      __webpack_require__(602)
+      __webpack_require__(603)
       var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          45
+          33
         ),
         _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
           _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__
@@ -1041,14 +1195,14 @@
           ';}'
         )
     },
-    598: function (module, exports, __webpack_require__) {
+    599: function (module, exports, __webpack_require__) {
       var map = {
-        './components/App/stories/App.stories.js': 599,
-        './components/Button/stories/Button.stories.js': 608,
-        './components/TopBar/stories/TopBar.stories.js': 609,
-        './components/Typography/stories/Typography.stories.js': 610,
-        './pages/stories/pages.stories.js': 611,
-        './stories/index.stories.js': 612
+        './components/App/stories/App.stories.js': 600,
+        './components/Button/stories/Button.stories.js': 610,
+        './components/TopBar/stories/TopBar.stories.js': 611,
+        './components/Typography/stories/Typography.stories.js': 612,
+        './pages/stories/pages.stories.js': 613,
+        './stories/index.stories.js': 614
       }
       function webpackContext (req) {
         var id = webpackContextResolve(req)
@@ -1066,9 +1220,63 @@
       }),
         (webpackContext.resolve = webpackContextResolve),
         (module.exports = webpackContext),
-        (webpackContext.id = 598)
+        (webpackContext.id = 599)
     },
-    599: function (module, __webpack_exports__, __webpack_require__) {
+    600: function (module, __webpack_exports__, __webpack_require__) {
+      'use strict'
+      __webpack_require__.r(__webpack_exports__),
+        function (module) {
+          __webpack_require__.d(
+            __webpack_exports__,
+            'withStorySource',
+            function () {
+              return withStorySource
+            }
+          ),
+            __webpack_require__.d(
+              __webpack_exports__,
+              '__STORY__',
+              function () {
+                return __STORY__
+              }
+            ),
+            __webpack_require__.d(
+              __webpack_exports__,
+              '__ADDS_MAP__',
+              function () {
+                return __ADDS_MAP__
+              }
+            )
+          var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0),
+            react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
+              react__WEBPACK_IMPORTED_MODULE_0__
+            ),
+            ___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(277),
+            withStorySource = __webpack_require__(79).withStorySource,
+            __STORY__ =
+              "import React from 'react';\nimport App from '../';\n\nstoriesOf('Portfolio', module).add('App', () => <App />);\n",
+            __ADDS_MAP__ = {
+              'Portfolio@App': {
+                startLoc: { col: 35, line: 4 },
+                endLoc: { col: 55, line: 4 }
+              }
+            }
+          storiesOf('Portfolio', module)
+            .addDecorator(
+              withStorySource(
+                "import React from 'react';\nimport App from '../';\n\nstoriesOf('Portfolio', module).add('App', () => <App />);\n",
+                __ADDS_MAP__
+              )
+            )
+            .add('App', function () {
+              return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                ___WEBPACK_IMPORTED_MODULE_1__.a,
+                null
+              )
+            })
+        }.call(this, __webpack_require__(51)(module))
+    },
+    610: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -1098,61 +1306,7 @@
               react__WEBPACK_IMPORTED_MODULE_0__
             ),
             ___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(276),
-            withStorySource = __webpack_require__(78).withStorySource,
-            __STORY__ =
-              "import React from 'react';\nimport App from '../';\n\nstoriesOf('Portfolio', module).add('App', () => <App />);\n",
-            __ADDS_MAP__ = {
-              'Portfolio@App': {
-                startLoc: { col: 35, line: 4 },
-                endLoc: { col: 55, line: 4 }
-              }
-            }
-          storiesOf('Portfolio', module)
-            .addDecorator(
-              withStorySource(
-                "import React from 'react';\nimport App from '../';\n\nstoriesOf('Portfolio', module).add('App', () => <App />);\n",
-                __ADDS_MAP__
-              )
-            )
-            .add('App', function () {
-              return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                ___WEBPACK_IMPORTED_MODULE_1__.a,
-                null
-              )
-            })
-        }.call(this, __webpack_require__(51)(module))
-    },
-    608: function (module, __webpack_exports__, __webpack_require__) {
-      'use strict'
-      __webpack_require__.r(__webpack_exports__),
-        function (module) {
-          __webpack_require__.d(
-            __webpack_exports__,
-            'withStorySource',
-            function () {
-              return withStorySource
-            }
-          ),
-            __webpack_require__.d(
-              __webpack_exports__,
-              '__STORY__',
-              function () {
-                return __STORY__
-              }
-            ),
-            __webpack_require__.d(
-              __webpack_exports__,
-              '__ADDS_MAP__',
-              function () {
-                return __ADDS_MAP__
-              }
-            )
-          var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0),
-            react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
-              react__WEBPACK_IMPORTED_MODULE_0__
-            ),
-            ___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(275),
-            withStorySource = __webpack_require__(78).withStorySource,
+            withStorySource = __webpack_require__(79).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport Button from '../';\n\nstoriesOf('Portfolio|Button', module).add('. default', () => <Button>This is a button</Button>);\n",
             __ADDS_MAP__ = {
@@ -1177,7 +1331,7 @@
             })
         }.call(this, __webpack_require__(51)(module))
     },
-    609: function (module, __webpack_exports__, __webpack_require__) {
+    611: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -1215,8 +1369,8 @@
             _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
               111
             ),
-            _TopBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(79),
-            withStorySource = __webpack_require__(78).withStorySource,
+            _TopBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(80),
+            withStorySource = __webpack_require__(79).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport { boolean } from '@storybook/addon-knobs';\nimport styled from '@emotion/styled';\nimport TopBar from '../TopBar';\n\nconst DemoBox = styled.div`\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n`;\n\nstoriesOf('Portfolio|TopBar', module)\n  .add('. default', () => <TopBar />)\n  .add('with links', () => <TopBar showBehance showTumblr showLinkedIn showGithub />)\n  .add('fixed top', () => {\n    const showLinks = boolean('showLinks?', true);\n    const props = !showLinks\n      ? {}\n      : {\n          showBehance: true,\n          showTumblr: true,\n          showLinkedIn: true,\n          showGithub: true,\n        };\n\n    return (\n      <DemoBox>\n        <TopBar {...props} />\n      </DemoBox>\n    );\n  });\n",
             __ADDS_MAP__ = {
@@ -1286,7 +1440,7 @@
             })
         }.call(this, __webpack_require__(51)(module))
     },
-    610: function (module, __webpack_exports__, __webpack_require__) {
+    612: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -1311,9 +1465,9 @@
                 return __ADDS_MAP__
               }
             )
-          __webpack_require__(41)
+          __webpack_require__(42)
           var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-              45
+              33
             ),
             _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
               _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__
@@ -1330,13 +1484,13 @@
             ),
             _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(10),
             ___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4),
-            withStorySource = __webpack_require__(78).withStorySource,
+            withStorySource = __webpack_require__(79).withStorySource,
             __STORY__ =
-              "import React from 'react';\nimport styled from '@emotion/styled';\n\nimport { font } from '../../../theme';\n\nimport { Header, Subtitle, Link } from '..';\n\nconst TypoListItem = styled(({ name, children, ...other }) => (\n  <li {...other}>\n    <p>{name}</p>\n    {children}\n  </li>\n))`\n  display: flex;\n  align-items: baseline;\n\n  p {\n    opacity: 0.4;\n    font-family: ${font.familty};\n    font-size: ${font.size.subtitle};\n    margin: 0 1em;\n  }\n`;\n\nstoriesOf('Portfolio|Theme', module).add('Typography', () => (\n  <div>\n    <TypoListItem name=\"Header\">\n      <Header>Hi</Header>\n    </TypoListItem>\n\n    <TypoListItem name=\"Subtitle\">\n      <Subtitle>\n        I'm a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web\n        apps.\n      </Subtitle>\n    </TypoListItem>\n\n    <TypoListItem name=\"Link\">\n      <Link href=\"#\">Lorem ipsum dolor</Link>\n    </TypoListItem>\n  </div>\n));\n",
+              'import React from \'react\';\nimport styled from \'@emotion/styled\';\n\nimport { font } from \'../../../theme\';\n\nimport { Header, Subtitle, Link } from \'..\';\n\nconst TypoListItem = styled(({ name, children, ...other }) => (\n  <li {...other}>\n    <p>{name}</p>\n    {children}\n  </li>\n))`\n  display: flex;\n  align-items: baseline;\n\n  p {\n    min-width: 120px;\n    opacity: 0.4;\n    font-family: ${font.familty};\n    font-size: ${font.size.subtitle};\n    margin: 0 1em;\n  }\n`;\n\nstoriesOf(\'Portfolio|Theme\', module).add(\'Typography\', () => (\n  <div>\n    <TypoListItem name="Header">\n      <Header>Hi</Header>\n    </TypoListItem>\n\n    <TypoListItem name="Subtitle">\n      <Subtitle>\n        I\'m a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web\n        apps.\n      </Subtitle>\n    </TypoListItem>\n\n    <TypoListItem name="Link">\n      <Link href="#">Lorem ipsum dolor</Link>\n    </TypoListItem>\n\n    <TypoListItem name="Link/to">\n      <Link href="#" to="github">\n        Github\n      </Link>\n    </TypoListItem>\n\n    <TypoListItem name="Link/light">\n      <Link href="#" to="github" light>\n        Github\n      </Link>\n    </TypoListItem>\n  </div>\n));\n',
             __ADDS_MAP__ = {
               'Portfolio|Theme@Typography': {
-                startLoc: { col: 41, line: 25 },
-                endLoc: { col: 1, line: 42 }
+                startLoc: { col: 41, line: 26 },
+                endLoc: { col: 1, line: 55 }
               }
             },
             TypoListItem = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_2___default()(
@@ -1360,7 +1514,7 @@
               },
               { target: 'e1t6pf9l0' }
             )(
-              'display:flex;align-items:baseline;p{opacity:0.4;font-family:',
+              'display:flex;align-items:baseline;p{min-width:120px;opacity:0.4;font-family:',
               _theme__WEBPACK_IMPORTED_MODULE_4__.b.familty,
               ';font-size:',
               _theme__WEBPACK_IMPORTED_MODULE_4__.b.size.subtitle,
@@ -1369,7 +1523,7 @@
           storiesOf('Portfolio|Theme', module)
             .addDecorator(
               withStorySource(
-                "import React from 'react';\nimport styled from '@emotion/styled';\n\nimport { font } from '../../../theme';\n\nimport { Header, Subtitle, Link } from '..';\n\nconst TypoListItem = styled(({ name, children, ...other }) => (\n  <li {...other}>\n    <p>{name}</p>\n    {children}\n  </li>\n))`\n  display: flex;\n  align-items: baseline;\n\n  p {\n    opacity: 0.4;\n    font-family: ${font.familty};\n    font-size: ${font.size.subtitle};\n    margin: 0 1em;\n  }\n`;\n\nstoriesOf('Portfolio|Theme', module).add('Typography', () => (\n  <div>\n    <TypoListItem name=\"Header\">\n      <Header>Hi</Header>\n    </TypoListItem>\n\n    <TypoListItem name=\"Subtitle\">\n      <Subtitle>\n        I'm a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web\n        apps.\n      </Subtitle>\n    </TypoListItem>\n\n    <TypoListItem name=\"Link\">\n      <Link href=\"#\">Lorem ipsum dolor</Link>\n    </TypoListItem>\n  </div>\n));\n",
+                'import React from \'react\';\nimport styled from \'@emotion/styled\';\n\nimport { font } from \'../../../theme\';\n\nimport { Header, Subtitle, Link } from \'..\';\n\nconst TypoListItem = styled(({ name, children, ...other }) => (\n  <li {...other}>\n    <p>{name}</p>\n    {children}\n  </li>\n))`\n  display: flex;\n  align-items: baseline;\n\n  p {\n    min-width: 120px;\n    opacity: 0.4;\n    font-family: ${font.familty};\n    font-size: ${font.size.subtitle};\n    margin: 0 1em;\n  }\n`;\n\nstoriesOf(\'Portfolio|Theme\', module).add(\'Typography\', () => (\n  <div>\n    <TypoListItem name="Header">\n      <Header>Hi</Header>\n    </TypoListItem>\n\n    <TypoListItem name="Subtitle">\n      <Subtitle>\n        I\'m a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web\n        apps.\n      </Subtitle>\n    </TypoListItem>\n\n    <TypoListItem name="Link">\n      <Link href="#">Lorem ipsum dolor</Link>\n    </TypoListItem>\n\n    <TypoListItem name="Link/to">\n      <Link href="#" to="github">\n        Github\n      </Link>\n    </TypoListItem>\n\n    <TypoListItem name="Link/light">\n      <Link href="#" to="github" light>\n        Github\n      </Link>\n    </TypoListItem>\n  </div>\n));\n',
                 __ADDS_MAP__
               )
             )
@@ -1403,12 +1557,30 @@
                     { href: '#' },
                     'Lorem ipsum dolor'
                   )
+                ),
+                react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
+                  TypoListItem,
+                  { name: 'Link/to' },
+                  react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
+                    ___WEBPACK_IMPORTED_MODULE_5__.c,
+                    { href: '#', to: 'github' },
+                    'Github'
+                  )
+                ),
+                react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
+                  TypoListItem,
+                  { name: 'Link/light' },
+                  react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
+                    ___WEBPACK_IMPORTED_MODULE_5__.c,
+                    { href: '#', to: 'github', light: !0 },
+                    'Github'
+                  )
                 )
               )
             })
         }.call(this, __webpack_require__(51)(module))
     },
-    611: function (module, __webpack_exports__, __webpack_require__) {
+    613: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -1442,18 +1614,18 @@
               118
             ),
             _page_03_design__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-              119
-            ),
-            _page_04_sketches__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
               120
             ),
-            _page_05_resume__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+            _page_04_sketches__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
               121
             ),
-            _page_06_contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+            _page_05_resume__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
               122
             ),
-            withStorySource = __webpack_require__(78).withStorySource,
+            _page_06_contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+              123
+            ),
+            withStorySource = __webpack_require__(79).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport Page1 from '../page-01-hi';\nimport Page2 from '../page-02-ui-workbench';\nimport Page3 from '../page-03-design';\nimport Page4 from '../page-04-sketches';\nimport Page5 from '../page-05-resume';\nimport Page6 from '../page-06-contact';\n\nstoriesOf('Portfolio|Pages', module)\n  .add('page 1', () => <Page1 />)\n  .add('page 2', () => <Page2 />)\n  .add('page 3', () => <Page3 />)\n  .add('page 4', () => <Page4 />)\n  .add('page 5', () => <Page5 />)\n  .add('page 6', () => <Page6 />);\n",
             __ADDS_MAP__ = {
@@ -1527,7 +1699,7 @@
             })
         }.call(this, __webpack_require__(51)(module))
     },
-    612: function (module, __webpack_exports__, __webpack_require__) {
+    614: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -1556,19 +1728,23 @@
             react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
               react__WEBPACK_IMPORTED_MODULE_0__
             ),
-            withStorySource = __webpack_require__(78).withStorySource,
+            withStorySource = __webpack_require__(79).withStorySource,
             __STORY__ =
-              "import React from 'react';\n\nstoriesOf('📌 Welcome', module).add('README', () => <div> hello </div>);\n",
+              "import React from 'react';\n// import theme from '../theme'\n\nstoriesOf('📌 Welcome', module).add('README', () => <div> hello </div>);\n\nstoriesOf('Portfolio|Theme', module).add('Palette', () => {\n  // const { behance, tumblr, github, linkedin } = theme.colors\n  return null;\n});\n",
             __ADDS_MAP__ = {
               '📌 Welcome@README': {
-                startLoc: { col: 36, line: 3 },
-                endLoc: { col: 70, line: 3 }
+                startLoc: { col: 36, line: 4 },
+                endLoc: { col: 70, line: 4 }
+              },
+              'Portfolio|Theme@Palette': {
+                startLoc: { col: 41, line: 6 },
+                endLoc: { col: 1, line: 9 }
               }
             }
           storiesOf('📌 Welcome', module)
             .addDecorator(
               withStorySource(
-                "import React from 'react';\n\nstoriesOf('📌 Welcome', module).add('README', () => <div> hello </div>);\n",
+                "import React from 'react';\n// import theme from '../theme'\n\nstoriesOf('📌 Welcome', module).add('README', () => <div> hello </div>);\n\nstoriesOf('Portfolio|Theme', module).add('Palette', () => {\n  // const { behance, tumblr, github, linkedin } = theme.colors\n  return null;\n});\n",
                 __ADDS_MAP__
               )
             )
@@ -1578,20 +1754,30 @@
                 null,
                 ' hello '
               )
-            })
+            }),
+            storiesOf('Portfolio|Theme', module)
+              .addDecorator(
+                withStorySource(
+                  "import React from 'react';\n// import theme from '../theme'\n\nstoriesOf('📌 Welcome', module).add('README', () => <div> hello </div>);\n\nstoriesOf('Portfolio|Theme', module).add('Palette', () => {\n  // const { behance, tumblr, github, linkedin } = theme.colors\n  return null;\n});\n",
+                  __ADDS_MAP__
+                )
+              )
+              .add('Palette', function () {
+                return null
+              })
         }.call(this, __webpack_require__(51)(module))
     },
-    64: function (module, __webpack_exports__, __webpack_require__) {
+    65: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
-      var emotion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(262),
+      var emotion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(263),
         _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          93
+          64
         ),
         _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
           _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__
         ),
         _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-          45
+          33
         ),
         _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2___default = __webpack_require__.n(
           _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__
@@ -1630,10 +1816,10 @@
         )
       }
     },
-    79: function (module, __webpack_exports__, __webpack_require__) {
+    80: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          45
+          33
         ),
         _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
           _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__
@@ -1649,7 +1835,7 @@
           react__WEBPACK_IMPORTED_MODULE_2__
         ),
         _Typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4),
-        _Link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(64),
+        _Link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(65),
         _logo_behance_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
           114
         ),
@@ -1823,6 +2009,6 @@
           })
     }
   },
-  [[277, 1, 2]]
+  [[278, 1, 2]]
 ])
-//# sourceMappingURL=main.42a30f6c6b29993dd06b.bundle.js.map
+//# sourceMappingURL=main.07ffa518b0bf5aa804f6.bundle.js.map
