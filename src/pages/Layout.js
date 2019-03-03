@@ -26,19 +26,24 @@ export const PageBox = styled.div`
       display: block;
       width: 100%;
       height: auto;
-      margin-top: -184px;
+      margin-top: -174px;
       margin-bottom: -5px;
     }
 
-    .bg > img {
+    div:last-child { width: 100% }
+    div img {
+      margin-top: 150px;
       width: 100%;
     }
 
     ${Subtitle} {
       width: 100%;
       max-width: 800px;
-      margin: 55px auto;
       text-align: center;
+      margin: -172px auto 0 auto;
+      padding: 50px;
+      background: rgba(0, 0, 0, 0.33);
+      backdrop-filter: blur(8px);
     }
   `}
 
@@ -51,44 +56,44 @@ export const PageBox = styled.div`
     ${Subtitle} {
       max-width: 1088px;
       margin: 100px 0 0 0;
+      padding: 0 100px;
       position: relative;
       z-index: 4;
-    }
+      text-align: center;
 
-    ${Subtitle} div {
-      background: #fff;
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin-left: -10%;
-      margin-top: -3%;
-      width: 120%;
-      height: 100%;
-      opacity: .4;
-      z-index: 0;
+      @media(max-width: ${props.theme.breakpoint}px) {
+        margin-top: -200px;
+      }
     }
   `}
 
   ${props =>
     props.pageIndex === 6 &&
     `
-    min-height: 1200px;
+    overflow: hidden;
     .tooltip {
       z-index: 1;
       max-width: 750px;
       max-height: 207px;
       margin-left: 54px;
-      margin-top: -260px;
+      margin-top: -600px;
     }
 
-    .dark-wash {
-      z-index: 0;
+    .bg {
+      margin-bottom: -5px;
+      position: relative;
+      display: block;
+      height: 100%;
       width: 100%;
+      > img { width: 100% }
+
+      .contact-line {
+        position: absolute;
+        right: 85px;
+        bottom: 50px;
+      }
     }
 
-    .contact-line {
-      margin: -600px 100px 0 auto;
-    }
   `}
 `
 

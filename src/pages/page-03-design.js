@@ -13,6 +13,9 @@ const ContentBox = styled.div`
   margin-top: 240px;
   margin-left: auto;
   margin-bottom: 100px;
+  @media (max-width: ${props => props.theme.breakpoint}px) {
+    padding-bottom: 200px;
+  }
 `
 
 const Page2Parallax = styled(Parallax)`

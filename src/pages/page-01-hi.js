@@ -18,6 +18,7 @@ const PageBox = styled.div`
   padding-top: 194px;
   min-height: 900px;
   position: relative;
+  z-index: 10;
 
   ${Subtitle} {
     max-width: 290px;
