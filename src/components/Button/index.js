@@ -4,6 +4,9 @@ import styled from '@emotion/styled'
 
 class Button extends React.Component {
   state = {
+    isActive: false,
+    width: 0,
+    height: 0,
     pos: {
       x: 0,
       y: 0
@@ -18,7 +21,7 @@ class Button extends React.Component {
 
   // set origin at center
   setOrigin (event) {
-    const { width, height } = this.props
+    const { width, height } = this.state
     const { left, top } = event.currentTarget.getBoundingClientRect()
     const origin = {
       x: left + Math.floor(width / 2),
@@ -42,7 +45,7 @@ class Button extends React.Component {
     if (!current) return {}
 
     const { x, y } = this.state.pos
-    const { width, height } = this.props
+    const { width, height } = this.state
 
     const isTopLeft = x < 0 && y > 0
     const isBottomRight = x > 0 && y < 0
@@ -60,11 +63,32 @@ class Button extends React.Component {
     }
   }
 
-  reset () {
+  startTracking (event) {
+    event.persist()
+    this.setState(
+      {
+        isActive: true,
+        width: event.target.offsetWidth,
+        height: event.target.offsetHeight
+      },
+      console.log
+    )
+    this.setOrigin(event)
+  }
+
+  stopTracking () {
     const defaultPos = { x: 0, y: 0 }
     this.setState({
+      isActive: false,
       pos: defaultPos,
       origin: defaultPos
+    })
+  }
+
+  track (event) {
+    event.persist()
+    requestAnimationFrame(() => {
+      this.setPosition(event)
     })
   }
 
@@ -72,19 +96,9 @@ class Button extends React.Component {
     const { linkProps, label, children, ...other } = this.props
     const { rx, ry } = this.rotate()
     const containerProps = {
-      onMouseEnter: event => {
-        event.persist()
-        this.setOrigin(event)
-      },
-      onMouseLeave: event => {
-        this.reset()
-      },
-      onMouseMove: event => {
-        event.persist()
-        requestAnimationFrame(() => {
-          this.setPosition(event)
-        })
-      }
+      onMouseEnter: event => this.startTracking(event),
+      onMouseLeave: () => this.stopTracking(),
+      onMouseMove: event => this.track(event)
     }
 
     const rotate = rx && ry ? `rotateX(${rx}deg) rotateY(${ry}deg)` : 'none'
@@ -109,8 +123,6 @@ Button.defaultProps = {
   linkProps: {
     href: '#'
   },
-  width: 10,
-  height: 10,
   label: undefined,
   'label-offset': { x: 0, y: 0 },
   'label-origin': { x: 0, y: 0 },
@@ -127,8 +139,6 @@ export default styled(Button)`
   background: rgba(255, 255, 255, 0.8);
   z-index: ${props => props.theme.z.pageButton};
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
-  height: ${props => props.height}px;
-  width: ${props => props.width}px;
 
   perspective: 20px;
 
