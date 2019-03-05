@@ -17,7 +17,13 @@ export const colors = {
   design: '#4176FB',
   resume: '#9EC4E7',
   tumblr: '#44546A',
-  dark: '#232729'
+  black: '#232729'
+}
+
+export const gradients = {
+  header: `linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 50%), #232729`,
+  accentLight: `linear-gradient(235.77deg, rgba(35, 39, 41, 0) 12.8%, rgba(35, 39, 41, 0.2) 46.35%, rgba(35, 39, 41, 0) 88.7%), #FFFFFF`,
+  accentDark: `linear-gradient(235.77deg, rgba(255, 255, 255, 0) 12.8%, rgba(255, 255, 255, 0.2) 46.35%, rgba(255, 255, 255, 0) 88.7%), #232729`
 }
 
 export const pageBackground = {
@@ -43,6 +49,7 @@ export const breakpoint = 1200
 export default {
   font,
   colors,
+  gradients,
   pageBackground,
   z,
   lightTextVariant,

@@ -1,9 +1,72 @@
 import React from 'react'
-// import theme from '../theme'
+import styled from '@emotion/styled'
+import theme from '../theme'
+
+const ColorBox = styled.div`
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1250px;
+  margin: 0 auto;
+`
+
+const ColorBlock = styled(({ name, hex, bg, ...other }) => (
+  <div {...other}>
+    <div />
+    <div>
+      <p>{name}</p>
+      <p>{hex || 'gradient'}</p>
+    </div>
+  </div>
+))`
+  font-family: ${props => props.theme.font.family};
+  background-color: ${props => props.hex};
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 16px;
+  max-width: 250px;
+  min-height: 250px;
+  width: 100%;
+  position: relative;
+
+  ${props =>
+    props.bg &&
+    `
+    background: ${props.bg};
+  `}
+
+  div {
+    min-height: 130px;
+    width: 100%;
+    border-radius: 0 0 16px 16px;
+  }
+  div + div {
+    min-height: 0;
+    background: white;
+    position: absolute;
+    bottom: 0;
+  }
+  div + div > p {
+    padding: 0 1em;
+    opacity: 0.4;
+  }
+
+  div + div > p + p {
+    opacity: 1;
+  }
+`
 
 storiesOf('📌 Welcome', module).add('README', () => <div> hello </div>)
 
-storiesOf('Portfolio|Theme', module).add('Palette', () => {
-  // const { behance, tumblr, github, linkedin } = theme.colors
-  return null
-})
+storiesOf('Portfolio|Theme', module).add('Palette', () => (
+  <ColorBox>
+    <ColorBlock name='Black Pearl' hex={theme.colors.black} />
+    <ColorBlock name='Brink Pink' hex={theme.colors.workbench} />
+    <ColorBlock name='Royal Blue' hex={theme.colors.design} />
+    <ColorBlock name='East Bay' hex={theme.colors.tumblr} />
+    <ColorBlock name='Sail' hex={theme.colors.resume} />
+    <ColorBlock name='Black Pearl to Pure Black' bg={theme.gradients.header} />
+    <ColorBlock name='Accent (light)' bg={theme.gradients.accentLight} />
+    <ColorBlock name='Accent (dark)' bg={theme.gradients.accentDark} />
+  </ColorBox>
+))
