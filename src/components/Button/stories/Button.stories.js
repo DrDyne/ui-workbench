@@ -10,24 +10,22 @@ const DemoBox = styled.div`
   justify-content: center;
   padding: 100px;
   background: #ccc;
-  min-height: 100vh;
+  ${Button} {
+    width: 600px;
+    height: 400px;
+  }
 `
-
-const defaultProps = {
-  height: 400,
-  width: 600
-}
 
 storiesOf('Portfolio|Button', module)
   .add('. default', () => (
     <DemoBox>
-      <Button {...defaultProps}>This is a button</Button>
+      <Button>This is a button</Button>
     </DemoBox>
   ))
 
   .add('image', () => (
     <DemoBox>
-      <Button {...defaultProps}>
+      <Button>
         <img src={Kitty} />
       </Button>
     </DemoBox>
@@ -35,7 +33,6 @@ storiesOf('Portfolio|Button', module)
 
   .add('offset', () => {
     const props = {
-      ...defaultProps,
       label: text('label', 'Nya! nya! nya!'),
       offset: {
         x: number('offset.x', 40),
