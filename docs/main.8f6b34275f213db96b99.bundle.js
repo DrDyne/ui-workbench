@@ -1,7 +1,7 @@
 ;(window.webpackJsonp = window.webpackJsonp || []).push([
   [0],
   {
-    118: function (module, __webpack_exports__, __webpack_require__) {
+    117: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           35
@@ -23,25 +23,25 @@
           4
         ),
         _components_TopBar_logo_behance_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          119
+          118
         ),
         _components_TopBar_logo_behance_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _components_TopBar_logo_behance_png__WEBPACK_IMPORTED_MODULE_4__
         ),
         _components_TopBar_logo_tumblr_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-          120
+          119
         ),
         _components_TopBar_logo_tumblr_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
           _components_TopBar_logo_tumblr_png__WEBPACK_IMPORTED_MODULE_5__
         ),
         _components_TopBar_logo_linked_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-          121
+          120
         ),
         _components_TopBar_logo_linked_png__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
           _components_TopBar_logo_linked_png__WEBPACK_IMPORTED_MODULE_6__
         ),
         _components_TopBar_logo_github_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-          122
+          121
         ),
         _components_TopBar_logo_github_png__WEBPACK_IMPORTED_MODULE_7___default = __webpack_require__.n(
           _components_TopBar_logo_github_png__WEBPACK_IMPORTED_MODULE_7__
@@ -243,9 +243,13 @@
             path: 'src/pages/page-01-hi.js'
           })
     },
-    119: function (module, exports, __webpack_require__) {
+    118: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'b66756c49b5ca9a79130b13c86fa2556.png'
+    },
+    119: function (module, exports, __webpack_require__) {
+      module.exports =
+        __webpack_require__.p + '90ff6e21f548d1a59cd9435cdba990e3.png'
     },
     12: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
@@ -269,7 +273,7 @@
         ),
         _theme__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5),
         _components_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-          83
+          68
         ),
         _components_Typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
           4
@@ -337,17 +341,13 @@
     },
     120: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '90ff6e21f548d1a59cd9435cdba990e3.png'
+        __webpack_require__.p + '0b603076dfc832af9f9f357e2552dd5c.png'
     },
     121: function (module, exports, __webpack_require__) {
       module.exports =
-        __webpack_require__.p + '0b603076dfc832af9f9f357e2552dd5c.png'
-    },
-    122: function (module, exports, __webpack_require__) {
-      module.exports =
         __webpack_require__.p + 'f440148b22f2a412e69f2c32edde7302.png'
     },
-    123: function (module, __webpack_exports__, __webpack_require__) {
+    122: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           2
@@ -519,7 +519,7 @@
             path: 'src/pages/page-02-ui-workbench.js'
           })
     },
-    124: function (module, __webpack_exports__, __webpack_require__) {
+    123: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           2
@@ -623,7 +623,7 @@
             path: 'src/pages/page-03-design.js'
           })
     },
-    125: function (module, __webpack_exports__, __webpack_require__) {
+    124: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           35
@@ -715,7 +715,7 @@
         )
       }
     },
-    126: function (module, __webpack_exports__, __webpack_require__) {
+    125: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           2
@@ -736,7 +736,7 @@
         ),
         _Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(12),
         _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-          183
+          182
         ),
         _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
           _assets_blue_bg_png__WEBPACK_IMPORTED_MODULE_5__
@@ -810,7 +810,7 @@
         )
       }
     },
-    127: function (module, __webpack_exports__, __webpack_require__) {
+    126: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0),
         react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
@@ -867,11 +867,11 @@
         )
       }
     },
-    183: function (module, exports, __webpack_require__) {
+    182: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '81c75f494b2524fd26ea12d42565bd02.png'
     },
-    184: function (module, exports, __webpack_require__) {
+    183: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'ca3211105d00b409071de21d18e0e14c.jpeg'
     },
@@ -927,15 +927,15 @@
         ),
         react = __webpack_require__(0),
         react_default = __webpack_require__.n(react),
-        emotion_theming_browser_cjs = __webpack_require__(117),
-        page_01_hi = __webpack_require__(118),
-        page_02_ui_workbench = __webpack_require__(123),
-        page_03_design = __webpack_require__(124),
-        page_04_sketches = __webpack_require__(125),
-        page_05_resume = __webpack_require__(126),
-        page_06_contact = __webpack_require__(127),
+        emotion_theming_browser_cjs = __webpack_require__(116),
+        page_01_hi = __webpack_require__(117),
+        page_02_ui_workbench = __webpack_require__(122),
+        page_03_design = __webpack_require__(123),
+        page_04_sketches = __webpack_require__(124),
+        page_05_resume = __webpack_require__(125),
+        page_06_contact = __webpack_require__(126),
         theme = __webpack_require__(5),
-        TopBar = __webpack_require__(82),
+        TopBar = __webpack_require__(83),
         TopBarBox = styled_base_browser_cjs_default()('div', {
           target: 'e1tovj9z0'
         })(
@@ -986,7 +986,7 @@
         function (global, module) {
           __webpack_require__(8), __webpack_require__(7), __webpack_require__(9)
           var _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-              115
+              265
             ),
             _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
               _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_3__
@@ -996,7 +996,7 @@
               react__WEBPACK_IMPORTED_MODULE_4__
             ),
             _storybook_react__WEBPACK_IMPORTED_MODULE_6__ = (__webpack_require__(
-              185
+              184
             ),
             __webpack_require__(84)),
             _storybook_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
@@ -1010,7 +1010,7 @@
             ),
             _src_theme__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(5),
             emotion_theming__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
-              117
+              116
             )
           global.storiesOf =
             _storybook_react__WEBPACK_IMPORTED_MODULE_6__.storiesOf
@@ -1291,7 +1291,7 @@
               react__WEBPACK_IMPORTED_MODULE_0__
             ),
             ___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(285),
-            withStorySource = __webpack_require__(81).withStorySource,
+            withStorySource = __webpack_require__(82).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport App from '../';\n\nstoriesOf('Portfolio', module).add('App', () => <App />);\n",
             __ADDS_MAP__ = {
@@ -1340,137 +1340,126 @@
                 return __ADDS_MAP__
               }
             )
-          var _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-              115
-            ),
-            _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
-              _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0__
-            ),
-            _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+          var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
               2
             ),
-            _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
-              _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1__
+            _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
+              _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__
             ),
-            react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0),
-            react__WEBPACK_IMPORTED_MODULE_2___default = __webpack_require__.n(
-              react__WEBPACK_IMPORTED_MODULE_2__
+            react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0),
+            react__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
+              react__WEBPACK_IMPORTED_MODULE_1__
             ),
-            _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+            _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
               23
             ),
-            ___WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(83),
-            _kitty_jpeg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(184),
-            _kitty_jpeg__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
-              _kitty_jpeg__WEBPACK_IMPORTED_MODULE_5__
+            ___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(68),
+            _kitty_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(183),
+            _kitty_jpeg__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
+              _kitty_jpeg__WEBPACK_IMPORTED_MODULE_4__
             ),
-            withStorySource = __webpack_require__(81).withStorySource,
+            withStorySource = __webpack_require__(82).withStorySource,
             __STORY__ =
-              "import React from 'react';\nimport styled from '@emotion/styled';\nimport { text, number } from '@storybook/addon-knobs';\nimport Button from '../';\n\nimport Kitty from './kitty.jpeg';\n\nconst DemoBox = styled.div`\n  display: flex;\n  justify-content: center;\n  padding: 100px;\n  background: #ccc;\n  min-height: 100vh;\n`;\n\nconst defaultProps = {\n  height: 400,\n  width: 600,\n};\n\nstoriesOf('Portfolio|Button', module)\n  .add('. default', () => (\n    <DemoBox>\n      <Button {...defaultProps}>This is a button</Button>\n    </DemoBox>\n  ))\n\n  .add('image', () => (\n    <DemoBox>\n      <Button {...defaultProps}>\n        <img src={Kitty} />\n      </Button>\n    </DemoBox>\n  ))\n\n  .add('offset', () => {\n    const props = {\n      ...defaultProps,\n      label: text('label', 'Nya! nya! nya!'),\n      offset: {\n        x: number('offset.x', 40),\n        y: number('offset.y', 40),\n      },\n      'label-width': number('labelWidth', 40),\n      'label-origin': {\n        x: number('labelOrigin.x', 420),\n        y: number('labelOrigin.y', 20),\n      },\n      'label-offset': {\n        x: number('labelOffset.x', 420),\n        y: number('labelOffset.y', 40),\n      },\n      'label-delay': number('labelDelay', 0.2),\n    };\n\n    return (\n      <DemoBox>\n        <Button {...props}>\n          <img src={Kitty} />\n        </Button>\n      </DemoBox>\n    );\n  });\n",
+              "import React from 'react';\nimport styled from '@emotion/styled';\nimport { text, number } from '@storybook/addon-knobs';\nimport Button from '../';\n\nimport Kitty from './kitty.jpeg';\n\nconst DemoBox = styled.div`\n  display: flex;\n  justify-content: center;\n  padding: 100px;\n  background: #ccc;\n  ${Button} {\n    width: 600px;\n    height: 400px;\n  }\n`;\n\nstoriesOf('Portfolio|Button', module)\n  .add('. default', () => (\n    <DemoBox>\n      <Button>This is a button</Button>\n    </DemoBox>\n  ))\n\n  .add('image', () => (\n    <DemoBox>\n      <Button>\n        <img src={Kitty} />\n      </Button>\n    </DemoBox>\n  ))\n\n  .add('offset', () => {\n    const props = {\n      label: text('label', 'Nya! nya! nya!'),\n      offset: {\n        x: number('offset.x', 40),\n        y: number('offset.y', 40),\n      },\n      'label-width': number('labelWidth', 40),\n      'label-origin': {\n        x: number('labelOrigin.x', 420),\n        y: number('labelOrigin.y', 20),\n      },\n      'label-offset': {\n        x: number('labelOffset.x', 420),\n        y: number('labelOffset.y', 40),\n      },\n      'label-delay': number('labelDelay', 0.2),\n    };\n\n    return (\n      <DemoBox>\n        <Button {...props}>\n          <img src={Kitty} />\n        </Button>\n      </DemoBox>\n    );\n  });\n",
             __ADDS_MAP__ = {
               'Portfolio|Button@offset': {
-                startLoc: { col: 7, line: 36 },
-                endLoc: { col: 3, line: 63 }
+                startLoc: { col: 7, line: 34 },
+                endLoc: { col: 3, line: 60 }
               },
               'Portfolio|Button@image': {
-                startLoc: { col: 7, line: 28 },
-                endLoc: { col: 3, line: 34 }
+                startLoc: { col: 7, line: 26 },
+                endLoc: { col: 3, line: 32 }
               },
               'Portfolio|Button@. default': {
-                startLoc: { col: 7, line: 22 },
-                endLoc: { col: 3, line: 26 }
+                startLoc: { col: 7, line: 20 },
+                endLoc: { col: 3, line: 24 }
               }
             },
-            DemoBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default()(
+            DemoBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()(
               'div',
               { target: 'eykcq7v0' }
-            )({
-              name: 'juruvo',
-              styles:
-                'display:flex;justify-content:center;padding:100px;background:#ccc;min-height:100vh;'
-            }),
-            defaultProps = { height: 400, width: 600 }
+            )(
+              'display:flex;justify-content:center;padding:100px;background:#ccc;',
+              ___WEBPACK_IMPORTED_MODULE_3__.a,
+              '{width:600px;height:400px;}'
+            )
           storiesOf('Portfolio|Button', module)
             .addDecorator(
               withStorySource(
-                "import React from 'react';\nimport styled from '@emotion/styled';\nimport { text, number } from '@storybook/addon-knobs';\nimport Button from '../';\n\nimport Kitty from './kitty.jpeg';\n\nconst DemoBox = styled.div`\n  display: flex;\n  justify-content: center;\n  padding: 100px;\n  background: #ccc;\n  min-height: 100vh;\n`;\n\nconst defaultProps = {\n  height: 400,\n  width: 600,\n};\n\nstoriesOf('Portfolio|Button', module)\n  .add('. default', () => (\n    <DemoBox>\n      <Button {...defaultProps}>This is a button</Button>\n    </DemoBox>\n  ))\n\n  .add('image', () => (\n    <DemoBox>\n      <Button {...defaultProps}>\n        <img src={Kitty} />\n      </Button>\n    </DemoBox>\n  ))\n\n  .add('offset', () => {\n    const props = {\n      ...defaultProps,\n      label: text('label', 'Nya! nya! nya!'),\n      offset: {\n        x: number('offset.x', 40),\n        y: number('offset.y', 40),\n      },\n      'label-width': number('labelWidth', 40),\n      'label-origin': {\n        x: number('labelOrigin.x', 420),\n        y: number('labelOrigin.y', 20),\n      },\n      'label-offset': {\n        x: number('labelOffset.x', 420),\n        y: number('labelOffset.y', 40),\n      },\n      'label-delay': number('labelDelay', 0.2),\n    };\n\n    return (\n      <DemoBox>\n        <Button {...props}>\n          <img src={Kitty} />\n        </Button>\n      </DemoBox>\n    );\n  });\n",
+                "import React from 'react';\nimport styled from '@emotion/styled';\nimport { text, number } from '@storybook/addon-knobs';\nimport Button from '../';\n\nimport Kitty from './kitty.jpeg';\n\nconst DemoBox = styled.div`\n  display: flex;\n  justify-content: center;\n  padding: 100px;\n  background: #ccc;\n  ${Button} {\n    width: 600px;\n    height: 400px;\n  }\n`;\n\nstoriesOf('Portfolio|Button', module)\n  .add('. default', () => (\n    <DemoBox>\n      <Button>This is a button</Button>\n    </DemoBox>\n  ))\n\n  .add('image', () => (\n    <DemoBox>\n      <Button>\n        <img src={Kitty} />\n      </Button>\n    </DemoBox>\n  ))\n\n  .add('offset', () => {\n    const props = {\n      label: text('label', 'Nya! nya! nya!'),\n      offset: {\n        x: number('offset.x', 40),\n        y: number('offset.y', 40),\n      },\n      'label-width': number('labelWidth', 40),\n      'label-origin': {\n        x: number('labelOrigin.x', 420),\n        y: number('labelOrigin.y', 20),\n      },\n      'label-offset': {\n        x: number('labelOffset.x', 420),\n        y: number('labelOffset.y', 40),\n      },\n      'label-delay': number('labelDelay', 0.2),\n    };\n\n    return (\n      <DemoBox>\n        <Button {...props}>\n          <img src={Kitty} />\n        </Button>\n      </DemoBox>\n    );\n  });\n",
                 __ADDS_MAP__
               )
             )
             .add('. default', function () {
-              return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+              return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
                 DemoBox,
                 null,
-                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-                  ___WEBPACK_IMPORTED_MODULE_4__.a,
-                  defaultProps,
+                react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                  ___WEBPACK_IMPORTED_MODULE_3__.a,
+                  null,
                   'This is a button'
                 )
               )
             })
             .add('image', function () {
-              return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+              return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
                 DemoBox,
                 null,
-                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-                  ___WEBPACK_IMPORTED_MODULE_4__.a,
-                  defaultProps,
-                  react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                  ___WEBPACK_IMPORTED_MODULE_3__.a,
+                  null,
+                  react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
                     'img',
-                    { src: _kitty_jpeg__WEBPACK_IMPORTED_MODULE_5___default.a }
+                    { src: _kitty_jpeg__WEBPACK_IMPORTED_MODULE_4___default.a }
                   )
                 )
               )
             })
             .add('offset', function () {
-              var props = _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0___default()(
-                {},
-                defaultProps,
-                {
-                  label: Object(
-                    _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_3__.text
-                  )('label', 'Nya! nya! nya!'),
-                  offset: {
-                    x: Object(
-                      _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_3__.number
-                    )('offset.x', 40),
-                    y: Object(
-                      _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_3__.number
-                    )('offset.y', 40)
-                  },
-                  'label-width': Object(
-                    _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_3__.number
-                  )('labelWidth', 40),
-                  'label-origin': {
-                    x: Object(
-                      _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_3__.number
-                    )('labelOrigin.x', 420),
-                    y: Object(
-                      _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_3__.number
-                    )('labelOrigin.y', 20)
-                  },
-                  'label-offset': {
-                    x: Object(
-                      _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_3__.number
-                    )('labelOffset.x', 420),
-                    y: Object(
-                      _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_3__.number
-                    )('labelOffset.y', 40)
-                  },
-                  'label-delay': Object(
-                    _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_3__.number
-                  )('labelDelay', 0.2)
-                }
-              )
-              return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+              var props = {
+                label: Object(
+                  _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__.text
+                )('label', 'Nya! nya! nya!'),
+                offset: {
+                  x: Object(
+                    _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__.number
+                  )('offset.x', 40),
+                  y: Object(
+                    _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__.number
+                  )('offset.y', 40)
+                },
+                'label-width': Object(
+                  _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__.number
+                )('labelWidth', 40),
+                'label-origin': {
+                  x: Object(
+                    _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__.number
+                  )('labelOrigin.x', 420),
+                  y: Object(
+                    _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__.number
+                  )('labelOrigin.y', 20)
+                },
+                'label-offset': {
+                  x: Object(
+                    _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__.number
+                  )('labelOffset.x', 420),
+                  y: Object(
+                    _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__.number
+                  )('labelOffset.y', 40)
+                },
+                'label-delay': Object(
+                  _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__.number
+                )('labelDelay', 0.2)
+              }
+              return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
                 DemoBox,
                 null,
-                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-                  ___WEBPACK_IMPORTED_MODULE_4__.a,
+                react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                  ___WEBPACK_IMPORTED_MODULE_3__.a,
                   props,
-                  react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                  react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
                     'img',
-                    { src: _kitty_jpeg__WEBPACK_IMPORTED_MODULE_5___default.a }
+                    { src: _kitty_jpeg__WEBPACK_IMPORTED_MODULE_4___default.a }
                   )
                 )
               )
@@ -1515,8 +1504,8 @@
             _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
               23
             ),
-            _TopBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(82),
-            withStorySource = __webpack_require__(81).withStorySource,
+            _TopBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(83),
+            withStorySource = __webpack_require__(82).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport { boolean } from '@storybook/addon-knobs';\nimport styled from '@emotion/styled';\nimport TopBar from '../TopBar';\n\nconst DemoBox = styled.div`\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n`;\n\nstoriesOf('Portfolio|TopBar', module)\n  .add('. default', () => <TopBar />)\n  .add('with links', () => <TopBar showBehance showTumblr showLinkedIn showGithub />)\n  .add('fixed top', () => {\n    const showLinks = boolean('showLinks?', true);\n    const props = !showLinks\n      ? {}\n      : {\n          showBehance: true,\n          showTumblr: true,\n          showLinkedIn: true,\n          showGithub: true,\n        };\n\n    return (\n      <DemoBox>\n        <TopBar {...props} />\n      </DemoBox>\n    );\n  });\n",
             __ADDS_MAP__ = {
@@ -1630,7 +1619,7 @@
             ),
             _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5),
             ___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4),
-            withStorySource = __webpack_require__(81).withStorySource,
+            withStorySource = __webpack_require__(82).withStorySource,
             __STORY__ =
               'import React from \'react\';\nimport styled from \'@emotion/styled\';\n\nimport { font } from \'../../../theme\';\n\nimport { Header, Subtitle, Link } from \'..\';\n\nconst TypoListItem = styled(({ name, children, ...other }) => (\n  <li {...other}>\n    <p>{name}</p>\n    {children}\n  </li>\n))`\n  display: flex;\n  align-items: baseline;\n\n  p {\n    min-width: 120px;\n    opacity: 0.4;\n    font-family: ${font.familty};\n    font-size: ${font.size.subtitle};\n    margin: 0 1em;\n  }\n`;\n\nstoriesOf(\'Portfolio|Theme\', module).add(\'Typography\', () => (\n  <div>\n    <TypoListItem name="Header">\n      <Header>Hi</Header>\n    </TypoListItem>\n\n    <TypoListItem name="Subtitle">\n      <Subtitle>\n        I\'m a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web\n        apps.\n      </Subtitle>\n    </TypoListItem>\n\n    <TypoListItem name="Link">\n      <Link href="#">Lorem ipsum dolor</Link>\n    </TypoListItem>\n\n    <TypoListItem name="Link/to">\n      <Link href="#" to="github">\n        Github\n      </Link>\n    </TypoListItem>\n\n    <TypoListItem name="Link/light">\n      <Link href="#" to="github" light>\n        Github\n      </Link>\n    </TypoListItem>\n  </div>\n));\n',
             __ADDS_MAP__ = {
@@ -1755,23 +1744,23 @@
             react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
               react__WEBPACK_IMPORTED_MODULE_0__
             ),
-            _page_01_hi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(118),
+            _page_01_hi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(117),
             _page_02_ui_workbench__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-              123
+              122
             ),
             _page_03_design__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-              124
+              123
             ),
             _page_04_sketches__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-              125
+              124
             ),
             _page_05_resume__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-              126
+              125
             ),
             _page_06_contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-              127
+              126
             ),
-            withStorySource = __webpack_require__(81).withStorySource,
+            withStorySource = __webpack_require__(82).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport Page1 from '../page-01-hi';\nimport Page2 from '../page-02-ui-workbench';\nimport Page3 from '../page-03-design';\nimport Page4 from '../page-04-sketches';\nimport Page5 from '../page-05-resume';\nimport Page6 from '../page-06-contact';\n\nstoriesOf('Portfolio|Pages', module)\n  .add('page 1', () => <Page1 />)\n  .add('page 2', () => <Page2 />)\n  .add('page 3', () => <Page3 />)\n  .add('page 4', () => <Page4 />)\n  .add('page 5', () => <Page5 />)\n  .add('page 6', () => <Page6 />);\n",
             __ADDS_MAP__ = {
@@ -1888,7 +1877,7 @@
               react__WEBPACK_IMPORTED_MODULE_3__
             ),
             _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5),
-            withStorySource = __webpack_require__(81).withStorySource,
+            withStorySource = __webpack_require__(82).withStorySource,
             __STORY__ =
               'import React from \'react\';\nimport styled from \'@emotion/styled\';\nimport theme from \'../theme\';\n\nconst ColorBox = styled.div`\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  max-width: 1250px;\n  margin: 0 auto;\n`;\n\nconst ColorBlock = styled(({ name, hex, bg, ...other }) => (\n  <div {...other}>\n    <div />\n    <div>\n      <p>{name}</p>\n      <p>{hex || \'gradient\'}</p>\n    </div>\n  </div>\n))`\n  font-family: ${props => props.theme.font.family};\n  background-color: ${props => props.hex};\n  border-radius: 16px;\n  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\n  margin: 16px;\n  max-width: 250px;\n  min-height: 250px;\n  width: 100%;\n  position: relative;\n\n  ${props =>\n    props.bg &&\n    `\n    background: ${props.bg};\n  `}\n\n  div {\n    min-height: 130px;\n    width: 100%;\n    border-radius: 0 0 16px 16px;\n  }\n  div + div {\n    min-height: 0;\n    background: white;\n    position: absolute;\n    bottom: 0;\n  }\n  div + div > p {\n    padding: 0 1em;\n    opacity: 0.4;\n  }\n\n  div + div > p + p {\n    opacity: 1;\n  }\n`;\n\nstoriesOf(\'📌 Welcome\', module).add(\'README\', () => <div> hello </div>);\n\nstoriesOf(\'Portfolio|Theme\', module).add(\'Palette\', () => (\n  <ColorBox>\n    <ColorBlock name="Black Pearl" hex={theme.colors.black} />\n    <ColorBlock name="Brink Pink" hex={theme.colors.workbench} />\n    <ColorBlock name="Royal Blue" hex={theme.colors.design} />\n    <ColorBlock name="East Bay" hex={theme.colors.tumblr} />\n    <ColorBlock name="Sail" hex={theme.colors.resume} />\n    <ColorBlock name="Black Pearl to Pure Black" bg={theme.gradients.header} />\n    <ColorBlock name="Accent (light)" bg={theme.gradients.accentLight} />\n    <ColorBlock name="Accent (dark)" bg={theme.gradients.accentDark} />\n  </ColorBox>\n));\n',
             __ADDS_MAP__ = {
@@ -2098,199 +2087,7 @@
         )
       }
     },
-    82: function (module, __webpack_exports__, __webpack_require__) {
-      'use strict'
-      var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          22
-        ),
-        _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
-          _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__
-        ),
-        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          2
-        ),
-        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
-          _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1__
-        ),
-        react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0),
-        react__WEBPACK_IMPORTED_MODULE_2___default = __webpack_require__.n(
-          react__WEBPACK_IMPORTED_MODULE_2__
-        ),
-        _Typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4),
-        _Link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(67),
-        _logo_behance_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-          119
-        ),
-        _logo_behance_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
-          _logo_behance_png__WEBPACK_IMPORTED_MODULE_5__
-        ),
-        _logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-          120
-        ),
-        _logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
-          _logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6__
-        ),
-        _logo_linked_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-          121
-        ),
-        _logo_linked_png__WEBPACK_IMPORTED_MODULE_7___default = __webpack_require__.n(
-          _logo_linked_png__WEBPACK_IMPORTED_MODULE_7__
-        ),
-        _logo_github_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-          122
-        ),
-        _logo_github_png__WEBPACK_IMPORTED_MODULE_8___default = __webpack_require__.n(
-          _logo_github_png__WEBPACK_IMPORTED_MODULE_8__
-        ),
-        BarBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default()(
-          'div',
-          { target: 'e2s2wxl0' }
-        )({
-          name: '1t2v523',
-          styles:
-            'display:flex;background:linear-gradient(270deg,#000000 0%,rgba(0,0,0,0) 50%),#232729;padding-left:100px;transition:all 0.2ms;div a{img{max-height:100px;}}'
-        }),
-        LinksBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default()(
-          'div',
-          { target: 'e2s2wxl1' }
-        )({ name: '1dnzbhn', styles: 'display:flex;align-content:center;' }),
-        TopBar = function (_ref) {
-          var showBehance = _ref.showBehance,
-            showTumblr = _ref.showTumblr,
-            showLinkedIn = _ref.showLinkedIn,
-            showGithub = _ref.showGithub,
-            props = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default()(
-              _ref,
-              ['showBehance', 'showTumblr', 'showLinkedIn', 'showGithub']
-            )
-          return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-            BarBox,
-            null,
-            react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-              _Typography__WEBPACK_IMPORTED_MODULE_3__.a,
-              { href: '#' },
-              'remy  chaumard'
-            ),
-            react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-              LinksBox,
-              null,
-              showBehance &&
-                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-                  _Link__WEBPACK_IMPORTED_MODULE_4__.a,
-                  props.behanceLink
-                ),
-              showTumblr &&
-                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-                  _Link__WEBPACK_IMPORTED_MODULE_4__.a,
-                  props.tumblrLink
-                ),
-              showLinkedIn &&
-                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-                  _Link__WEBPACK_IMPORTED_MODULE_4__.a,
-                  props.linkedInLink
-                ),
-              showGithub &&
-                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
-                  _Link__WEBPACK_IMPORTED_MODULE_4__.a,
-                  props.githubLink
-                )
-            )
-          )
-        }
-      ;(TopBar.defaultProps = {
-        showBehance: !1,
-        showTumblr: !1,
-        showLinkedIn: !1,
-        showGithub: !1,
-        behanceLink: {
-          to: 'behance',
-          logo: _logo_behance_png__WEBPACK_IMPORTED_MODULE_5___default.a,
-          title: 'behance',
-          url: 'https://www.behance.net/rchaumard25b7'
-        },
-        tumblrLink: {
-          to: 'tumblr',
-          logo: _logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6___default.a,
-          title: 'tumblr',
-          url: 'https://dr-dyne.tumblr.com/tagged/sketch'
-        },
-        linkedInLink: {
-          to: 'linkedin',
-          logo: _logo_linked_png__WEBPACK_IMPORTED_MODULE_7___default.a,
-          title: 'linked in',
-          url: 'https://linkedin.com/in/ryc'
-        },
-        githubLink: {
-          to: 'github',
-          logo: _logo_github_png__WEBPACK_IMPORTED_MODULE_8___default.a,
-          title: 'github',
-          url: 'https://github.com/DrDyne'
-        }
-      }),
-        (__webpack_exports__.a = TopBar),
-        (TopBar.__docgenInfo = {
-          description: '',
-          methods: [],
-          displayName: 'TopBar',
-          props: {
-            showBehance: {
-              defaultValue: { value: 'false', computed: !1 },
-              required: !1
-            },
-            showTumblr: {
-              defaultValue: { value: 'false', computed: !1 },
-              required: !1
-            },
-            showLinkedIn: {
-              defaultValue: { value: 'false', computed: !1 },
-              required: !1
-            },
-            showGithub: {
-              defaultValue: { value: 'false', computed: !1 },
-              required: !1
-            },
-            behanceLink: {
-              defaultValue: {
-                value:
-                  "{\n  to: 'behance',\n  logo: LogoBehance,\n  title: 'behance',\n  url: 'https://www.behance.net/rchaumard25b7'\n}",
-                computed: !1
-              },
-              required: !1
-            },
-            tumblrLink: {
-              defaultValue: {
-                value:
-                  "{\n  to: 'tumblr',\n  logo: LogoTumblr,\n  title: 'tumblr',\n  url: 'https://dr-dyne.tumblr.com/tagged/sketch'\n}",
-                computed: !1
-              },
-              required: !1
-            },
-            linkedInLink: {
-              defaultValue: {
-                value:
-                  "{\n  to: 'linkedin',\n  logo: LogoLinkedIn,\n  title: 'linked in',\n  url: 'https://linkedin.com/in/ryc'\n}",
-                computed: !1
-              },
-              required: !1
-            },
-            githubLink: {
-              defaultValue: {
-                value:
-                  "{\n  to: 'github',\n  logo: LogoGithub,\n  title: 'github',\n  url: 'https://github.com/DrDyne'\n}",
-                computed: !1
-              },
-              required: !1
-            }
-          }
-        }),
-        'undefined' != typeof STORYBOOK_REACT_CLASSES &&
-          (STORYBOOK_REACT_CLASSES['src/components/TopBar/TopBar.js'] = {
-            name: 'TopBar',
-            docgenInfo: TopBar.__docgenInfo,
-            path: 'src/components/TopBar/TopBar.js'
-          })
-    },
-    83: function (module, __webpack_exports__, __webpack_require__) {
+    68: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           35
@@ -2341,7 +2138,7 @@
           _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_7__
         ),
         _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-          116
+          115
         ),
         _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_8___default = __webpack_require__.n(
           _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_8__
@@ -2617,8 +2414,200 @@
           },
           'px;}}'
         ))
+    },
+    83: function (module, __webpack_exports__, __webpack_require__) {
+      'use strict'
+      var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+          22
+        ),
+        _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
+          _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__
+        ),
+        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+          2
+        ),
+        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
+          _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1__
+        ),
+        react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0),
+        react__WEBPACK_IMPORTED_MODULE_2___default = __webpack_require__.n(
+          react__WEBPACK_IMPORTED_MODULE_2__
+        ),
+        _Typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4),
+        _Link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(67),
+        _logo_behance_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+          118
+        ),
+        _logo_behance_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
+          _logo_behance_png__WEBPACK_IMPORTED_MODULE_5__
+        ),
+        _logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+          119
+        ),
+        _logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
+          _logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6__
+        ),
+        _logo_linked_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+          120
+        ),
+        _logo_linked_png__WEBPACK_IMPORTED_MODULE_7___default = __webpack_require__.n(
+          _logo_linked_png__WEBPACK_IMPORTED_MODULE_7__
+        ),
+        _logo_github_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+          121
+        ),
+        _logo_github_png__WEBPACK_IMPORTED_MODULE_8___default = __webpack_require__.n(
+          _logo_github_png__WEBPACK_IMPORTED_MODULE_8__
+        ),
+        BarBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default()(
+          'div',
+          { target: 'e2s2wxl0' }
+        )({
+          name: '1t2v523',
+          styles:
+            'display:flex;background:linear-gradient(270deg,#000000 0%,rgba(0,0,0,0) 50%),#232729;padding-left:100px;transition:all 0.2ms;div a{img{max-height:100px;}}'
+        }),
+        LinksBox = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default()(
+          'div',
+          { target: 'e2s2wxl1' }
+        )({ name: '1dnzbhn', styles: 'display:flex;align-content:center;' }),
+        TopBar = function (_ref) {
+          var showBehance = _ref.showBehance,
+            showTumblr = _ref.showTumblr,
+            showLinkedIn = _ref.showLinkedIn,
+            showGithub = _ref.showGithub,
+            props = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default()(
+              _ref,
+              ['showBehance', 'showTumblr', 'showLinkedIn', 'showGithub']
+            )
+          return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+            BarBox,
+            null,
+            react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+              _Typography__WEBPACK_IMPORTED_MODULE_3__.a,
+              { href: '#' },
+              'remy  chaumard'
+            ),
+            react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+              LinksBox,
+              null,
+              showBehance &&
+                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                  _Link__WEBPACK_IMPORTED_MODULE_4__.a,
+                  props.behanceLink
+                ),
+              showTumblr &&
+                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                  _Link__WEBPACK_IMPORTED_MODULE_4__.a,
+                  props.tumblrLink
+                ),
+              showLinkedIn &&
+                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                  _Link__WEBPACK_IMPORTED_MODULE_4__.a,
+                  props.linkedInLink
+                ),
+              showGithub &&
+                react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                  _Link__WEBPACK_IMPORTED_MODULE_4__.a,
+                  props.githubLink
+                )
+            )
+          )
+        }
+      ;(TopBar.defaultProps = {
+        showBehance: !1,
+        showTumblr: !1,
+        showLinkedIn: !1,
+        showGithub: !1,
+        behanceLink: {
+          to: 'behance',
+          logo: _logo_behance_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+          title: 'behance',
+          url: 'https://www.behance.net/rchaumard25b7'
+        },
+        tumblrLink: {
+          to: 'tumblr',
+          logo: _logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+          title: 'tumblr',
+          url: 'https://dr-dyne.tumblr.com/tagged/sketch'
+        },
+        linkedInLink: {
+          to: 'linkedin',
+          logo: _logo_linked_png__WEBPACK_IMPORTED_MODULE_7___default.a,
+          title: 'linked in',
+          url: 'https://linkedin.com/in/ryc'
+        },
+        githubLink: {
+          to: 'github',
+          logo: _logo_github_png__WEBPACK_IMPORTED_MODULE_8___default.a,
+          title: 'github',
+          url: 'https://github.com/DrDyne'
+        }
+      }),
+        (__webpack_exports__.a = TopBar),
+        (TopBar.__docgenInfo = {
+          description: '',
+          methods: [],
+          displayName: 'TopBar',
+          props: {
+            showBehance: {
+              defaultValue: { value: 'false', computed: !1 },
+              required: !1
+            },
+            showTumblr: {
+              defaultValue: { value: 'false', computed: !1 },
+              required: !1
+            },
+            showLinkedIn: {
+              defaultValue: { value: 'false', computed: !1 },
+              required: !1
+            },
+            showGithub: {
+              defaultValue: { value: 'false', computed: !1 },
+              required: !1
+            },
+            behanceLink: {
+              defaultValue: {
+                value:
+                  "{\n  to: 'behance',\n  logo: LogoBehance,\n  title: 'behance',\n  url: 'https://www.behance.net/rchaumard25b7'\n}",
+                computed: !1
+              },
+              required: !1
+            },
+            tumblrLink: {
+              defaultValue: {
+                value:
+                  "{\n  to: 'tumblr',\n  logo: LogoTumblr,\n  title: 'tumblr',\n  url: 'https://dr-dyne.tumblr.com/tagged/sketch'\n}",
+                computed: !1
+              },
+              required: !1
+            },
+            linkedInLink: {
+              defaultValue: {
+                value:
+                  "{\n  to: 'linkedin',\n  logo: LogoLinkedIn,\n  title: 'linked in',\n  url: 'https://linkedin.com/in/ryc'\n}",
+                computed: !1
+              },
+              required: !1
+            },
+            githubLink: {
+              defaultValue: {
+                value:
+                  "{\n  to: 'github',\n  logo: LogoGithub,\n  title: 'github',\n  url: 'https://github.com/DrDyne'\n}",
+                computed: !1
+              },
+              required: !1
+            }
+          }
+        }),
+        'undefined' != typeof STORYBOOK_REACT_CLASSES &&
+          (STORYBOOK_REACT_CLASSES['src/components/TopBar/TopBar.js'] = {
+            name: 'TopBar',
+            docgenInfo: TopBar.__docgenInfo,
+            path: 'src/components/TopBar/TopBar.js'
+          })
     }
   },
   [[286, 1, 2]]
 ])
-//# sourceMappingURL=main.91f3484e7d9057ae9304.bundle.js.map
+//# sourceMappingURL=main.8f6b34275f213db96b99.bundle.js.map
