@@ -16,18 +16,9 @@ const BgBox = styled.div`
   bottom: 0;
   justify-content: space-around;
   display: flex;
-  flex-direction: column;
 
-  .column {
-    z-index: 1;
-    opacity: 0.4;
-    margin: 0 auto;
-    width: 720px;
-    display: flex;
-    flex-direction: column;
-    .top {
-      height: 500px;
-    }
+  > div {
+    width: 100%;
   }
 
   .row {
@@ -35,7 +26,10 @@ const BgBox = styled.div`
     z-index: 4;
     width: 100%;
     max-height: 440px;
-    margin-top: -1200px;
+    margin-top: -100px;
+    @media (max-width: ${props => props.theme.breakpoint}px) {
+      margin-top: 200px;
+    }
     margin-bottom: -1px;
     img {
       width: 50%;
@@ -69,10 +63,6 @@ export default () => (
     </ContentBox>
 
     <BgBox>
-      <div className='column'>
-        <img className='top' src={BgGradientImg} />
-      </div>
-
       <Parallax speed={-3}>
         <div className='row'>
           <img className='left' src={BgGradientImg} />

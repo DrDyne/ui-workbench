@@ -18,7 +18,7 @@ module.exports = {
         loaders: [require.resolve('@storybook/addon-storysource/loader')],
         enforce: 'pre'
       },
-      { test: /\.(svg|jpg|png)$/, loader: 'file-loader' },
+      { test: /\.(svg|jpg|jpeg|png)$/, loader: 'file-loader' },
       {
         test: /\.(graphql|gql)$/,
         exclude: /node_modules/,

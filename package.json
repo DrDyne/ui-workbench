@@ -1,7 +1,7 @@
 {
   "name": "ui-workbench",
   "description": "sandbox environment to experiment new stuff, have fun!",
-  "version": "0.0.1",
+  "version": "rc.3a",
   "main": "dist/bundle.js",
   "license": "MIT",
   "scripts": {

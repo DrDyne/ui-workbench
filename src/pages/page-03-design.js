@@ -12,7 +12,7 @@ const ContentBox = styled.div`
   width: 100%;
   margin-top: 240px;
   margin-left: auto;
-  margin-bottom: 100px;
+  margin-bottom: 500px;
   @media (max-width: ${props => props.theme.breakpoint}px) {
     padding-bottom: 200px;
   }

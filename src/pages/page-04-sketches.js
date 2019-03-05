@@ -19,7 +19,6 @@ const PageBg = styled(({ src, children, ...props }) => (
 ))`
   display: flex;
   flex-direction: column;
-  align-items: top;
   width: 100%;
 `
 
@@ -30,9 +29,9 @@ export default () => (
         'When I’m not coding, I can be found sketching, exploring art, design, motion or gaming.'
       }
     </Subtitle>
-    <SketchesButtonBox />
     <Parallax speed={2}>
       <PageBg src={BgSketchesImg} />
     </Parallax>
+    <SketchesButtonBox />
   </PageBox>
 )

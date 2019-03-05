@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import { lightTextVariant } from '../theme'
+import Button from '../components/Button'
 import { Subtitle } from '../components/Typography'
 
 export const PageBox = styled.div`
@@ -22,6 +23,7 @@ export const PageBox = styled.div`
     props.pageIndex === 4 &&
     `/* page 4 -- sketches (fullscreen image) */
     z-index: 3;
+
     .bg {
       display: block;
       width: 100%;
@@ -30,7 +32,10 @@ export const PageBox = styled.div`
       margin-bottom: -5px;
     }
 
-    div:last-child { width: 100% }
+    [data-rellax-speed] {
+      width: 100%;
+    }
+
     div img {
       margin-top: 150px;
       width: 100%;
@@ -54,23 +59,22 @@ export const PageBox = styled.div`
     justify-content: center;
 
     ${Subtitle} {
-      max-width: 1088px;
-      margin: 100px 0 0 0;
-      padding: 0 100px;
+      max-width: 2400px;
+      margin: 0;
+      padding: 100px 100px 20px 100px;
       position: relative;
       z-index: 4;
       text-align: center;
-
-      @media(max-width: ${props.theme.breakpoint}px) {
-        margin-top: -200px;
-      }
+      background: rgba(158, 196, 231, 0.4);
     }
   `}
 
   ${props =>
     props.pageIndex === 6 &&
     `
+    position: relative;
     overflow: hidden;
+
     .tooltip {
       z-index: 1;
       max-width: 750px;
@@ -81,15 +85,17 @@ export const PageBox = styled.div`
 
     .bg {
       margin-bottom: -5px;
-      position: relative;
       display: block;
       height: 100%;
       width: 100%;
-      > img { width: 100% }
+      > img { 
+        width: 100%;
+        min-height: 900px 
+      }
 
       .contact-line {
         position: absolute;
-        right: 85px;
+        right: 50px;
         bottom: 50px;
       }
     }
@@ -109,10 +115,6 @@ export const PageRight = styled.section`
   z-index: 1;
 `
 
-export const ButtonBox = styled.div`
+export const ButtonBox = styled(Button)`
   display: flex;
-  width: 100%;
-  background: #fff;
-  z-index: ${props => props.theme.z.pageButton};
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
 `
