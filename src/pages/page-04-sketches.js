@@ -9,7 +9,24 @@ import { PageBox, ButtonBox } from './Layout'
 
 import BgSketchesImg from './assets/bg-sketches.png'
 
-const SketchesButtonBox = styled(ButtonBox)``
+const SketchesButtonBox = styled(ButtonBox)`
+  height: 209px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2em;
+  .label {
+    margin-top: 20px;
+    margin-left: 75px;
+  }
+  :hover .label {
+    margin-top: 50px;
+    margin-left: 75px;
+  }
+  :hover .accent {
+    margin-top: -75px;
+    margin-left: 25px;
+  }
+`
 
 const PageBg = styled(({ src, children, ...props }) => (
   <div className='bg' {...props}>
@@ -22,6 +39,19 @@ const PageBg = styled(({ src, children, ...props }) => (
   width: 100%;
 `
 
+const btnProps = {
+  label: (
+    <span>
+      Have a look at
+      <br />
+      some of my
+      <br />
+      sketches
+    </span>
+  ),
+  transformBox: tr => `${tr} translate(0, -25px)`
+}
+
 export default () => (
   <PageBox pageIndex={4} light>
     <Subtitle>
@@ -31,7 +61,7 @@ export default () => (
     </Subtitle>
     <Parallax speed={2}>
       <PageBg src={BgSketchesImg} />
+      <SketchesButtonBox {...btnProps} />
     </Parallax>
-    <SketchesButtonBox />
   </PageBox>
 )

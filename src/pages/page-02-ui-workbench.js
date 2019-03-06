@@ -8,6 +8,7 @@ import FigmaLogo from './assets/logo-figma.png'
 import ReactLogo from './assets/logo-react.png'
 import StorybookLogo from './assets/logo-storybook.png'
 import WhiteWash from './assets/white wash p2.png'
+import WorkbenchImg from './assets/workbench.png'
 
 import { PageBox, PageLeft, PageRight, ButtonBox } from './Layout'
 
@@ -44,6 +45,17 @@ const UIWBButtonBox = styled(ButtonBox)`
 
   background: #ffffff;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+  img {
+    max-width: 686px;
+    height: 363px;
+  }
+
+  .label {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+  }
 `
 
 const Page1Parallax = styled(Parallax)`
@@ -96,6 +108,13 @@ const Page1Parallax = styled(Parallax)`
   `}
 `
 
+const btnProps = {
+  label: 'Check out my UI workbench',
+  transformLabel: tr => `${tr} translate(-50%, -50%)`,
+  'label-width': 300,
+  offset: { x: 40, y: 40 }
+}
+
 const Page2 = () => (
   <PageBox pageIndex={2} light>
     <PageLeft>
@@ -107,7 +126,9 @@ const Page2 = () => (
     </PageLeft>
     <PageRight>
       <ContentBox>
-        <UIWBButtonBox />
+        <UIWBButtonBox {...btnProps}>
+          <img src={WorkbenchImg} />
+        </UIWBButtonBox>
         <Page1Parallax>
           <img src={StorybookLogo} className='storybook-logo' />
           <img src={ReactLogo} className='react-logo' />
