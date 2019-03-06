@@ -22,7 +22,6 @@ const defaultState = {
 
 class Button extends React.Component {
   state = defaultState
-  accentRef = React.createRef()
 
   setSize (event) {
     const { width, height } = event.currentTarget.getBoundingClientRect()
@@ -44,7 +43,6 @@ class Button extends React.Component {
       x: left + Math.floor(width / 2),
       y: top + Math.floor(height / 2)
     }
-    console.warn('origin', origin)
     this.setState({ origin })
   }
 
@@ -58,13 +56,10 @@ class Button extends React.Component {
   }
 
   setRotation () {
-    const { current } = this.accentRef
     const { isActive, pos, width, height } = this.state
     const { x, y } = pos
-    console.log(current)
 
     if (!isActive) return {}
-    if (!current) return {}
 
     const isTopLeft = x < 0 && y > 0
     const isBottomRight = x > 0 && y < 0
@@ -107,8 +102,9 @@ class Button extends React.Component {
 
   render () {
     const {
-      linkProps,
+      href,
       label,
+      transformAccent,
       transformBox,
       transformLabel,
       children,
@@ -125,26 +121,20 @@ class Button extends React.Component {
     const rotate = rx && ry ? `rotateX(${rx}deg) rotateY(${ry}deg)` : ''
     const rotateAnti =
       rx && ry ? `rotateX(${-0.5 * rx}deg) rotateY(${-0.5 * ry}deg)` : ''
+    const { pos } = this.state
+
+    const tr = {
+      box: transformBox(rotate, pos),
+      label: transformLabel(rotateAnti, pos),
+      accent: transformAccent(rotate, pos)
+    }
 
     return (
-      <div
-        {...containerProps}
-        {...other}
-        style={{ transform: transformBox(rotate) }}
-      >
-        <div
-          className='label'
-          {...labelProps}
-          style={{ transform: transformLabel(rotateAnti) }}
-        >
+      <div {...containerProps} {...other} style={{ transform: tr.box }}>
+        <div className='label' {...labelProps} style={{ transform: tr.label }}>
           {label}
         </div>
-        <a
-          ref={this.accentRef}
-          {...linkProps}
-          className='accent'
-          style={{ transform: rotate }}
-        />
+        <a href={href} className='accent' style={{ transform: tr.accent }} />
         {children}
       </div>
     )
@@ -152,16 +142,11 @@ class Button extends React.Component {
 }
 
 Button.defaultProps = {
-  linkProps: {
-    href: '#'
-  },
+  href: '#',
   label: undefined,
-  'label-offset': { x: 0, y: 0 },
-  'label-origin': { x: 0, y: 0 },
-  'label-width': 0,
-  'label-delay': 0,
   children: null,
   offset: { x: 0, y: 0 },
+  transformAccent: f => f,
   transformBox: f => f,
   transformLabel: f => f
 }
@@ -190,13 +175,8 @@ export default styled(Button)`
     color: white;
     z-index: 3;
     position: absolute;
-    max-width: ${props =>
-    props['label-width'] > 0 ? props['label-width'] + 'px' : 'none'};
     opacity: 0;
-    margin-top: ${props => props['label-origin'].y || 0}px;
-    margin-left: ${props => props['label-origin'].x || 0}px;
-    transition: opacity 0.2s ease-in,
-      margin 0.2s ease-in ${props => props['label-delay']}s;
+    transition: opacity 0.2s ease-in, margin 0.2s ease-in 0s;
   }
 
   .accent {
@@ -233,8 +213,6 @@ export default styled(Button)`
     }
 
     .label {
-      margin-top: ${props => props['label-offset'].y || 0}px;
-      margin-left: ${props => props['label-offset'].x || 0}px;
     }
 
     .accent {

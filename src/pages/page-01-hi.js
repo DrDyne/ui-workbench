@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { Waypoint } from 'react-waypoint'
 
 import { Header, Subtitle } from '../components/Typography'
 import LogoBehance from '../components/TopBar/logo behance.png'
@@ -75,10 +76,11 @@ const Page1 = props => (
 
     <PageRight>
       <LinksBox>
-        {<Link {...props.behanceLink} />}
-        {<Link {...props.tumblrLink} />}
-        {<Link {...props.linkedInLink} />}
-        {<Link {...props.githubLink} />}
+        <Link {...props.behanceLink} />
+        <Waypoint onLeave={() => console.log('behance left')} />
+        <Link {...props.tumblrLink} />
+        <Link {...props.linkedInLink} />
+        <Link {...props.githubLink} />
       </LinksBox>
     </PageRight>
 
