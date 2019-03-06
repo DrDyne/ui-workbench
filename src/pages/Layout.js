@@ -99,7 +99,6 @@ export const PageBox = styled.div`
         bottom: 50px;
       }
     }
-
   `}
 `
 
@@ -115,6 +114,4 @@ export const PageRight = styled.section`
   z-index: 1;
 `
 
-export const ButtonBox = styled(Button)`
-  display: flex;
-`
+export const ButtonBox = styled(Button)``

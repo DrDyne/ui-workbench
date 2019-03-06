@@ -6,6 +6,7 @@ import Parallax from 'react-rellax'
 import { Subtitle } from '../components/Typography'
 import { PageBox, ButtonBox } from './Layout'
 import BgGradientImg from './assets/blue bg.png'
+import VimImg from './assets/button vim.png'
 
 const BgBox = styled.div`
   overflow: hidden;
@@ -51,6 +52,8 @@ const ContentBox = styled.div`
   flex-direction: column;
 `
 
+const btnProps = {}
+
 export default () => (
   <PageBox pageIndex={5}>
     <ContentBox>
@@ -59,7 +62,9 @@ export default () => (
           'Most of my experience is based on secure, enterprise-level, innovative web apps, with optimized bundling and offline support, developed and tested by small teams and released in fast iteration cycles through a solid CI pipeline to a wide array of devices.'
         }
       </Subtitle>
-      <ResumeButtonBox />
+      <ResumeButtonBox {...btnProps}>
+        <img src={VimImg} />
+      </ResumeButtonBox>
     </ContentBox>
 
     <BgBox>
