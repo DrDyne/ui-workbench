@@ -12,19 +12,9 @@ const DemoBox = styled.div`
 
 storiesOf('Portfolio|TopBar', module)
   .add('. default', () => <TopBar />)
-  .add('with links', () => (
-    <TopBar showBehance showTumblr showLinkedIn showGithub />
-  ))
+  .add('with links', () => <TopBar showLinks />)
   .add('fixed top', () => {
-    const showLinks = boolean('showLinks?', true)
-    const props = !showLinks
-      ? {}
-      : {
-        showBehance: true,
-        showTumblr: true,
-        showLinkedIn: true,
-        showGithub: true
-      }
+    const props = { showLinks: boolean('showLinks?', true) }
 
     return (
       <DemoBox>
