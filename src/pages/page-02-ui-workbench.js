@@ -109,6 +109,7 @@ const Page1Parallax = styled(Parallax)`
 `
 
 const btnProps = {
+  href: 'https://drdyne.github.io/ui-workbench/',
   label: 'Check out my UI workbench',
   transformLabel: tr => `${tr} translate(-50%, -50%)`,
   'label-width': 300,

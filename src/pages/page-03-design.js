@@ -56,6 +56,7 @@ const BehanceButtonBox = styled(ButtonBox)`
 `
 
 const btnProps = {
+  href: 'https://www.behance.net/rchaumard25b7',
   label: (
     <span>
       Some crazy

@@ -43,6 +43,7 @@ const PageBg = styled(({ src, children, ...props }) => (
 `
 
 const btnProps = {
+  href: 'https://dr-dyne.tumblr.com/tagged/sketch',
   label: (
     <span>
       Have a look at
