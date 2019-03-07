@@ -55,17 +55,14 @@ export const PageBox = styled.div`
   ${props =>
     props.pageIndex === 5 &&
     `/* page 5 -- resume (vertical flow) */
-    flex-direction: vertical;
-    justify-content: center;
 
     ${Subtitle} {
-      max-width: 2400px;
-      margin: 0;
+      max-width: ${props.theme.breakpoint}px;
+      color: ${props.theme.colors.resume};
+      margin: 0 auto;
       padding: 100px 100px 20px 100px;
-      position: relative;
-      z-index: 4;
+      z-index: 3;
       text-align: center;
-      background: rgba(158, 196, 231, 0.4);
     }
   `}
 

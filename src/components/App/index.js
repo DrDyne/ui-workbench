@@ -9,6 +9,7 @@ import Page4 from '../../pages/page-04-sketches'
 import Page5 from '../../pages/page-05-resume'
 import Page6 from '../../pages/page-06-contact'
 import theme from '../../theme'
+import withLinksContextProvider from '../../ctx/links'
 
 import TopBar from '../TopBar'
 
@@ -34,4 +35,4 @@ const App = props => (
   </ThemeProvider>
 )
 
-export default App
+export default withLinksContextProvider(App)

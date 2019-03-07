@@ -1,79 +1,54 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import Parallax from 'react-rellax'
 
-// import Button from '../components/Button'
 import { Subtitle } from '../components/Typography'
 import { PageBox, ButtonBox } from './Layout'
-import BgGradientImg from './assets/blue bg.png'
 import VimImg from './assets/button vim.png'
 
-const BgBox = styled.div`
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  justify-content: space-around;
-  display: flex;
-
-  > div {
-    width: 100%;
-  }
-
-  .row {
-    display: flex;
-    z-index: 4;
-    width: 100%;
-    max-height: 440px;
-    margin-top: -100px;
-    @media (max-width: ${props => props.theme.breakpoint}px) {
-      margin-top: 200px;
-    }
-    margin-bottom: -1px;
-    img {
-      width: 50%;
-    }
-    .right {
-      transform: scaleX(-1);
-    }
-  }
-`
+const BgBox = styled.div``
 
 const ResumeButtonBox = styled(ButtonBox)`
   width: 876px;
-  height: 500px;
+  height: 493px;
   margin: 100px auto;
+  .label {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+  }
 `
 
 const ContentBox = styled.div`
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  background: ${props => props.theme.colors.resume};
+  background-opacity: 0.4;
 `
 
-const btnProps = {}
+const btnProps = {
+  label: (
+    <span>
+      Download my
+      <br />
+      resume
+    </span>
+  ),
+  transformLabel: () => `translate(-50%, -50%)`
+}
 
 export default () => (
   <PageBox pageIndex={5}>
-    <ContentBox>
-      <Subtitle>
-        {
-          'Most of my experience is based on secure, enterprise-level, innovative web apps, with optimized bundling and offline support, developed and tested by small teams and released in fast iteration cycles through a solid CI pipeline to a wide array of devices.'
-        }
-      </Subtitle>
-      <ResumeButtonBox {...btnProps}>
-        <img src={VimImg} />
-      </ResumeButtonBox>
-    </ContentBox>
+    <Subtitle>
+      {
+        'Most of my experience is based on secure, enterprise-level, innovative web apps, with optimized bundling and offline support, developed and tested by small teams and released in fast iteration cycles through a solid CI pipeline to a wide array of devices.'
+      }
+    </Subtitle>
 
-    <BgBox>
-      <Parallax speed={-3}>
-        <div className='row'>
-          <img className='left' src={BgGradientImg} />
-          <img className='right' src={BgGradientImg} />
-        </div>
-      </Parallax>
-    </BgBox>
+    <ContentBox>
+      <BgBox>
+        <ResumeButtonBox {...btnProps}>
+          <img src={VimImg} />
+        </ResumeButtonBox>
+      </BgBox>
+    </ContentBox>
   </PageBox>
 )

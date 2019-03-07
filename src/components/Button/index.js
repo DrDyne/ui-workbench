@@ -121,8 +121,8 @@ class Button extends React.Component {
     const rotate = rx && ry ? `rotateX(${rx}deg) rotateY(${ry}deg)` : ''
     const rotateAnti =
       rx && ry ? `rotateX(${-0.5 * rx}deg) rotateY(${-0.5 * ry}deg)` : ''
-    const { pos } = this.state
 
+    const { pos } = this.state
     const tr = {
       box: transformBox(rotate, pos),
       label: transformLabel(rotateAnti, pos),
@@ -218,8 +218,8 @@ export default styled(Button)`
     .accent {
       z-index: 3;
       background: rgba(255, 255, 255, 0.4);
-      margin-top: ${props => props.offset.y || 0}px;
-      margin-left: ${props => props.offset.x || 0}px;
+      margin-top: ${props => props.offset.y}px;
+      margin-left: ${props => props.offset.x}px;
     }
   }
 `
