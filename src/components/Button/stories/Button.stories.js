@@ -5,14 +5,18 @@ import Button from '../'
 
 import Kitty from './kitty.jpeg'
 
+const btnSize = `
+  width: 500px;
+  height: 333px;
+`
 const DemoBox = styled.div`
   display: flex;
   justify-content: center;
   padding: 100px;
   background: #ccc;
+
   ${Button} {
-    width: 600px;
-    height: 400px;
+    ${btnSize}
   }
 `
 
@@ -31,30 +35,35 @@ storiesOf('Portfolio|Button', module)
     </DemoBox>
   ))
 
-  .add('offset', () => {
+  .add('styled', () => {
     const props = {
       label: text('label', 'Nya! nya! nya!'),
       offset: {
         x: number('offset.x', 40),
         y: number('offset.y', 40)
-      },
-      'label-width': number('labelWidth', 40),
-      'label-origin': {
-        x: number('labelOrigin.x', 420),
-        y: number('labelOrigin.y', 20)
-      },
-      'label-offset': {
-        x: number('labelOffset.x', 420),
-        y: number('labelOffset.y', 40)
-      },
-      'label-delay': number('labelDelay', 0.2)
+      }
     }
+
+    const DemoButton = styled(Button)`
+      ${btnSize}
+
+      .label {
+        width: ${number('label width', 40)}px;
+        margin-left: ${number('label origin x', 400)}px;
+        margin-top: ${number('label origin y', 20)}px;
+      }
+
+      :hover .label {
+        margin-left: ${number('label offset x', 400)}px;
+        margin-top: ${number('label offset y', 40)}px;
+      }
+    `
 
     return (
       <DemoBox>
-        <Button {...props}>
+        <DemoButton {...props}>
           <img src={Kitty} />
-        </Button>
+        </DemoButton>
       </DemoBox>
     )
   })

@@ -1,15 +1,15 @@
 module.exports = {
   rootDir: './',
   testMatch: ['**/?(*.)+(jest.js)'],
-  setupFilesAfterEnv: ['./test/jest.setup.js'],
+  setupFilesAfterEnv: ['./.jest/jest.setup.js'],
   bail: true,
   clearMocks: true,
   moduleFileExtensions: ['js', 'json'],
-  moduleDirectories: ['node_modules', 'src', 'test'],
+  moduleDirectories: ['src', 'node_modules'],
   moduleNameMapper: {
-    '\\.(jpg|png|svg)$': '<rootDir>/test/jest.fileMocks.js',
-    '\\.(css)$': '<rootDir>/test/jest.styleMocks.js'
+    '\\.(jpg|jpeg|png|svg)$': '<rootDir>/.jest/jest.fileMocks.js',
+    '\\.(css)$': '<rootDir>/.jest/jest.styleMocks.js'
   },
   collectCoverageFrom: ['src/**/*.js', '!src/**/*.stories.js'],
-  coveragePathIgnorePatterns: ['node_modules/', '__stories__']
+  coveragePathIgnorePatterns: ['node_modules/', 'stories/', '__snapshots__']
 }
