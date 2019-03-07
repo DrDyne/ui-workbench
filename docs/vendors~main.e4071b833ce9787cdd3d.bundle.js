@@ -14097,879 +14097,607 @@ object-assign
     },
     function (e, t, r) {
       /*!
-       * Fuse.js v3.4.2 - Lightweight fuzzy-search (http://fusejs.io)
+       * Fuse.js v3.4.3 - Lightweight fuzzy-search (http://fusejs.io)
        *
        * Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
        * All Rights Reserved. Apache Software License 2.0
        *
        * http://www.apache.org/licenses/LICENSE-2.0
        */
-      var n
-      ;(n = function () {
-        return (function (e) {
-          var t = {}
-          function r (n) {
-            if (t[n]) return t[n].exports
-            var o = (t[n] = { i: n, l: !1, exports: {} })
-            return e[n].call(o.exports, o, o.exports, r), (o.l = !0), o.exports
-          }
-          return (
-            (r.m = e),
-            (r.c = t),
-            (r.d = function (e, t, n) {
-              r.o(e, t) ||
-                Object.defineProperty(e, t, { enumerable: !0, get: n })
-            }),
-            (r.r = function (e) {
-              'undefined' != typeof Symbol &&
-                Symbol.toStringTag &&
-                Object.defineProperty(e, Symbol.toStringTag, {
-                  value: 'Module'
-                }),
-                Object.defineProperty(e, '__esModule', { value: !0 })
-            }),
-            (r.t = function (e, t) {
-              if ((1 & t && (e = r(e)), 8 & t)) return e
-              if (4 & t && 'object' == typeof e && e && e.__esModule) return e
-              var n = Object.create(null)
-              if (
-                (r.r(n),
-                Object.defineProperty(n, 'default', {
-                  enumerable: !0,
-                  value: e
-                }),
-                2 & t && 'string' != typeof e)
-              )
-                for (var o in e)
-                  r.d(
-                    n,
-                    o,
-                    function (t) {
-                      return e[t]
-                    }.bind(null, o)
-                  )
-              return n
-            }),
-            (r.n = function (e) {
-              var t =
-                e && e.__esModule
-                  ? function () {
-                      return e.default
-                    }
-                  : function () {
-                      return e
-                    }
-              return r.d(t, 'a', t), t
-            }),
-            (r.o = function (e, t) {
-              return Object.prototype.hasOwnProperty.call(e, t)
-            }),
-            (r.p = ''),
-            r((r.s = './src/index.js'))
-          )
-        })({
-          './src/bitap/bitap_matched_indices.js':
-            /*!********************************************!*\
-  !*** ./src/bitap/bitap_matched_indices.js ***!
-  \********************************************/
-            /*! no static exports found */ function (e, t) {
-              e.exports = function () {
-                for (
-                  var e =
-                      arguments.length > 0 && void 0 !== arguments[0]
-                        ? arguments[0]
-                        : [],
-                    t =
-                      arguments.length > 1 && void 0 !== arguments[1]
-                        ? arguments[1]
-                        : 1,
-                    r = [],
-                    n = -1,
-                    o = -1,
-                    i = 0,
-                    a = e.length;
-                  i < a;
-                  i += 1
-                ) {
-                  var l = e[i]
-                  l && -1 === n
-                    ? (n = i)
-                    : l ||
-                      -1 === n ||
-                      ((o = i - 1) - n + 1 >= t && r.push([n, o]), (n = -1))
-                }
-                return e[i - 1] && i - n >= t && r.push([n, i - 1]), r
-              }
-            },
-          './src/bitap/bitap_pattern_alphabet.js':
-            /*!*********************************************!*\
-  !*** ./src/bitap/bitap_pattern_alphabet.js ***!
-  \*********************************************/
-            /*! no static exports found */ function (e, t) {
-              e.exports = function (e) {
-                for (var t = {}, r = e.length, n = 0; n < r; n += 1)
-                  t[e.charAt(n)] = 0
-                for (var o = 0; o < r; o += 1)
-                  t[e.charAt(o)] |= 1 << (r - o - 1)
-                return t
-              }
-            },
-          './src/bitap/bitap_regex_search.js':
-            /*!*****************************************!*\
-  !*** ./src/bitap/bitap_regex_search.js ***!
-  \*****************************************/
-            /*! no static exports found */ function (e, t) {
-              var r = /[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g
-              e.exports = function (e, t) {
-                var n =
-                    arguments.length > 2 && void 0 !== arguments[2]
-                      ? arguments[2]
-                      : / +/g,
-                  o = new RegExp(t.replace(r, '\\$&').replace(n, '|')),
-                  i = e.match(o),
-                  a = !!i,
-                  l = []
-                if (a)
-                  for (var u = 0, s = i.length; u < s; u += 1) {
-                    var c = i[u]
-                    l.push([e.indexOf(c), c.length - 1])
-                  }
-                return { score: a ? 0.5 : 1, isMatch: a, matchedIndices: l }
-              }
-            },
-          './src/bitap/bitap_score.js':
-            /*!**********************************!*\
-  !*** ./src/bitap/bitap_score.js ***!
-  \**********************************/
-            /*! no static exports found */ function (e, t) {
-              e.exports = function (e, t) {
-                var r = t.errors,
-                  n = void 0 === r ? 0 : r,
-                  o = t.currentLocation,
-                  i = void 0 === o ? 0 : o,
-                  a = t.expectedLocation,
-                  l = void 0 === a ? 0 : a,
-                  u = t.distance,
-                  s = void 0 === u ? 100 : u,
-                  c = n / e.length,
-                  f = Math.abs(l - i)
-                return s ? c + f / s : f ? 1 : c
-              }
-            },
-          './src/bitap/bitap_search.js':
-            /*!***********************************!*\
-  !*** ./src/bitap/bitap_search.js ***!
-  \***********************************/
-            /*! no static exports found */ function (e, t, r) {
-              var n = r(/*! ./bitap_score */ './src/bitap/bitap_score.js'),
-                o = r(
-                  /*! ./bitap_matched_indices */ './src/bitap/bitap_matched_indices.js'
+      e.exports = (function (e) {
+        var t = {}
+        function r (n) {
+          if (t[n]) return t[n].exports
+          var o = (t[n] = { i: n, l: !1, exports: {} })
+          return e[n].call(o.exports, o, o.exports, r), (o.l = !0), o.exports
+        }
+        return (
+          (r.m = e),
+          (r.c = t),
+          (r.d = function (e, t, n) {
+            r.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: n })
+          }),
+          (r.r = function (e) {
+            'undefined' != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
+              Object.defineProperty(e, '__esModule', { value: !0 })
+          }),
+          (r.t = function (e, t) {
+            if ((1 & t && (e = r(e)), 8 & t)) return e
+            if (4 & t && 'object' == typeof e && e && e.__esModule) return e
+            var n = Object.create(null)
+            if (
+              (r.r(n),
+              Object.defineProperty(n, 'default', { enumerable: !0, value: e }),
+              2 & t && 'string' != typeof e)
+            )
+              for (var o in e)
+                r.d(
+                  n,
+                  o,
+                  function (t) {
+                    return e[t]
+                  }.bind(null, o)
                 )
-              e.exports = function (e, t, r, i) {
-                for (
-                  var a = i.location,
-                    l = void 0 === a ? 0 : a,
-                    u = i.distance,
-                    s = void 0 === u ? 100 : u,
-                    c = i.threshold,
-                    f = void 0 === c ? 0.6 : c,
-                    d = i.findAllMatches,
-                    p = void 0 !== d && d,
-                    h = i.minMatchCharLength,
-                    y = void 0 === h ? 1 : h,
-                    g = l,
-                    b = e.length,
-                    v = f,
-                    m = e.indexOf(t, g),
-                    w = t.length,
-                    x = [],
-                    S = 0;
-                  S < b;
-                  S += 1
-                )
-                  x[S] = 0
-                if (-1 !== m) {
-                  var _ = n(t, {
-                    errors: 0,
-                    currentLocation: m,
-                    expectedLocation: g,
-                    distance: s
-                  })
-                  if (
-                    ((v = Math.min(_, v)), -1 !== (m = e.lastIndexOf(t, g + w)))
-                  ) {
-                    var O = n(t, {
-                      errors: 0,
-                      currentLocation: m,
-                      expectedLocation: g,
-                      distance: s
-                    })
-                    v = Math.min(O, v)
+            return n
+          }),
+          (r.n = function (e) {
+            var t =
+              e && e.__esModule
+                ? function () {
+                    return e.default
                   }
-                }
-                m = -1
-                for (
-                  var k = [], E = 1, C = w + b, T = 1 << (w - 1), P = 0;
-                  P < w;
-                  P += 1
-                ) {
-                  for (var j = 0, M = C; j < M; ) {
-                    n(t, {
-                      errors: P,
-                      currentLocation: g + M,
-                      expectedLocation: g,
-                      distance: s
-                    }) <= v
-                      ? (j = M)
-                      : (C = M),
-                      (M = Math.floor((C - j) / 2 + j))
+                : function () {
+                    return e
                   }
-                  C = M
-                  var A = Math.max(1, g - M + 1),
-                    R = p ? b : Math.min(g + M, b) + w,
-                    I = Array(R + 2)
-                  I[R + 1] = (1 << P) - 1
-                  for (var z = R; z >= A; z -= 1) {
-                    var N = z - 1,
-                      D = r[e.charAt(N)]
-                    if (
-                      (D && (x[N] = 1),
-                      (I[z] = ((I[z + 1] << 1) | 1) & D),
-                      0 !== P &&
-                        (I[z] |= ((k[z + 1] | k[z]) << 1) | 1 | k[z + 1]),
-                      I[z] & T &&
-                        (E = n(t, {
-                          errors: P,
-                          currentLocation: N,
-                          expectedLocation: g,
-                          distance: s
-                        })) <= v)
-                    ) {
-                      if (((v = E), (m = N) <= g)) break
-                      A = Math.max(1, 2 * g - m)
-                    }
-                  }
-                  if (
-                    n(t, {
-                      errors: P + 1,
-                      currentLocation: g,
-                      expectedLocation: g,
-                      distance: s
-                    }) > v
-                  )
-                    break
-                  k = I
-                }
-                return {
-                  isMatch: m >= 0,
-                  score: 0 === E ? 0.001 : E,
-                  matchedIndices: o(x, y)
-                }
+            return r.d(t, 'a', t), t
+          }),
+          (r.o = function (e, t) {
+            return Object.prototype.hasOwnProperty.call(e, t)
+          }),
+          (r.p = ''),
+          r((r.s = 1))
+        )
+      })([
+        function (e, t) {
+          e.exports = e =>
+            Array.isArray
+              ? Array.isArray(e)
+              : '[object Array]' === Object.prototype.toString.call(e)
+        },
+        function (e, t, r) {
+          const n = r(2),
+            o = r(8),
+            i = r(0)
+          e.exports = class {
+            constructor (
+              e,
+              {
+                location: t = 0,
+                distance: r = 100,
+                threshold: n = 0.6,
+                maxPatternLength: i = 32,
+                caseSensitive: a = !1,
+                tokenSeparator: l = / +/g,
+                findAllMatches: u = !1,
+                minMatchCharLength: s = 1,
+                id: c = null,
+                keys: f = [],
+                shouldSort: d = !0,
+                getFn: p = o,
+                sortFn: h = (e, t) => e.score - t.score,
+                tokenize: y = !1,
+                matchAllTokens: g = !1,
+                includeMatches: b = !1,
+                includeScore: v = !1,
+                verbose: m = !1
               }
-            },
-          './src/bitap/index.js':
-            /*!****************************!*\
-  !*** ./src/bitap/index.js ***!
-  \****************************/
-            /*! no static exports found */ function (e, t, r) {
-              function n (e, t) {
-                for (var r = 0; r < t.length; r++) {
-                  var n = t[r]
-                  ;(n.enumerable = n.enumerable || !1),
-                    (n.configurable = !0),
-                    'value' in n && (n.writable = !0),
-                    Object.defineProperty(e, n.key, n)
-                }
-              }
-              var o = r(
-                  /*! ./bitap_regex_search */ './src/bitap/bitap_regex_search.js'
-                ),
-                i = r(/*! ./bitap_search */ './src/bitap/bitap_search.js'),
-                a = r(
-                  /*! ./bitap_pattern_alphabet */ './src/bitap/bitap_pattern_alphabet.js'
-                ),
-                l = (function () {
-                  function e (t, r) {
-                    var n = r.location,
-                      o = void 0 === n ? 0 : n,
-                      i = r.distance,
-                      l = void 0 === i ? 100 : i,
-                      u = r.threshold,
-                      s = void 0 === u ? 0.6 : u,
-                      c = r.maxPatternLength,
-                      f = void 0 === c ? 32 : c,
-                      d = r.isCaseSensitive,
-                      p = void 0 !== d && d,
-                      h = r.tokenSeparator,
-                      y = void 0 === h ? / +/g : h,
-                      g = r.findAllMatches,
-                      b = void 0 !== g && g,
-                      v = r.minMatchCharLength,
-                      m = void 0 === v ? 1 : v
-                    !(function (e, t) {
-                      if (!(e instanceof t))
-                        throw new TypeError('Cannot call a class as a function')
-                    })(this, e),
-                      (this.options = {
-                        location: o,
-                        distance: l,
-                        threshold: s,
-                        maxPatternLength: f,
-                        isCaseSensitive: p,
-                        tokenSeparator: y,
-                        findAllMatches: b,
-                        minMatchCharLength: m
-                      }),
-                      (this.pattern = this.options.isCaseSensitive
-                        ? t
-                        : t.toLowerCase()),
-                      this.pattern.length <= f &&
-                        (this.patternAlphabet = a(this.pattern))
-                  }
-                  var t, r, l
-                  return (
-                    (t = e),
-                    (r = [
-                      {
-                        key: 'search',
-                        value: function (e) {
-                          if (
-                            (this.options.isCaseSensitive ||
-                              (e = e.toLowerCase()),
-                            this.pattern === e)
-                          )
-                            return {
-                              isMatch: !0,
-                              score: 0,
-                              matchedIndices: [[0, e.length - 1]]
-                            }
-                          var t = this.options,
-                            r = t.maxPatternLength,
-                            n = t.tokenSeparator
-                          if (this.pattern.length > r)
-                            return o(e, this.pattern, n)
-                          var a = this.options,
-                            l = a.location,
-                            u = a.distance,
-                            s = a.threshold,
-                            c = a.findAllMatches,
-                            f = a.minMatchCharLength
-                          return i(e, this.pattern, this.patternAlphabet, {
-                            location: l,
-                            distance: u,
-                            threshold: s,
-                            findAllMatches: c,
-                            minMatchCharLength: f
-                          })
-                        }
-                      }
-                    ]) && n(t.prototype, r),
-                    l && n(t, l),
-                    e
-                  )
-                })()
-              e.exports = l
-            },
-          './src/helpers/deep_value.js':
-            /*!***********************************!*\
-  !*** ./src/helpers/deep_value.js ***!
-  \***********************************/
-            /*! no static exports found */ function (e, t, r) {
-              var n = r(/*! ./is_array */ './src/helpers/is_array.js')
-              e.exports = function (e, t) {
-                return (function e (t, r, o) {
-                  if (r) {
-                    var i = r.indexOf('.'),
-                      a = r,
-                      l = null
-                    ;-1 !== i && ((a = r.slice(0, i)), (l = r.slice(i + 1)))
-                    var u = t[a]
-                    if (null != u)
-                      if (l || ('string' != typeof u && 'number' != typeof u))
-                        if (n(u))
-                          for (var s = 0, c = u.length; s < c; s += 1)
-                            e(u[s], l, o)
-                        else l && e(u, l, o)
-                      else o.push(u.toString())
-                  } else o.push(t)
-                  return o
-                })(e, t, [])
-              }
-            },
-          './src/helpers/is_array.js':
-            /*!*********************************!*\
-  !*** ./src/helpers/is_array.js ***!
-  \*********************************/
-            /*! no static exports found */ function (e, t) {
-              e.exports = function (e) {
-                return Array.isArray
-                  ? Array.isArray(e)
-                  : '[object Array]' === Object.prototype.toString.call(e)
-              }
-            },
-          './src/index.js':
-            /*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-            /*! no static exports found */ function (e, t, r) {
-              function n (e) {
-                return (n =
-                  'function' == typeof Symbol &&
-                  'symbol' == typeof Symbol.iterator
-                    ? function (e) {
-                        return typeof e
-                      }
-                    : function (e) {
-                        return e &&
-                          'function' == typeof Symbol &&
-                          e.constructor === Symbol &&
-                          e !== Symbol.prototype
-                          ? 'symbol'
-                          : typeof e
-                      })(e)
-              }
-              function o (e, t) {
-                for (var r = 0; r < t.length; r++) {
-                  var n = t[r]
-                  ;(n.enumerable = n.enumerable || !1),
-                    (n.configurable = !0),
-                    'value' in n && (n.writable = !0),
-                    Object.defineProperty(e, n.key, n)
-                }
-              }
-              var i = r(/*! ./bitap */ './src/bitap/index.js'),
-                a = r(
-                  /*! ./helpers/deep_value */ './src/helpers/deep_value.js'
-                ),
-                l = r(/*! ./helpers/is_array */ './src/helpers/is_array.js'),
-                u = (function () {
-                  function e (t, r) {
-                    var n = r.location,
-                      o = void 0 === n ? 0 : n,
-                      i = r.distance,
-                      l = void 0 === i ? 100 : i,
-                      u = r.threshold,
-                      s = void 0 === u ? 0.6 : u,
-                      c = r.maxPatternLength,
-                      f = void 0 === c ? 32 : c,
-                      d = r.caseSensitive,
-                      p = void 0 !== d && d,
-                      h = r.tokenSeparator,
-                      y = void 0 === h ? / +/g : h,
-                      g = r.findAllMatches,
-                      b = void 0 !== g && g,
-                      v = r.minMatchCharLength,
-                      m = void 0 === v ? 1 : v,
-                      w = r.id,
-                      x = void 0 === w ? null : w,
-                      S = r.keys,
-                      _ = void 0 === S ? [] : S,
-                      O = r.shouldSort,
-                      k = void 0 === O || O,
-                      E = r.getFn,
-                      C = void 0 === E ? a : E,
-                      T = r.sortFn,
-                      P =
-                        void 0 === T
-                          ? function (e, t) {
-                              return e.score - t.score
-                            }
-                          : T,
-                      j = r.tokenize,
-                      M = void 0 !== j && j,
-                      A = r.matchAllTokens,
-                      R = void 0 !== A && A,
-                      I = r.includeMatches,
-                      z = void 0 !== I && I,
-                      N = r.includeScore,
-                      D = void 0 !== N && N,
-                      F = r.verbose,
-                      L = void 0 !== F && F
-                    !(function (e, t) {
-                      if (!(e instanceof t))
-                        throw new TypeError('Cannot call a class as a function')
-                    })(this, e),
-                      (this.options = {
-                        location: o,
-                        distance: l,
-                        threshold: s,
-                        maxPatternLength: f,
-                        isCaseSensitive: p,
-                        tokenSeparator: y,
-                        findAllMatches: b,
-                        minMatchCharLength: m,
-                        id: x,
-                        keys: _,
-                        includeMatches: z,
-                        includeScore: D,
-                        shouldSort: k,
-                        getFn: C,
-                        sortFn: P,
-                        verbose: L,
-                        tokenize: M,
-                        matchAllTokens: R
-                      }),
-                      this.setCollection(t)
-                  }
-                  var t, r, u
-                  return (
-                    (t = e),
-                    (r = [
-                      {
-                        key: 'setCollection',
-                        value: function (e) {
-                          return (this.list = e), e
-                        }
-                      },
-                      {
-                        key: 'search',
-                        value: function (e) {
-                          var t =
-                            arguments.length > 1 && void 0 !== arguments[1]
-                              ? arguments[1]
-                              : { limit: !1 }
-                          this._log(
-                            '---------\nSearch pattern: "'.concat(e, '"')
-                          )
-                          var r = this._prepareSearchers(e),
-                            n = r.tokenSearchers,
-                            o = r.fullSearcher,
-                            i = this._search(n, o),
-                            a = i.weights,
-                            l = i.results
-                          return (
-                            this._computeScore(a, l),
-                            this.options.shouldSort && this._sort(l),
-                            t.limit &&
-                              'number' == typeof t.limit &&
-                              (l = l.slice(0, t.limit)),
-                            this._format(l)
-                          )
-                        }
-                      },
-                      {
-                        key: '_prepareSearchers',
-                        value: function () {
-                          var e =
-                              arguments.length > 0 && void 0 !== arguments[0]
-                                ? arguments[0]
-                                : '',
-                            t = []
-                          if (this.options.tokenize)
-                            for (
-                              var r = e.split(this.options.tokenSeparator),
-                                n = 0,
-                                o = r.length;
-                              n < o;
-                              n += 1
-                            )
-                              t.push(new i(r[n], this.options))
-                          return {
-                            tokenSearchers: t,
-                            fullSearcher: new i(e, this.options)
-                          }
-                        }
-                      },
-                      {
-                        key: '_search',
-                        value: function () {
-                          var e =
-                              arguments.length > 0 && void 0 !== arguments[0]
-                                ? arguments[0]
-                                : [],
-                            t = arguments.length > 1 ? arguments[1] : void 0,
-                            r = this.list,
-                            n = {},
-                            o = []
-                          if ('string' == typeof r[0]) {
-                            for (var i = 0, a = r.length; i < a; i += 1)
-                              this._analyze(
-                                { key: '', value: r[i], record: i, index: i },
-                                {
-                                  resultMap: n,
-                                  results: o,
-                                  tokenSearchers: e,
-                                  fullSearcher: t
-                                }
-                              )
-                            return { weights: null, results: o }
-                          }
-                          for (var l = {}, u = 0, s = r.length; u < s; u += 1)
-                            for (
-                              var c = r[u], f = 0, d = this.options.keys.length;
-                              f < d;
-                              f += 1
-                            ) {
-                              var p = this.options.keys[f]
-                              if ('string' != typeof p) {
-                                if (
-                                  ((l[p.name] = { weight: 1 - p.weight || 1 }),
-                                  p.weight <= 0 || p.weight > 1)
-                                )
-                                  throw new Error(
-                                    'Key weight has to be > 0 and <= 1'
-                                  )
-                                p = p.name
-                              } else l[p] = { weight: 1 }
-                              this._analyze(
-                                {
-                                  key: p,
-                                  value: this.options.getFn(c, p),
-                                  record: c,
-                                  index: u
-                                },
-                                {
-                                  resultMap: n,
-                                  results: o,
-                                  tokenSearchers: e,
-                                  fullSearcher: t
-                                }
-                              )
-                            }
-                          return { weights: l, results: o }
-                        }
-                      },
-                      {
-                        key: '_analyze',
-                        value: function (e, t) {
-                          var r = e.key,
-                            n = e.arrayIndex,
-                            o = void 0 === n ? -1 : n,
-                            i = e.value,
-                            a = e.record,
-                            u = e.index,
-                            s = t.tokenSearchers,
-                            c = void 0 === s ? [] : s,
-                            f = t.fullSearcher,
-                            d = void 0 === f ? [] : f,
-                            p = t.resultMap,
-                            h = void 0 === p ? {} : p,
-                            y = t.results,
-                            g = void 0 === y ? [] : y
-                          if (null != i) {
-                            var b = !1,
-                              v = -1,
-                              m = 0
-                            if ('string' == typeof i) {
-                              this._log('\nKey: '.concat('' === r ? '-' : r))
-                              var w = d.search(i)
-                              if (
-                                (this._log(
-                                  'Full text: "'
-                                    .concat(i, '", score: ')
-                                    .concat(w.score)
-                                ),
-                                this.options.tokenize)
-                              ) {
-                                for (
-                                  var x = i.split(this.options.tokenSeparator),
-                                    S = [],
-                                    _ = 0;
-                                  _ < c.length;
-                                  _ += 1
-                                ) {
-                                  var O = c[_]
-                                  this._log(
-                                    '\nPattern: "'.concat(O.pattern, '"')
-                                  )
-                                  for (
-                                    var k = !1, E = 0;
-                                    E < x.length;
-                                    E += 1
-                                  ) {
-                                    var C = x[E],
-                                      T = O.search(C),
-                                      P = {}
-                                    T.isMatch
-                                      ? ((P[C] = T.score),
-                                        (b = !0),
-                                        (k = !0),
-                                        S.push(T.score))
-                                      : ((P[C] = 1),
-                                        this.options.matchAllTokens ||
-                                          S.push(1)),
-                                      this._log(
-                                        'Token: "'
-                                          .concat(C, '", score: ')
-                                          .concat(P[C])
-                                      )
-                                  }
-                                  k && (m += 1)
-                                }
-                                v = S[0]
-                                for (var j = S.length, M = 1; M < j; M += 1)
-                                  v += S[M]
-                                ;(v /= j), this._log('Token score average:', v)
-                              }
-                              var A = w.score
-                              v > -1 && (A = (A + v) / 2),
-                                this._log('Score average:', A)
-                              var R =
-                                !this.options.tokenize ||
-                                !this.options.matchAllTokens ||
-                                m >= c.length
-                              if (
-                                (this._log('\nCheck Matches: '.concat(R)),
-                                (b || w.isMatch) && R)
-                              ) {
-                                var I = h[u]
-                                I
-                                  ? I.output.push({
-                                      key: r,
-                                      arrayIndex: o,
-                                      value: i,
-                                      score: A,
-                                      matchedIndices: w.matchedIndices
-                                    })
-                                  : ((h[u] = {
-                                      item: a,
-                                      output: [
-                                        {
-                                          key: r,
-                                          arrayIndex: o,
-                                          value: i,
-                                          score: A,
-                                          matchedIndices: w.matchedIndices
-                                        }
-                                      ]
-                                    }),
-                                    g.push(h[u]))
-                              }
-                            } else if (l(i))
-                              for (var z = 0, N = i.length; z < N; z += 1)
-                                this._analyze(
-                                  {
-                                    key: r,
-                                    arrayIndex: z,
-                                    value: i[z],
-                                    record: a,
-                                    index: u
-                                  },
-                                  {
-                                    resultMap: h,
-                                    results: g,
-                                    tokenSearchers: c,
-                                    fullSearcher: d
-                                  }
-                                )
-                          }
-                        }
-                      },
-                      {
-                        key: '_computeScore',
-                        value: function (e, t) {
-                          this._log('\n\nComputing score:\n')
-                          for (var r = 0, n = t.length; r < n; r += 1) {
-                            for (
-                              var o = t[r].output,
-                                i = o.length,
-                                a = 1,
-                                l = 1,
-                                u = 0;
-                              u < i;
-                              u += 1
-                            ) {
-                              var s = e ? e[o[u].key].weight : 1,
-                                c =
-                                  (1 === s ? o[u].score : o[u].score || 0.001) *
-                                  s
-                              1 !== s
-                                ? (l = Math.min(l, c))
-                                : ((o[u].nScore = c), (a *= c))
-                            }
-                            ;(t[r].score = 1 === l ? a : l), this._log(t[r])
-                          }
-                        }
-                      },
-                      {
-                        key: '_sort',
-                        value: function (e) {
-                          this._log('\n\nSorting....'),
-                            e.sort(this.options.sortFn)
-                        }
-                      },
-                      {
-                        key: '_format',
-                        value: function (e) {
-                          var t = []
-                          if (this.options.verbose) {
-                            var r = []
-                            this._log(
-                              '\n\nOutput:\n\n',
-                              JSON.stringify(e, function (e, t) {
-                                if ('object' === n(t) && null !== t) {
-                                  if (-1 !== r.indexOf(t)) return
-                                  r.push(t)
-                                }
-                                return t
-                              })
-                            ),
-                              (r = null)
-                          }
-                          var o = []
-                          this.options.includeMatches &&
-                            o.push(function (e, t) {
-                              var r = e.output
-                              t.matches = []
-                              for (var n = 0, o = r.length; n < o; n += 1) {
-                                var i = r[n]
-                                if (0 !== i.matchedIndices.length) {
-                                  var a = {
-                                    indices: i.matchedIndices,
-                                    value: i.value
-                                  }
-                                  i.key && (a.key = i.key),
-                                    i.hasOwnProperty('arrayIndex') &&
-                                      i.arrayIndex > -1 &&
-                                      (a.arrayIndex = i.arrayIndex),
-                                    t.matches.push(a)
-                                }
-                              }
-                            }),
-                            this.options.includeScore &&
-                              o.push(function (e, t) {
-                                t.score = e.score
-                              })
-                          for (var i = 0, a = e.length; i < a; i += 1) {
-                            var l = e[i]
-                            if (
-                              (this.options.id &&
-                                (l.item = this.options.getFn(
-                                  l.item,
-                                  this.options.id
-                                )[0]),
-                              o.length)
-                            ) {
-                              for (
-                                var u = { item: l.item }, s = 0, c = o.length;
-                                s < c;
-                                s += 1
-                              )
-                                o[s](l, u)
-                              t.push(u)
-                            } else t.push(l.item)
-                          }
-                          return t
-                        }
-                      },
-                      {
-                        key: '_log',
-                        value: function () {
-                          var e
-                          this.options.verbose &&
-                            (e = console).log.apply(e, arguments)
-                        }
-                      }
-                    ]) && o(t.prototype, r),
-                    u && o(t, u),
-                    e
-                  )
-                })()
-              e.exports = u
+            ) {
+              ;(this.options = {
+                location: t,
+                distance: r,
+                threshold: n,
+                maxPatternLength: i,
+                isCaseSensitive: a,
+                tokenSeparator: l,
+                findAllMatches: u,
+                minMatchCharLength: s,
+                id: c,
+                keys: f,
+                includeMatches: b,
+                includeScore: v,
+                shouldSort: d,
+                getFn: p,
+                sortFn: h,
+                verbose: m,
+                tokenize: y,
+                matchAllTokens: g
+              }),
+                this.setCollection(e)
             }
-        })
-      }),
-        (e.exports = n())
+            setCollection (e) {
+              return (this.list = e), e
+            }
+            search (e, t = { limit: !1 }) {
+              this._log(`---------\nSearch pattern: "${e}"`)
+              const {
+                tokenSearchers: r,
+                fullSearcher: n
+              } = this._prepareSearchers(e)
+              let { weights: o, results: i } = this._search(r, n)
+              return (
+                this._computeScore(o, i),
+                this.options.shouldSort && this._sort(i),
+                t.limit &&
+                  'number' == typeof t.limit &&
+                  (i = i.slice(0, t.limit)),
+                this._format(i)
+              )
+            }
+            _prepareSearchers (e = '') {
+              const t = []
+              if (this.options.tokenize) {
+                const r = e.split(this.options.tokenSeparator)
+                for (let e = 0, o = r.length; e < o; e += 1)
+                  t.push(new n(r[e], this.options))
+              }
+              return { tokenSearchers: t, fullSearcher: new n(e, this.options) }
+            }
+            _search (e = [], t) {
+              const r = this.list,
+                n = {},
+                o = []
+              if ('string' == typeof r[0]) {
+                for (let i = 0, a = r.length; i < a; i += 1)
+                  this._analyze(
+                    { key: '', value: r[i], record: i, index: i },
+                    {
+                      resultMap: n,
+                      results: o,
+                      tokenSearchers: e,
+                      fullSearcher: t
+                    }
+                  )
+                return { weights: null, results: o }
+              }
+              const i = {}
+              for (let a = 0, l = r.length; a < l; a += 1) {
+                let l = r[a]
+                for (let r = 0, u = this.options.keys.length; r < u; r += 1) {
+                  let u = this.options.keys[r]
+                  if ('string' != typeof u) {
+                    if (
+                      ((i[u.name] = { weight: 1 - u.weight || 1 }),
+                      u.weight <= 0 || u.weight > 1)
+                    )
+                      throw new Error('Key weight has to be > 0 and <= 1')
+                    u = u.name
+                  } else i[u] = { weight: 1 }
+                  this._analyze(
+                    {
+                      key: u,
+                      value: this.options.getFn(l, u),
+                      record: l,
+                      index: a
+                    },
+                    {
+                      resultMap: n,
+                      results: o,
+                      tokenSearchers: e,
+                      fullSearcher: t
+                    }
+                  )
+                }
+              }
+              return { weights: i, results: o }
+            }
+            _analyze (
+              { key: e, arrayIndex: t = -1, value: r, record: n, index: o },
+              {
+                tokenSearchers: a = [],
+                fullSearcher: l = [],
+                resultMap: u = {},
+                results: s = []
+              }
+            ) {
+              if (null == r) return
+              let c = !1,
+                f = -1,
+                d = 0
+              if ('string' == typeof r) {
+                this._log(`\nKey: ${'' === e ? '-' : e}`)
+                let i = l.search(r)
+                if (
+                  (this._log(`Full text: "${r}", score: ${i.score}`),
+                  this.options.tokenize)
+                ) {
+                  let e = r.split(this.options.tokenSeparator),
+                    t = []
+                  for (let r = 0; r < a.length; r += 1) {
+                    let n = a[r]
+                    this._log(`\nPattern: "${n.pattern}"`)
+                    let o = !1
+                    for (let r = 0; r < e.length; r += 1) {
+                      let i = e[r],
+                        a = n.search(i),
+                        l = {}
+                      a.isMatch
+                        ? ((l[i] = a.score),
+                          (c = !0),
+                          (o = !0),
+                          t.push(a.score))
+                        : ((l[i] = 1),
+                          this.options.matchAllTokens || t.push(1)),
+                        this._log(`Token: "${i}", score: ${l[i]}`)
+                    }
+                    o && (d += 1)
+                  }
+                  f = t[0]
+                  let n = t.length
+                  for (let e = 1; e < n; e += 1) f += t[e]
+                  ;(f /= n), this._log('Token score average:', f)
+                }
+                let p = i.score
+                f > -1 && (p = (p + f) / 2), this._log('Score average:', p)
+                let h =
+                  !this.options.tokenize ||
+                  !this.options.matchAllTokens ||
+                  d >= a.length
+                if (
+                  (this._log(`\nCheck Matches: ${h}`), (c || i.isMatch) && h)
+                ) {
+                  let a = u[o]
+                  a
+                    ? a.output.push({
+                        key: e,
+                        arrayIndex: t,
+                        value: r,
+                        score: p,
+                        matchedIndices: i.matchedIndices
+                      })
+                    : ((u[o] = {
+                        item: n,
+                        output: [
+                          {
+                            key: e,
+                            arrayIndex: t,
+                            value: r,
+                            score: p,
+                            matchedIndices: i.matchedIndices
+                          }
+                        ]
+                      }),
+                      s.push(u[o]))
+                }
+              } else if (i(r))
+                for (let t = 0, i = r.length; t < i; t += 1)
+                  this._analyze(
+                    { key: e, arrayIndex: t, value: r[t], record: n, index: o },
+                    {
+                      resultMap: u,
+                      results: s,
+                      tokenSearchers: a,
+                      fullSearcher: l
+                    }
+                  )
+            }
+            _computeScore (e, t) {
+              this._log('\n\nComputing score:\n')
+              for (let r = 0, n = t.length; r < n; r += 1) {
+                const n = t[r].output,
+                  o = n.length
+                let i = 1,
+                  a = 1
+                for (let t = 0; t < o; t += 1) {
+                  let r = e ? e[n[t].key].weight : 1,
+                    o = (1 === r ? n[t].score : n[t].score || 0.001) * r
+                  1 !== r ? (a = Math.min(a, o)) : ((n[t].nScore = o), (i *= o))
+                }
+                ;(t[r].score = 1 === a ? i : a), this._log(t[r])
+              }
+            }
+            _sort (e) {
+              this._log('\n\nSorting....'), e.sort(this.options.sortFn)
+            }
+            _format (e) {
+              const t = []
+              if (this.options.verbose) {
+                let t = []
+                this._log(
+                  '\n\nOutput:\n\n',
+                  JSON.stringify(e, function (e, r) {
+                    if ('object' == typeof r && null !== r) {
+                      if (-1 !== t.indexOf(r)) return
+                      t.push(r)
+                    }
+                    return r
+                  })
+                ),
+                  (t = null)
+              }
+              let r = []
+              this.options.includeMatches &&
+                r.push((e, t) => {
+                  const r = e.output
+                  t.matches = []
+                  for (let e = 0, n = r.length; e < n; e += 1) {
+                    let n = r[e]
+                    if (0 === n.matchedIndices.length) continue
+                    let o = { indices: n.matchedIndices, value: n.value }
+                    n.key && (o.key = n.key),
+                      n.hasOwnProperty('arrayIndex') &&
+                        n.arrayIndex > -1 &&
+                        (o.arrayIndex = n.arrayIndex),
+                      t.matches.push(o)
+                  }
+                }),
+                this.options.includeScore &&
+                  r.push((e, t) => {
+                    t.score = e.score
+                  })
+              for (let n = 0, o = e.length; n < o; n += 1) {
+                const o = e[n]
+                if (
+                  (this.options.id &&
+                    (o.item = this.options.getFn(o.item, this.options.id)[0]),
+                  !r.length)
+                ) {
+                  t.push(o.item)
+                  continue
+                }
+                const i = { item: o.item }
+                for (let e = 0, t = r.length; e < t; e += 1) r[e](o, i)
+                t.push(i)
+              }
+              return t
+            }
+            _log () {
+              this.options.verbose && console.log(...arguments)
+            }
+          }
+        },
+        function (e, t, r) {
+          const n = r(3),
+            o = r(4),
+            i = r(7)
+          e.exports = class {
+            constructor (
+              e,
+              {
+                location: t = 0,
+                distance: r = 100,
+                threshold: n = 0.6,
+                maxPatternLength: o = 32,
+                isCaseSensitive: a = !1,
+                tokenSeparator: l = / +/g,
+                findAllMatches: u = !1,
+                minMatchCharLength: s = 1
+              }
+            ) {
+              ;(this.options = {
+                location: t,
+                distance: r,
+                threshold: n,
+                maxPatternLength: o,
+                isCaseSensitive: a,
+                tokenSeparator: l,
+                findAllMatches: u,
+                minMatchCharLength: s
+              }),
+                (this.pattern = this.options.isCaseSensitive
+                  ? e
+                  : e.toLowerCase()),
+                this.pattern.length <= o &&
+                  (this.patternAlphabet = i(this.pattern))
+            }
+            search (e) {
+              if (
+                (this.options.isCaseSensitive || (e = e.toLowerCase()),
+                this.pattern === e)
+              )
+                return {
+                  isMatch: !0,
+                  score: 0,
+                  matchedIndices: [[0, e.length - 1]]
+                }
+              const { maxPatternLength: t, tokenSeparator: r } = this.options
+              if (this.pattern.length > t) return n(e, this.pattern, r)
+              const {
+                location: i,
+                distance: a,
+                threshold: l,
+                findAllMatches: u,
+                minMatchCharLength: s
+              } = this.options
+              return o(e, this.pattern, this.patternAlphabet, {
+                location: i,
+                distance: a,
+                threshold: l,
+                findAllMatches: u,
+                minMatchCharLength: s
+              })
+            }
+          }
+        },
+        function (e, t) {
+          const r = /[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g
+          e.exports = (e, t, n = / +/g) => {
+            let o = new RegExp(t.replace(r, '\\$&').replace(n, '|')),
+              i = e.match(o),
+              a = !!i,
+              l = []
+            if (a)
+              for (let t = 0, r = i.length; t < r; t += 1) {
+                let r = i[t]
+                l.push([e.indexOf(r), r.length - 1])
+              }
+            return { score: a ? 0.5 : 1, isMatch: a, matchedIndices: l }
+          }
+        },
+        function (e, t, r) {
+          const n = r(5),
+            o = r(6)
+          e.exports = (
+            e,
+            t,
+            r,
+            {
+              location: i = 0,
+              distance: a = 100,
+              threshold: l = 0.6,
+              findAllMatches: u = !1,
+              minMatchCharLength: s = 1
+            }
+          ) => {
+            const c = i,
+              f = e.length
+            let d = l,
+              p = e.indexOf(t, c)
+            const h = t.length,
+              y = []
+            for (let e = 0; e < f; e += 1) y[e] = 0
+            if (-1 !== p) {
+              let r = n(t, {
+                errors: 0,
+                currentLocation: p,
+                expectedLocation: c,
+                distance: a
+              })
+              if (
+                ((d = Math.min(r, d)), -1 !== (p = e.lastIndexOf(t, c + h)))
+              ) {
+                let e = n(t, {
+                  errors: 0,
+                  currentLocation: p,
+                  expectedLocation: c,
+                  distance: a
+                })
+                d = Math.min(e, d)
+              }
+            }
+            p = -1
+            let g = [],
+              b = 1,
+              v = h + f
+            const m = 1 << (h - 1)
+            for (let o = 0; o < h; o += 1) {
+              let i = 0,
+                l = v
+              for (; i < l; )
+                n(t, {
+                  errors: o,
+                  currentLocation: c + l,
+                  expectedLocation: c,
+                  distance: a
+                }) <= d
+                  ? (i = l)
+                  : (v = l),
+                  (l = Math.floor((v - i) / 2 + i))
+              v = l
+              let s = Math.max(1, c - l + 1),
+                w = u ? f : Math.min(c + l, f) + h,
+                x = Array(w + 2)
+              x[w + 1] = (1 << o) - 1
+              for (let i = w; i >= s; i -= 1) {
+                let l = i - 1,
+                  u = r[e.charAt(l)]
+                if (
+                  (u && (y[l] = 1),
+                  (x[i] = ((x[i + 1] << 1) | 1) & u),
+                  0 !== o && (x[i] |= ((g[i + 1] | g[i]) << 1) | 1 | g[i + 1]),
+                  x[i] & m &&
+                    (b = n(t, {
+                      errors: o,
+                      currentLocation: l,
+                      expectedLocation: c,
+                      distance: a
+                    })) <= d)
+                ) {
+                  if (((d = b), (p = l) <= c)) break
+                  s = Math.max(1, 2 * c - p)
+                }
+              }
+              if (
+                n(t, {
+                  errors: o + 1,
+                  currentLocation: c,
+                  expectedLocation: c,
+                  distance: a
+                }) > d
+              )
+                break
+              g = x
+            }
+            return {
+              isMatch: p >= 0,
+              score: 0 === b ? 0.001 : b,
+              matchedIndices: o(y, s)
+            }
+          }
+        },
+        function (e, t) {
+          e.exports = (
+            e,
+            {
+              errors: t = 0,
+              currentLocation: r = 0,
+              expectedLocation: n = 0,
+              distance: o = 100
+            }
+          ) => {
+            const i = t / e.length,
+              a = Math.abs(n - r)
+            return o ? i + a / o : a ? 1 : i
+          }
+        },
+        function (e, t) {
+          e.exports = (e = [], t = 1) => {
+            let r = [],
+              n = -1,
+              o = -1,
+              i = 0
+            for (let a = e.length; i < a; i += 1) {
+              let a = e[i]
+              a && -1 === n
+                ? (n = i)
+                : a ||
+                  -1 === n ||
+                  ((o = i - 1) - n + 1 >= t && r.push([n, o]), (n = -1))
+            }
+            return e[i - 1] && i - n >= t && r.push([n, i - 1]), r
+          }
+        },
+        function (e, t) {
+          e.exports = e => {
+            let t = {},
+              r = e.length
+            for (let n = 0; n < r; n += 1) t[e.charAt(n)] = 0
+            for (let n = 0; n < r; n += 1) t[e.charAt(n)] |= 1 << (r - n - 1)
+            return t
+          }
+        },
+        function (e, t, r) {
+          const n = r(0),
+            o = (e, t, r) => {
+              if (t) {
+                const i = t.indexOf('.')
+                let a = t,
+                  l = null
+                ;-1 !== i && ((a = t.slice(0, i)), (l = t.slice(i + 1)))
+                const u = e[a]
+                if (null != u)
+                  if (l || ('string' != typeof u && 'number' != typeof u))
+                    if (n(u))
+                      for (let e = 0, t = u.length; e < t; e += 1) o(u[e], l, r)
+                    else l && o(u, l, r)
+                  else r.push(u.toString())
+              } else r.push(e)
+              return r
+            }
+          e.exports = (e, t) => o(e, t, [])
+        }
+      ])
     },
     function (e, t, r) {
       'use strict'
@@ -22716,7 +22444,7 @@ object-assign
     },
     function (e, t, r) {
       'use strict'
-      /** @license React v16.8.3
+      /** @license React v16.8.4
        * react.production.min.js
        *
        * Copyright (c) Facebook, Inc. and its affiliates.
@@ -23104,7 +22832,7 @@ object-assign
             return (t.type = e), t
           },
           isValidElement: j,
-          version: '16.8.3',
+          version: '16.8.4',
           unstable_ConcurrentMode: d,
           unstable_Profiler: s,
           __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED: {
@@ -50230,7 +49958,7 @@ object-assign
     },
     function (e, t, r) {
       'use strict'
-      /** @license React v16.8.3
+      /** @license React v16.8.4
        * react-dom.production.min.js
        *
        * Copyright (c) Facebook, Inc. and its affiliates.
@@ -56707,7 +56435,7 @@ object-assign
       })({
         findFiberByHostInstance: z,
         bundleType: 0,
-        version: '16.8.3',
+        version: '16.8.4',
         rendererPackageName: 'react-dom'
       })
       var ql = { default: Gl },
@@ -56721,7 +56449,7 @@ object-assign
     function (e, t, r) {
       'use strict'
       ;(function (e) {
-        /** @license React v0.13.3
+        /** @license React v0.13.4
          * scheduler.production.min.js
          *
          * Copyright (c) Facebook, Inc. and its affiliates.
