@@ -12,7 +12,7 @@ const BarBox = styled.div`
   display: flex;
   background: linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 50%), #232729;
   padding-left: 100px;
-  transition: all 0.2ms;
+  transition: all 0.2ms ease-in;
   div a {
     img {
       max-height: 100px;
@@ -20,34 +20,55 @@ const BarBox = styled.div`
   }
 `
 
+const trLinkReveal = (delay = 0) => `
+  transition-property: opacity;
+  transition-duration: .8s;
+  transition-timing-function: ease-out;
+  transition-delay: ${delay}s;
+`
+
 const LinksBox = styled.div`
   display: flex;
   align-content: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+  > div:hover {
+    ${props => !props.show && `background: none;`}
+  }
+
+  a {
+    opacity: ${props => (props.show ? 1 : 0)};
+  }
+
+  a:nth-of-type(1) {
+    ${trLinkReveal()}
+  }
+  a:nth-of-type(2) {
+    ${trLinkReveal(0.8)}
+  }
+  a:nth-of-type(3) {
+    ${trLinkReveal(1.2)}
+  }
+  a:nth-of-type(4) {
+    ${trLinkReveal(1.8)}
+  }
 `
 
-const TopBar = ({
-  showBehance,
-  showTumblr,
-  showLinkedIn,
-  showGithub,
-  ...props
-}) => (
+const TopBar = ({ showLinks, ...props }) => (
   <BarBox>
     <Branding href='#'>{'remy  chaumard'}</Branding>
-    <LinksBox>
-      {showBehance && <Link {...props.behanceLink} />}
-      {showTumblr && <Link {...props.tumblrLink} />}
-      {showLinkedIn && <Link {...props.linkedInLink} />}
-      {showGithub && <Link {...props.githubLink} />}
+    <LinksBox show={showLinks}>
+      <Link {...props.behanceLink} />
+      <Link {...props.tumblrLink} />
+      <Link {...props.linkedInLink} />
+      <Link {...props.githubLink} />
     </LinksBox>
   </BarBox>
 )
 
 TopBar.defaultProps = {
-  showBehance: false,
-  showTumblr: false,
-  showLinkedIn: false,
-  showGithub: false,
+  showLinks: false,
   behanceLink: {
     to: 'behance',
     logo: LogoBehance,

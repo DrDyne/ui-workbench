@@ -1,5 +1,8 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { Waypoint } from 'react-waypoint'
+
+import { LinksContext } from '../ctx/links'
 
 import { Header, Subtitle } from '../components/Typography'
 import LogoBehance from '../components/TopBar/logo behance.png'
@@ -11,7 +14,7 @@ import TopBarLink from '../components/TopBar/Link'
 import arrowDown from './assets/arrow-down.png'
 import WhiteWashImg from './assets/white wash p1.png'
 
-const Link = props => <TopBarLink withBorder {...props} />
+const Link = props => <TopBarLink {...props} />
 
 const PageBox = styled.div`
   padding: 94px;
@@ -74,12 +77,24 @@ const Page1 = props => (
     </PageLeft>
 
     <PageRight>
-      <LinksBox>
-        {<Link {...props.behanceLink} />}
-        {<Link {...props.tumblrLink} />}
-        {<Link {...props.linkedInLink} />}
-        {<Link {...props.githubLink} />}
-      </LinksBox>
+      <LinksContext.Consumer>
+        {({ show, hide }) => {
+          const wpProps = {
+            onLeave: () => show('links'),
+            onEnter: () => hide('links')
+          }
+
+          return (
+            <LinksBox>
+              <Waypoint {...wpProps} />
+              <Link {...props.behanceLink} />
+              <Link {...props.tumblrLink} />
+              <Link {...props.linkedInLink} />
+              <Link {...props.githubLink} />
+            </LinksBox>
+          )
+        }}
+      </LinksContext.Consumer>
     </PageRight>
 
     <CenterBox>

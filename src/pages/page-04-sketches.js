@@ -17,10 +17,13 @@ const SketchesButtonBox = styled(ButtonBox)`
   .label {
     margin-top: 20px;
     margin-left: 75px;
+    opacity: 1;
+    color: ${({ theme }) => theme.colors.black};
   }
   :hover .label {
     margin-top: 50px;
     margin-left: 75px;
+    color: white;
   }
   :hover .accent {
     margin-top: -75px;

@@ -21,7 +21,7 @@ const ContentBox = styled.div`
 
   @media (min-width: 740px) {
     padding-left: 200px;
-    > div:first-child {
+    > div:first-of-type {
       margin-top: 240px;
       margin-bottom: -50px;
     }
@@ -116,7 +116,7 @@ const btnProps = {
 }
 
 const Page2 = () => (
-  <PageBox pageIndex={2} light>
+  <PageBox pageIndex={2} light='true'>
     <PageLeft>
       <Subtitle>
         {
@@ -134,13 +134,13 @@ const Page2 = () => (
           <img src={ReactLogo} className='react-logo' />
         </Page1Parallax>
 
-        <Page1Parallax speed={4} figma>
+        <Page1Parallax speed={4} figma='true'>
           <img src={FigmaLogo} className='figma-logo' />
         </Page1Parallax>
       </ContentBox>
     </PageRight>
 
-    <Page1Parallax wash speed={-5}>
+    <Page1Parallax wash='true' speed={-5}>
       <img src={WhiteWash} className='white-wash' />
     </Page1Parallax>
   </PageBox>
