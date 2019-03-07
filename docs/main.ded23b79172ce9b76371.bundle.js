@@ -1624,15 +1624,15 @@
             _TopBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(85),
             withStorySource = __webpack_require__(81).withStorySource,
             __STORY__ =
-              "import React from 'react';\nimport { boolean } from '@storybook/addon-knobs';\nimport styled from '@emotion/styled';\nimport TopBar from '../TopBar';\n\nconst DemoBox = styled.div`\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n`;\n\nstoriesOf('Portfolio|TopBar', module)\n  .add('. default', () => <TopBar />)\n  .add('with links', () => <TopBar showBehance showTumblr showLinkedIn showGithub />)\n  .add('fixed top', () => {\n    const showLinks = boolean('showLinks?', true);\n    const props = !showLinks\n      ? {}\n      : {\n          showBehance: true,\n          showTumblr: true,\n          showLinkedIn: true,\n          showGithub: true,\n        };\n\n    return (\n      <DemoBox>\n        <TopBar {...props} />\n      </DemoBox>\n    );\n  });\n",
+              "import React from 'react';\nimport { boolean } from '@storybook/addon-knobs';\nimport styled from '@emotion/styled';\nimport TopBar from '../TopBar';\n\nconst DemoBox = styled.div`\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n`;\n\nstoriesOf('Portfolio|TopBar', module)\n  .add('. default', () => <TopBar />)\n  .add('with links', () => <TopBar showLinks />)\n  .add('fixed top', () => {\n    const props = { showLinks: boolean('showLinks?', true) };\n\n    return (\n      <DemoBox>\n        <TopBar {...props} />\n      </DemoBox>\n    );\n  });\n",
             __ADDS_MAP__ = {
               'Portfolio|TopBar@fixed top': {
                 startLoc: { col: 7, line: 16 },
-                endLoc: { col: 3, line: 32 }
+                endLoc: { col: 3, line: 24 }
               },
               'Portfolio|TopBar@with links': {
                 startLoc: { col: 7, line: 15 },
-                endLoc: { col: 84, line: 15 }
+                endLoc: { col: 47, line: 15 }
               },
               'Portfolio|TopBar@. default': {
                 startLoc: { col: 7, line: 14 },
@@ -1649,7 +1649,7 @@
           storiesOf('Portfolio|TopBar', module)
             .addDecorator(
               withStorySource(
-                "import React from 'react';\nimport { boolean } from '@storybook/addon-knobs';\nimport styled from '@emotion/styled';\nimport TopBar from '../TopBar';\n\nconst DemoBox = styled.div`\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n`;\n\nstoriesOf('Portfolio|TopBar', module)\n  .add('. default', () => <TopBar />)\n  .add('with links', () => <TopBar showBehance showTumblr showLinkedIn showGithub />)\n  .add('fixed top', () => {\n    const showLinks = boolean('showLinks?', true);\n    const props = !showLinks\n      ? {}\n      : {\n          showBehance: true,\n          showTumblr: true,\n          showLinkedIn: true,\n          showGithub: true,\n        };\n\n    return (\n      <DemoBox>\n        <TopBar {...props} />\n      </DemoBox>\n    );\n  });\n",
+                "import React from 'react';\nimport { boolean } from '@storybook/addon-knobs';\nimport styled from '@emotion/styled';\nimport TopBar from '../TopBar';\n\nconst DemoBox = styled.div`\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n`;\n\nstoriesOf('Portfolio|TopBar', module)\n  .add('. default', () => <TopBar />)\n  .add('with links', () => <TopBar showLinks />)\n  .add('fixed top', () => {\n    const props = { showLinks: boolean('showLinks?', true) };\n\n    return (\n      <DemoBox>\n        <TopBar {...props} />\n      </DemoBox>\n    );\n  });\n",
                 __ADDS_MAP__
               )
             )
@@ -1662,25 +1662,15 @@
             .add('with links', function () {
               return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
                 _TopBar__WEBPACK_IMPORTED_MODULE_3__.a,
-                {
-                  showBehance: !0,
-                  showTumblr: !0,
-                  showLinkedIn: !0,
-                  showGithub: !0
-                }
+                { showLinks: !0 }
               )
             })
             .add('fixed top', function () {
-              var props = Object(
-                _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__.boolean
-              )('showLinks?', !0)
-                ? {
-                    showBehance: !0,
-                    showTumblr: !0,
-                    showLinkedIn: !0,
-                    showGithub: !0
-                  }
-                : {}
+              var props = {
+                showLinks: Object(
+                  _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__.boolean
+                )('showLinks?', !0)
+              }
               return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
                 DemoBox,
                 null,
@@ -2903,4 +2893,4 @@
   },
   [[290, 1, 2]]
 ])
-//# sourceMappingURL=main.c5a373dce893822e7752.bundle.js.map
+//# sourceMappingURL=main.ded23b79172ce9b76371.bundle.js.map
