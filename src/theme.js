@@ -31,17 +31,14 @@ export const pageBackground = {
   3: colors.design
 }
 
-export const hoverLinkBorderColor = {
-  behance: '#B1C6FC',
-  tumblr: '#B2B9C2',
-  github: '#F8BECF',
-  linkedin: '#D6E6F4'
-}
-
 export const z = {
   pageButton: 10,
   subtitle: 1,
-  topbar: 11
+  topbar: 11,
+  btn: {
+    label: 3,
+    accent: 3
+  }
 }
 
 export const breakpoint = 1200
@@ -53,6 +50,5 @@ export default {
   pageBackground,
   z,
   lightTextVariant,
-  hoverLinkBorderColor,
   breakpoint
 }
