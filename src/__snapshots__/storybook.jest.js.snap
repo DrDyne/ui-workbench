@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`jest-emotion serializer should render css 1`] = `
+.emotion-0 {
+  color: royalblue;
+}
+
+<button
+  className="emotion-0 emotion-1"
+/>
+`;

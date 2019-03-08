@@ -1,0 +1,647 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI-WORKBENCH Portfolio|Theme Palette 1`] = `
+.emotion-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.emotion-0 {
+  font-family: Encode Sans;
+  background-color: #232729;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  margin: 16px;
+  max-width: 250px;
+  min-height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+.emotion-0 div {
+  min-height: 130px;
+  width: 100%;
+  border-radius: 0 0 16px 16px;
+}
+
+.emotion-0 div + div {
+  min-height: 0;
+  background: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.emotion-0 div + div > p {
+  padding: 0 1em;
+  opacity: 0.4;
+}
+
+.emotion-0 div + div > p + p {
+  opacity: 1;
+}
+
+.emotion-2 {
+  font-family: Encode Sans;
+  background-color: #F1618C;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  margin: 16px;
+  max-width: 250px;
+  min-height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+.emotion-2 div {
+  min-height: 130px;
+  width: 100%;
+  border-radius: 0 0 16px 16px;
+}
+
+.emotion-2 div + div {
+  min-height: 0;
+  background: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.emotion-2 div + div > p {
+  padding: 0 1em;
+  opacity: 0.4;
+}
+
+.emotion-2 div + div > p + p {
+  opacity: 1;
+}
+
+.emotion-4 {
+  font-family: Encode Sans;
+  background-color: #4176FB;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  margin: 16px;
+  max-width: 250px;
+  min-height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+.emotion-4 div {
+  min-height: 130px;
+  width: 100%;
+  border-radius: 0 0 16px 16px;
+}
+
+.emotion-4 div + div {
+  min-height: 0;
+  background: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.emotion-4 div + div > p {
+  padding: 0 1em;
+  opacity: 0.4;
+}
+
+.emotion-4 div + div > p + p {
+  opacity: 1;
+}
+
+.emotion-6 {
+  font-family: Encode Sans;
+  background-color: #44546A;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  margin: 16px;
+  max-width: 250px;
+  min-height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+.emotion-6 div {
+  min-height: 130px;
+  width: 100%;
+  border-radius: 0 0 16px 16px;
+}
+
+.emotion-6 div + div {
+  min-height: 0;
+  background: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.emotion-6 div + div > p {
+  padding: 0 1em;
+  opacity: 0.4;
+}
+
+.emotion-6 div + div > p + p {
+  opacity: 1;
+}
+
+.emotion-8 {
+  font-family: Encode Sans;
+  background-color: #9EC4E7;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  margin: 16px;
+  max-width: 250px;
+  min-height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+.emotion-8 div {
+  min-height: 130px;
+  width: 100%;
+  border-radius: 0 0 16px 16px;
+}
+
+.emotion-8 div + div {
+  min-height: 0;
+  background: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.emotion-8 div + div > p {
+  padding: 0 1em;
+  opacity: 0.4;
+}
+
+.emotion-8 div + div > p + p {
+  opacity: 1;
+}
+
+.emotion-10 {
+  font-family: Encode Sans;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  margin: 16px;
+  max-width: 250px;
+  min-height: 250px;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(270deg,#000000 0%,rgba(0,0,0,0) 50%),#232729;
+}
+
+.emotion-10 div {
+  min-height: 130px;
+  width: 100%;
+  border-radius: 0 0 16px 16px;
+}
+
+.emotion-10 div + div {
+  min-height: 0;
+  background: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.emotion-10 div + div > p {
+  padding: 0 1em;
+  opacity: 0.4;
+}
+
+.emotion-10 div + div > p + p {
+  opacity: 1;
+}
+
+.emotion-12 {
+  font-family: Encode Sans;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  margin: 16px;
+  max-width: 250px;
+  min-height: 250px;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(235.77deg,rgba(35,39,41,0) 12.8%,rgba(35,39,41,0.2) 46.35%,rgba(35,39,41,0) 88.7%),#FFFFFF;
+}
+
+.emotion-12 div {
+  min-height: 130px;
+  width: 100%;
+  border-radius: 0 0 16px 16px;
+}
+
+.emotion-12 div + div {
+  min-height: 0;
+  background: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.emotion-12 div + div > p {
+  padding: 0 1em;
+  opacity: 0.4;
+}
+
+.emotion-12 div + div > p + p {
+  opacity: 1;
+}
+
+.emotion-14 {
+  font-family: Encode Sans;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  margin: 16px;
+  max-width: 250px;
+  min-height: 250px;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(235.77deg,rgba(255,255,255,0) 12.8%,rgba(255,255,255,0.2) 46.35%,rgba(255,255,255,0) 88.7%),#232729;
+}
+
+.emotion-14 div {
+  min-height: 130px;
+  width: 100%;
+  border-radius: 0 0 16px 16px;
+}
+
+.emotion-14 div + div {
+  min-height: 0;
+  background: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.emotion-14 div + div > p {
+  padding: 0 1em;
+  opacity: 0.4;
+}
+
+.emotion-14 div + div > p + p {
+  opacity: 1;
+}
+
+<div
+  className="emotion-16 emotion-17"
+>
+  <div
+    className="emotion-0 emotion-1"
+  >
+    <div />
+    <div>
+      <p>
+        Black Pearl
+      </p>
+      <p>
+        #232729
+      </p>
+    </div>
+  </div>
+  <div
+    className="emotion-2 emotion-1"
+  >
+    <div />
+    <div>
+      <p>
+        Brink Pink
+      </p>
+      <p>
+        #F1618C
+      </p>
+    </div>
+  </div>
+  <div
+    className="emotion-4 emotion-1"
+  >
+    <div />
+    <div>
+      <p>
+        Royal Blue
+      </p>
+      <p>
+        #4176FB
+      </p>
+    </div>
+  </div>
+  <div
+    className="emotion-6 emotion-1"
+  >
+    <div />
+    <div>
+      <p>
+        East Bay
+      </p>
+      <p>
+        #44546A
+      </p>
+    </div>
+  </div>
+  <div
+    className="emotion-8 emotion-1"
+  >
+    <div />
+    <div>
+      <p>
+        Sail
+      </p>
+      <p>
+        #9EC4E7
+      </p>
+    </div>
+  </div>
+  <div
+    className="emotion-10 emotion-1"
+  >
+    <div />
+    <div>
+      <p>
+        Black Pearl to Pure Black
+      </p>
+      <p>
+        gradient
+      </p>
+    </div>
+  </div>
+  <div
+    className="emotion-12 emotion-1"
+  >
+    <div />
+    <div>
+      <p>
+        Accent (light)
+      </p>
+      <p>
+        gradient
+      </p>
+    </div>
+  </div>
+  <div
+    className="emotion-14 emotion-1"
+  >
+    <div />
+    <div>
+      <p>
+        Accent (dark)
+      </p>
+      <p>
+        gradient
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UI-WORKBENCH Portfolio|Theme Typography 1`] = `
+.emotion-16 {
+  position: relative;
+}
+
+.emotion-16:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #F1618C;
+}
+
+.emotion-16 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-16 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-0 {
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 51px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+}
+
+.emotion-4 {
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 28px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  color: #000;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.emotion-2 p {
+  min-width: 120px;
+  opacity: 0.4;
+  font-size: 28px;
+  margin: 0 1em;
+}
+
+.emotion-8 {
+  position: relative;
+}
+
+.emotion-8:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #000;
+}
+
+.emotion-8 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #000;
+}
+
+.emotion-8 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-12 {
+  position: relative;
+}
+
+.emotion-12:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #F1618C;
+}
+
+.emotion-12 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #000;
+}
+
+.emotion-12 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+<div>
+  <li
+    className="emotion-2 emotion-3"
+  >
+    <p>
+      Header
+    </p>
+    <h1
+      className="emotion-0 emotion-1"
+    >
+      Hi
+    </h1>
+  </li>
+  <li
+    className="emotion-2 emotion-3"
+  >
+    <p>
+      Subtitle
+    </p>
+    <h3
+      className="emotion-4 emotion-5"
+    >
+      I'm a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web apps.
+    </h3>
+  </li>
+  <li
+    className="emotion-2 emotion-3"
+  >
+    <p>
+      Link
+    </p>
+    <div
+      className="emotion-8 emotion-9"
+    >
+      <a
+        href="#"
+      >
+        Lorem ipsum dolor
+      </a>
+      <div
+        className="highlight"
+      />
+    </div>
+  </li>
+  <li
+    className="emotion-2 emotion-3"
+  >
+    <p>
+      Link/to
+    </p>
+    <div
+      className="emotion-12 emotion-9"
+    >
+      <a
+        href="#"
+      >
+        Github
+      </a>
+      <div
+        className="highlight"
+      />
+    </div>
+  </li>
+  <li
+    className="emotion-2 emotion-3"
+  >
+    <p>
+      Link/light
+    </p>
+    <div
+      className="emotion-16 emotion-9"
+    >
+      <a
+        href="#"
+        light={true}
+      >
+        Github
+      </a>
+      <div
+        className="highlight"
+      />
+    </div>
+  </li>
+</div>
+`;

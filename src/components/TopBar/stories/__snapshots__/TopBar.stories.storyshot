@@ -1,0 +1,1114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI-WORKBENCH Portfolio|TopBar . default 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white;
+  min-width: 227px;
+}
+
+.emotion-2 img {
+  margin: 0 30px 0 9px;
+  max-height: 33px;
+  max-width: 33px;
+}
+
+.emotion-2:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.emotion-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: linear-gradient(270deg,#000000 0%,rgba(0,0,0,0) 50%),#232729;
+  padding-left: 100px;
+  -webkit-transition: all 0.2ms ease-in;
+  transition: all 0.2ms ease-in;
+}
+
+.emotion-16 div a img {
+  max-height: 100px;
+}
+
+.emotion-0 {
+  margin: 0 auto 0 -100px;
+  padding: 0 50px;
+  line-height: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: 0.3em;
+  -moz-letter-spacing: 0.3em;
+  -ms-letter-spacing: 0.3em;
+  letter-spacing: 0.3em;
+  font-family: Encode Sans;
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+}
+
+.emotion-0:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.emotion-14 > div:hover {
+  background: none;
+}
+
+.emotion-14 a {
+  opacity: 0;
+}
+
+.emotion-14 a:nth-of-type(1) {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.emotion-14 a:nth-of-type(2) {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: 0.8s;
+  transition-delay: 0.8s;
+}
+
+.emotion-14 a:nth-of-type(3) {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+}
+
+.emotion-14 a:nth-of-type(4) {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: 1.8s;
+  transition-delay: 1.8s;
+}
+
+.emotion-3 {
+  position: relative;
+}
+
+.emotion-3:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #4176FB;
+}
+
+.emotion-3 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-3 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-6:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #44546A;
+}
+
+.emotion-6 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-6 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-9 {
+  position: relative;
+}
+
+.emotion-9:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #9EC4E7;
+}
+
+.emotion-9 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-9 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-12 {
+  position: relative;
+}
+
+.emotion-12:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #F1618C;
+}
+
+.emotion-12 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-12 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+<div
+  className="emotion-16 emotion-17"
+>
+  <a
+    className="emotion-0 emotion-1"
+    href="#"
+  >
+    remy  chaumard
+  </a>
+  <div
+    className="emotion-14 emotion-15"
+  >
+    <div
+      className="emotion-2 emotion-3 emotion-4"
+    >
+      <a
+        href="https://www.behance.net/rchaumard25b7"
+        light="true"
+        target="_blank"
+      >
+        <img
+          src={Object {}}
+        />
+        behance
+      </a>
+      <div
+        className="highlight"
+      />
+    </div>
+    <div
+      className="emotion-2 emotion-6 emotion-4"
+    >
+      <a
+        href="https://dr-dyne.tumblr.com/tagged/sketch"
+        light="true"
+        target="_blank"
+      >
+        <img
+          src={Object {}}
+        />
+        tumblr
+      </a>
+      <div
+        className="highlight"
+      />
+    </div>
+    <div
+      className="emotion-2 emotion-9 emotion-4"
+    >
+      <a
+        href="https://linkedin.com/in/ryc"
+        light="true"
+        target="_blank"
+      >
+        <img
+          src={Object {}}
+        />
+        linked in
+      </a>
+      <div
+        className="highlight"
+      />
+    </div>
+    <div
+      className="emotion-2 emotion-12 emotion-4"
+    >
+      <a
+        href="https://github.com/DrDyne"
+        light="true"
+        target="_blank"
+      >
+        <img
+          src={Object {}}
+        />
+        github
+      </a>
+      <div
+        className="highlight"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UI-WORKBENCH Portfolio|TopBar fixed top 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white;
+  min-width: 227px;
+}
+
+.emotion-2 img {
+  margin: 0 30px 0 9px;
+  max-height: 33px;
+  max-width: 33px;
+}
+
+.emotion-2:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.emotion-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: linear-gradient(270deg,#000000 0%,rgba(0,0,0,0) 50%),#232729;
+  padding-left: 100px;
+  -webkit-transition: all 0.2ms ease-in;
+  transition: all 0.2ms ease-in;
+}
+
+.emotion-16 div a img {
+  max-height: 100px;
+}
+
+.emotion-0 {
+  margin: 0 auto 0 -100px;
+  padding: 0 50px;
+  line-height: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: 0.3em;
+  -moz-letter-spacing: 0.3em;
+  -ms-letter-spacing: 0.3em;
+  letter-spacing: 0.3em;
+  font-family: Encode Sans;
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+}
+
+.emotion-0:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.emotion-3 {
+  position: relative;
+}
+
+.emotion-3:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #4176FB;
+}
+
+.emotion-3 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-3 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-6:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #44546A;
+}
+
+.emotion-6 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-6 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-9 {
+  position: relative;
+}
+
+.emotion-9:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #9EC4E7;
+}
+
+.emotion-9 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-9 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-12 {
+  position: relative;
+}
+
+.emotion-12:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #F1618C;
+}
+
+.emotion-12 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-12 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.emotion-14 a {
+  opacity: 1;
+}
+
+.emotion-14 a:nth-of-type(1) {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.emotion-14 a:nth-of-type(2) {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: 0.8s;
+  transition-delay: 0.8s;
+}
+
+.emotion-14 a:nth-of-type(3) {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+}
+
+.emotion-14 a:nth-of-type(4) {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: 1.8s;
+  transition-delay: 1.8s;
+}
+
+.emotion-18 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+<div
+  className="emotion-18 emotion-19"
+>
+  <div
+    className="emotion-16 emotion-17"
+  >
+    <a
+      className="emotion-0 emotion-1"
+      href="#"
+    >
+      remy  chaumard
+    </a>
+    <div
+      className="emotion-14 emotion-15"
+    >
+      <div
+        className="emotion-2 emotion-3 emotion-4"
+      >
+        <a
+          href="https://www.behance.net/rchaumard25b7"
+          light="true"
+          target="_blank"
+        >
+          <img
+            src={Object {}}
+          />
+          behance
+        </a>
+        <div
+          className="highlight"
+        />
+      </div>
+      <div
+        className="emotion-2 emotion-6 emotion-4"
+      >
+        <a
+          href="https://dr-dyne.tumblr.com/tagged/sketch"
+          light="true"
+          target="_blank"
+        >
+          <img
+            src={Object {}}
+          />
+          tumblr
+        </a>
+        <div
+          className="highlight"
+        />
+      </div>
+      <div
+        className="emotion-2 emotion-9 emotion-4"
+      >
+        <a
+          href="https://linkedin.com/in/ryc"
+          light="true"
+          target="_blank"
+        >
+          <img
+            src={Object {}}
+          />
+          linked in
+        </a>
+        <div
+          className="highlight"
+        />
+      </div>
+      <div
+        className="emotion-2 emotion-12 emotion-4"
+      >
+        <a
+          href="https://github.com/DrDyne"
+          light="true"
+          target="_blank"
+        >
+          <img
+            src={Object {}}
+          />
+          github
+        </a>
+        <div
+          className="highlight"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UI-WORKBENCH Portfolio|TopBar with links 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white;
+  min-width: 227px;
+}
+
+.emotion-2 img {
+  margin: 0 30px 0 9px;
+  max-height: 33px;
+  max-width: 33px;
+}
+
+.emotion-2:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.emotion-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: linear-gradient(270deg,#000000 0%,rgba(0,0,0,0) 50%),#232729;
+  padding-left: 100px;
+  -webkit-transition: all 0.2ms ease-in;
+  transition: all 0.2ms ease-in;
+}
+
+.emotion-16 div a img {
+  max-height: 100px;
+}
+
+.emotion-0 {
+  margin: 0 auto 0 -100px;
+  padding: 0 50px;
+  line-height: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: 0.3em;
+  -moz-letter-spacing: 0.3em;
+  -ms-letter-spacing: 0.3em;
+  letter-spacing: 0.3em;
+  font-family: Encode Sans;
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+}
+
+.emotion-0:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.emotion-3 {
+  position: relative;
+}
+
+.emotion-3:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #4176FB;
+}
+
+.emotion-3 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-3 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-6:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #44546A;
+}
+
+.emotion-6 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-6 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-9 {
+  position: relative;
+}
+
+.emotion-9:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #9EC4E7;
+}
+
+.emotion-9 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-9 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-12 {
+  position: relative;
+}
+
+.emotion-12:hover {
+  -webkit-transition: background .4s ease-out;
+  transition: background .4s ease-out;
+  background: #F1618C;
+}
+
+.emotion-12 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  line-height: 100px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.emotion-12 a img {
+  margin: 0 30px 0 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.emotion-14 a {
+  opacity: 1;
+}
+
+.emotion-14 a:nth-of-type(1) {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.emotion-14 a:nth-of-type(2) {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: 0.8s;
+  transition-delay: 0.8s;
+}
+
+.emotion-14 a:nth-of-type(3) {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+}
+
+.emotion-14 a:nth-of-type(4) {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: 1.8s;
+  transition-delay: 1.8s;
+}
+
+<div
+  className="emotion-16 emotion-17"
+>
+  <a
+    className="emotion-0 emotion-1"
+    href="#"
+  >
+    remy  chaumard
+  </a>
+  <div
+    className="emotion-14 emotion-15"
+  >
+    <div
+      className="emotion-2 emotion-3 emotion-4"
+    >
+      <a
+        href="https://www.behance.net/rchaumard25b7"
+        light="true"
+        target="_blank"
+      >
+        <img
+          src={Object {}}
+        />
+        behance
+      </a>
+      <div
+        className="highlight"
+      />
+    </div>
+    <div
+      className="emotion-2 emotion-6 emotion-4"
+    >
+      <a
+        href="https://dr-dyne.tumblr.com/tagged/sketch"
+        light="true"
+        target="_blank"
+      >
+        <img
+          src={Object {}}
+        />
+        tumblr
+      </a>
+      <div
+        className="highlight"
+      />
+    </div>
+    <div
+      className="emotion-2 emotion-9 emotion-4"
+    >
+      <a
+        href="https://linkedin.com/in/ryc"
+        light="true"
+        target="_blank"
+      >
+        <img
+          src={Object {}}
+        />
+        linked in
+      </a>
+      <div
+        className="highlight"
+      />
+    </div>
+    <div
+      className="emotion-2 emotion-12 emotion-4"
+    >
+      <a
+        href="https://github.com/DrDyne"
+        light="true"
+        target="_blank"
+      >
+        <img
+          src={Object {}}
+        />
+        github
+      </a>
+      <div
+        className="highlight"
+      />
+    </div>
+  </div>
+</div>
+`;
