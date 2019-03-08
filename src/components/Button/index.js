@@ -134,7 +134,12 @@ class Button extends React.Component {
         <div className='label' {...labelProps} style={{ transform: tr.label }}>
           {label}
         </div>
-        <a href={href} className='accent' style={{ transform: tr.accent }} />
+        <a
+          href={href}
+          target='_blank'
+          className='accent'
+          style={{ transform: tr.accent }}
+        />
         {children}
       </div>
     )
@@ -173,7 +178,7 @@ export default styled(Button)`
     font-weight: bold;
     letter-spacing: 10px;
     color: white;
-    z-index: 3;
+    z-index: ${props => props.theme.z.btn.label};
     position: absolute;
     opacity: 0;
     transition: opacity 0.2s ease-in, margin 0.2s ease-in 0s;
@@ -183,7 +188,7 @@ export default styled(Button)`
     perspective: 400px;
     position: absolute;
     opacity: 0;
-    z-index: 3;
+    z-index: ${props => props.theme.z.btn.accent};
     border: 2px solid white;
     width: 100%;
     height: 100%;
@@ -216,7 +221,7 @@ export default styled(Button)`
     }
 
     .accent {
-      z-index: 3;
+      z-index: ${props => props.theme.z.btn.accent};
       background: rgba(255, 255, 255, 0.4);
       margin-top: ${props => props.offset.y}px;
       margin-left: ${props => props.offset.x}px;

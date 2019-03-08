@@ -56,7 +56,7 @@ const ColorBlock = styled(({ name, hex, bg, ...other }) => (
   }
 `
 
-storiesOf('📌 Welcome', module).add('README', () => <div> hello </div>)
+storiesOf('📌 TLDR;', module).add('README', () => <div> hello </div>)
 
 storiesOf('Portfolio|Theme', module).add('Palette', () => (
   <ColorBox>
