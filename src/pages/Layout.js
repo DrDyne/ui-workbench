@@ -72,12 +72,13 @@ export const PageBox = styled.div`
     position: relative;
     overflow: hidden;
 
-    .tooltip {
+    .tooltip-box {
       z-index: 1;
-      max-width: 750px;
-      max-height: 207px;
-      margin-left: 54px;
-      margin-top: -600px;
+      position: absolute;
+      width: 750px;
+      height: 207px;
+      bottom: 300px;
+      margin-left: 50px;
     }
 
     .bg {
