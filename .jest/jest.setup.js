@@ -1,6 +1,7 @@
 // jest test-running environment, same setup as storybook with extra test-renderer
 
 import React from 'react'
+import serializer from 'jest-emotion'
 
 import render from './jest.renderer'
 
@@ -9,3 +10,5 @@ registerRequireContextHook() // required for storyshots to use webpack require.c
 
 global.React = React
 global.render = Subject => render(Subject)
+
+expect.addSnapshotSerializer(serializer)
