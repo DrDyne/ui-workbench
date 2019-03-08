@@ -1,13 +1,23 @@
-// import initStoryshots, { multiSnapshotWithOptions } from '@storybook/addon-storyshots'
-// initStoryshots({
-//  suite: 'UI-WORKBENCH',
-//  framework: 'react',
-//  storyNameRegex: /.stories.js/,
-//  test: multiSnapshotWithOptions(),
-// })
+import styled from '@emotion/styled'
+import initStoryshots, {
+  multiSnapshotWithOptions
+} from '@storybook/addon-storyshots'
+import serializer from 'jest-emotion'
 
-describe('storyshots, y u no work?', () => {
-  test('should work', () => {
-    expect(true).toBe(true)
+initStoryshots({
+  suite: 'UI-WORKBENCH',
+  test: multiSnapshotWithOptions(),
+  snapshotSerializers: [serializer]
+})
+
+const MyButton = styled.button`
+  color: royalblue;
+  //color: orange; // breaks test
+`
+
+describe('jest-emotion serializer', () => {
+  test('should render css', () => {
+    const dom = render(<MyButton />)
+    expect(dom).toMatchSnapshot()
   })
 })

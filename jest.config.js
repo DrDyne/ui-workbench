@@ -11,5 +11,6 @@ module.exports = {
     '\\.(css)$': '<rootDir>/.jest/jest.styleMocks.js'
   },
   collectCoverageFrom: ['src/**/*.js', '!src/**/*.stories.js'],
-  coveragePathIgnorePatterns: ['node_modules/', 'stories/', '__snapshots__']
+  coveragePathIgnorePatterns: ['node_modules/', 'stories/', '__snapshots__'],
+  snapshotSerializers: ['jest-emotion']
 }
