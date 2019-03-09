@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1552145684674" clover="3.2.0">
-  <project timestamp="1552145684674" name="All files">
-    <metrics statements="190" coveredstatements="152" conditionals="46" coveredconditionals="32" methods="90" coveredmethods="69" elements="326" coveredelements="253" complexity="0" loc="190" ncloc="190" packages="8" files="18" classes="18"/>
+<coverage generated="1552148019659" clover="3.2.0">
+  <project timestamp="1552148019659" name="All files">
+    <metrics statements="190" coveredstatements="156" conditionals="46" coveredconditionals="32" methods="90" coveredmethods="73" elements="326" coveredelements="261" complexity="0" loc="190" ncloc="190" packages="8" files="18" classes="18"/>
     <package name="src">
       <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="theme.js" path="/home/ry/Documents/01 git/ui-workbench/src/theme.js">
@@ -175,20 +175,20 @@
       </file>
     </package>
     <package name="src.ctx">
-      <metrics statements="11" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="2"/>
+      <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="6"/>
       <file name="links.js" path="/home/ry/Documents/01 git/ui-workbench/src/ctx/links.js">
-        <metrics statements="11" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="2"/>
-        <line num="3" count="1" type="stmt"/>
+        <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="6"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="7" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.pages">

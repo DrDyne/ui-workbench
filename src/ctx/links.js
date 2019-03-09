@@ -12,11 +12,11 @@ export default Component => {
       isVisible: false
     }
 
-    show (link) {
+    show () {
       this.setState({ isVisible: true })
     }
 
-    hide (link) {
+    hide () {
       this.setState({ isVisible: false })
     }
 
