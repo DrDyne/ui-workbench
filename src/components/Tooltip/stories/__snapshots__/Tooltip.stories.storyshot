@@ -47,6 +47,12 @@ exports[`UI-WORKBENCH Portfolio|Tooltip . default 1`] = `
   margin-left: -16px;
 }
 
+.emotion-0:hover .tooltip-bg {
+  -webkit-filter: drop-shadow(8px 8px 10px black);
+  -webkit-filter: drop-shadow(8px 8px 10px black);
+  filter: drop-shadow(8px 8px 10px black);
+}
+
 .emotion-0:hover .tooltip-accent {
   -webkit-filter: drop-shadow(8px 8px 10px white);
   -webkit-filter: drop-shadow(8px 8px 10px white);
@@ -152,6 +158,12 @@ exports[`UI-WORKBENCH Portfolio|Tooltip event logger 1`] = `
   margin-left: -16px;
 }
 
+.emotion-0:hover .tooltip-bg {
+  -webkit-filter: drop-shadow(8px 8px 10px black);
+  -webkit-filter: drop-shadow(8px 8px 10px black);
+  filter: drop-shadow(8px 8px 10px black);
+}
+
 .emotion-0:hover .tooltip-accent {
   -webkit-filter: drop-shadow(8px 8px 10px white);
   -webkit-filter: drop-shadow(8px 8px 10px white);
@@ -255,6 +267,12 @@ exports[`UI-WORKBENCH Portfolio|Tooltip with text 1`] = `
 .emotion-0 .tooltip-accent {
   margin-top: -3px;
   margin-left: -16px;
+}
+
+.emotion-0:hover .tooltip-bg {
+  -webkit-filter: drop-shadow(8px 8px 10px black);
+  -webkit-filter: drop-shadow(8px 8px 10px black);
+  filter: drop-shadow(8px 8px 10px black);
 }
 
 .emotion-0:hover .tooltip-accent {

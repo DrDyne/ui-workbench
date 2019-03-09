@@ -78,6 +78,11 @@ export default styled(Tooltip)`
     margin-left: -16px;
   }
 
+  :hover .tooltip-bg {
+    -webkit-filter: drop-shadow(8px 8px 10px black);
+    filter: drop-shadow(8px 8px 10px black);
+  }
+
   :hover .tooltip-accent {
     -webkit-filter: drop-shadow(8px 8px 10px white);
     filter: drop-shadow(8px 8px 10px white);

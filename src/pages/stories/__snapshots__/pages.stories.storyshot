@@ -1624,6 +1624,12 @@ exports[`UI-WORKBENCH Portfolio|Pages page 6 1`] = `
   margin-left: -16px;
 }
 
+.emotion-2:hover .tooltip-bg {
+  -webkit-filter: drop-shadow(8px 8px 10px black);
+  -webkit-filter: drop-shadow(8px 8px 10px black);
+  filter: drop-shadow(8px 8px 10px black);
+}
+
 .emotion-2:hover .tooltip-accent {
   -webkit-filter: drop-shadow(8px 8px 10px white);
   -webkit-filter: drop-shadow(8px 8px 10px white);
