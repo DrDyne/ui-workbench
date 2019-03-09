@@ -21,12 +21,18 @@ exports[`UI-WORKBENCH Portfolio|Theme Palette 1`] = `
   font-family: Encode Sans;
   background-color: #232729;
   border-radius: 16px;
-  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
   margin: 16px;
   max-width: 250px;
   min-height: 250px;
   width: 100%;
   position: relative;
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+}
+
+.emotion-0:hover {
+  box-shadow: 0 4px 4px -4px rgba(0,0,0,0.4);
 }
 
 .emotion-0 div {
@@ -55,12 +61,18 @@ exports[`UI-WORKBENCH Portfolio|Theme Palette 1`] = `
   font-family: Encode Sans;
   background-color: #F1618C;
   border-radius: 16px;
-  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
   margin: 16px;
   max-width: 250px;
   min-height: 250px;
   width: 100%;
   position: relative;
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+}
+
+.emotion-2:hover {
+  box-shadow: 0 4px 4px -4px rgba(0,0,0,0.4);
 }
 
 .emotion-2 div {
@@ -89,12 +101,18 @@ exports[`UI-WORKBENCH Portfolio|Theme Palette 1`] = `
   font-family: Encode Sans;
   background-color: #4176FB;
   border-radius: 16px;
-  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
   margin: 16px;
   max-width: 250px;
   min-height: 250px;
   width: 100%;
   position: relative;
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+}
+
+.emotion-4:hover {
+  box-shadow: 0 4px 4px -4px rgba(0,0,0,0.4);
 }
 
 .emotion-4 div {
@@ -123,12 +141,18 @@ exports[`UI-WORKBENCH Portfolio|Theme Palette 1`] = `
   font-family: Encode Sans;
   background-color: #44546A;
   border-radius: 16px;
-  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
   margin: 16px;
   max-width: 250px;
   min-height: 250px;
   width: 100%;
   position: relative;
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+}
+
+.emotion-6:hover {
+  box-shadow: 0 4px 4px -4px rgba(0,0,0,0.4);
 }
 
 .emotion-6 div {
@@ -157,12 +181,18 @@ exports[`UI-WORKBENCH Portfolio|Theme Palette 1`] = `
   font-family: Encode Sans;
   background-color: #9EC4E7;
   border-radius: 16px;
-  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
   margin: 16px;
   max-width: 250px;
   min-height: 250px;
   width: 100%;
   position: relative;
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+}
+
+.emotion-8:hover {
+  box-shadow: 0 4px 4px -4px rgba(0,0,0,0.4);
 }
 
 .emotion-8 div {
@@ -190,13 +220,19 @@ exports[`UI-WORKBENCH Portfolio|Theme Palette 1`] = `
 .emotion-10 {
   font-family: Encode Sans;
   border-radius: 16px;
-  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
   margin: 16px;
   max-width: 250px;
   min-height: 250px;
   width: 100%;
   position: relative;
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
   background: linear-gradient(270deg,#000000 0%,rgba(0,0,0,0) 50%),#232729;
+}
+
+.emotion-10:hover {
+  box-shadow: 0 4px 4px -4px rgba(0,0,0,0.4);
 }
 
 .emotion-10 div {
@@ -224,13 +260,19 @@ exports[`UI-WORKBENCH Portfolio|Theme Palette 1`] = `
 .emotion-12 {
   font-family: Encode Sans;
   border-radius: 16px;
-  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
   margin: 16px;
   max-width: 250px;
   min-height: 250px;
   width: 100%;
   position: relative;
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
   background: linear-gradient(235.77deg,rgba(35,39,41,0) 12.8%,rgba(35,39,41,0.2) 46.35%,rgba(35,39,41,0) 88.7%),#FFFFFF;
+}
+
+.emotion-12:hover {
+  box-shadow: 0 4px 4px -4px rgba(0,0,0,0.4);
 }
 
 .emotion-12 div {
@@ -258,13 +300,19 @@ exports[`UI-WORKBENCH Portfolio|Theme Palette 1`] = `
 .emotion-14 {
   font-family: Encode Sans;
   border-radius: 16px;
-  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
   margin: 16px;
   max-width: 250px;
   min-height: 250px;
   width: 100%;
   position: relative;
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
   background: linear-gradient(235.77deg,rgba(255,255,255,0) 12.8%,rgba(255,255,255,0.2) 46.35%,rgba(255,255,255,0) 88.7%),#232729;
+}
+
+.emotion-14:hover {
+  box-shadow: 0 4px 4px -4px rgba(0,0,0,0.4);
 }
 
 .emotion-14 div {

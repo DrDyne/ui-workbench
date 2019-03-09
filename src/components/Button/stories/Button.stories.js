@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { text, number } from '@storybook/addon-knobs'
-import Button from '../'
+import Button from '..'
 
 import Kitty from './kitty.jpeg'
 

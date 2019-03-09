@@ -25,6 +25,8 @@ const ContentBox = styled.div`
 `
 
 const btnProps = {
+  href:
+    'https://github.com/DrDyne/ui-workbench/raw/master/src/pages/assets/resume%20anon.png',
   label: (
     <span>
       Download my

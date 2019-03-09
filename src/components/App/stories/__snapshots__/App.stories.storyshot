@@ -1825,7 +1825,7 @@ Array [
           </div>
           <a
             className="accent"
-            href="#"
+            href="https://github.com/DrDyne/ui-workbench/raw/master/src/pages/assets/resume%20anon.png"
             style={
               Object {
                 "transform": "",
@@ -1841,6 +1841,19 @@ Array [
     </div>
   </div>,
   .emotion-0 {
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 28px;
+  -webkit-letter-spacing: 0.15em;
+  -moz-letter-spacing: 0.15em;
+  -ms-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  color: #000;
+}
+
+.emotion-4 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1855,7 +1868,7 @@ Array [
   overflow: hidden;
 }
 
-.emotion-0 .ej86u3o1 {
+.emotion-4 .emotion-1 {
   color: #000;
   max-width: 290px;
   margin-top: 240px;
@@ -1863,34 +1876,79 @@ Array [
   z-index: 1;
 }
 
-.emotion-0 .tooltip {
+.emotion-4 .tooltip-box {
   z-index: 1;
-  max-width: 750px;
-  max-height: 207px;
-  margin-left: 54px;
-  margin-top: -600px;
+  position: absolute;
+  width: 750px;
+  height: 207px;
+  bottom: 300px;
+  margin-left: 50px;
 }
 
-.emotion-0 .bg {
+.emotion-4 .bg {
   margin-bottom: -5px;
   display: block;
   height: 100%;
   width: 100%;
 }
 
-.emotion-0 .bg > img {
+.emotion-4 .bg > img {
   width: 100%;
   min-height: 900px;
 }
 
-.emotion-0 .bg .contact-line {
+.emotion-4 .bg .contact-line {
   position: absolute;
   right: 50px;
   bottom: 50px;
 }
 
+.emotion-2 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  min-height: 100px;
+}
+
+.emotion-2 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2 .tooltip-label {
+  position: absolute;
+  -webkit-transform: translate(0,150%);
+  -ms-transform: translate(0,150%);
+  transform: translate(0,150%);
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  margin-left: -18px;
+}
+
+.emotion-2 .tooltip-label h3 {
+  display: inline;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.emotion-2 img {
+  z-index: 1;
+  position: absolute;
+}
+
+.emotion-2 .tooltip-accent {
+  margin-top: -3px;
+  margin-left: -16px;
+}
+
 <div
-    className="emotion-0 emotion-1"
+    className="emotion-4 emotion-5"
   >
     <div
       className="bg"
@@ -1907,11 +1965,50 @@ Array [
       </div>
     </div>
     <div
-      className="tooltip"
+      className="tooltip-box"
     >
-      <img
-        src={Object {}}
-      />
+      <div
+        className="emotion-2 emotion-3"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onMouseMove={[Function]}
+        origin={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+      >
+        <a
+          className="tooltip-label"
+          href="mailto:r.chaumard@gmail.com?subject=UX Engineer&body=Hi remy,"
+          target="_blank"
+        >
+          <h3
+            className="emotion-0 emotion-1"
+          >
+            Sounds interesting? Drop me a line.
+          </h3>
+        </a>
+        <img
+          className="tooltip-accent"
+          src={Object {}}
+          style={
+            Object {
+              "transform": "translate(0px, 0px)",
+            }
+          }
+        />
+        <img
+          className="tooltip-bg"
+          src={Object {}}
+          style={
+            Object {
+              "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
+            }
+          }
+        />
+      </div>
     </div>
   </div>,
 ]

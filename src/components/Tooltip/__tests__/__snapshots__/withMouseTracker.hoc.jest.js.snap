@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withMouseTracker should listen to mouse events [onMouseEnter, onMouseLeave, onMouseMove] 1`] = `
+<button
+  height={0}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseMove={[Function]}
+  origin={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  pos={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  width={0}
+/>
+`;
