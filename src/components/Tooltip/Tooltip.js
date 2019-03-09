@@ -9,6 +9,8 @@ const tr = {
   rotate: ({ x, y }, width, height) =>
     `rotateX(${30 * (x / width / 2).toFixed(2)}deg) rotateY(${30 *
       (y / height / 2).toFixed(2)}deg)`
+  // fade: ({x}, width) =>
+  //  0 === x ? .6 : (Math.max(0.4, (Math.abs(x) /width /2))).toFixed(2)
 }
 
 const Tooltip = ({ children, href, pos, width, height, ...props }) => (
@@ -24,7 +26,10 @@ const Tooltip = ({ children, href, pos, width, height, ...props }) => (
     <img
       className='tooltip-bg'
       src={TooltipBgImg}
-      style={{ transform: tr.rotate(pos, width, height) }}
+      style={{
+        transform: tr.rotate(pos, width, height)
+        // opacity: tr.fade(pos, width)
+      }}
     />
   </div>
 )
