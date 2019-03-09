@@ -13,7 +13,6 @@ const tr = {
 
 const Tooltip = ({ children, href, pos, width, height, ...props }) => (
   <div {...props}>
-    {console.log(pos, width, height)}
     <a href={href} target='_blank' className='tooltip-label'>
       {children}
     </a>
