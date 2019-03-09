@@ -1615,11 +1615,25 @@ exports[`UI-WORKBENCH Portfolio|Pages page 6 1`] = `
 .emotion-2 img {
   z-index: 1;
   position: absolute;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .emotion-2 .tooltip-accent {
   margin-top: -3px;
   margin-left: -16px;
+}
+
+.emotion-2:hover .tooltip-bg {
+  -webkit-filter: drop-shadow(8px 8px 10px black);
+  -webkit-filter: drop-shadow(8px 8px 10px black);
+  filter: drop-shadow(8px 8px 10px black);
+}
+
+.emotion-2:hover .tooltip-accent {
+  -webkit-filter: drop-shadow(8px 8px 10px white);
+  -webkit-filter: drop-shadow(8px 8px 10px white);
+  filter: drop-shadow(8px 8px 10px white);
 }
 
 .emotion-6 {
