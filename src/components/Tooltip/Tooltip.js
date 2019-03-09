@@ -70,10 +70,16 @@ export default styled(Tooltip)`
   img {
     z-index: 1;
     position: absolute;
+    transition: all 0.2s ease-out;
   }
 
   .tooltip-accent {
     margin-top: -3px;
     margin-left: -16px;
+  }
+
+  :hover .tooltip-accent {
+    -webkit-filter: drop-shadow(8px 8px 10px white);
+    filter: drop-shadow(8px 8px 10px white);
   }
 `
