@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI-WORKBENCH Portfolio|Tooltip . default 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  min-height: 100px;
+}
+
+.emotion-0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0 .tooltip-label {
+  position: absolute;
+  -webkit-transform: translate(0,150%);
+  -ms-transform: translate(0,150%);
+  transform: translate(0,150%);
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  margin-left: -18px;
+}
+
+.emotion-0 .tooltip-label h3 {
+  display: inline;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.emotion-0 img {
+  z-index: 1;
+  position: absolute;
+}
+
+.emotion-0 .tooltip-accent {
+  margin-top: -3px;
+  margin-left: -16px;
+}
+
+.emotion-2 {
+  background: #232729;
+  min-height: 900px;
+  padding: 200px;
+}
+
+.emotion-2 > div {
+  min-height: 100px;
+}
+
+<div
+  className="emotion-2 emotion-3"
+>
+  <div
+    className="emotion-0 emotion-1"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onMouseMove={[Function]}
+    origin={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+  >
+    <a
+      className="tooltip-label"
+      href="#"
+      target="_blank"
+    />
+    <img
+      className="tooltip-accent"
+      src={Object {}}
+      style={
+        Object {
+          "transform": "translate(0px, 0px)",
+        }
+      }
+    />
+    <img
+      className="tooltip-bg"
+      src={Object {}}
+      style={
+        Object {
+          "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`UI-WORKBENCH Portfolio|Tooltip event logger 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  min-height: 100px;
+}
+
+.emotion-0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0 .tooltip-label {
+  position: absolute;
+  -webkit-transform: translate(0,150%);
+  -ms-transform: translate(0,150%);
+  transform: translate(0,150%);
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  margin-left: -18px;
+}
+
+.emotion-0 .tooltip-label h3 {
+  display: inline;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.emotion-0 img {
+  z-index: 1;
+  position: absolute;
+}
+
+.emotion-0 .tooltip-accent {
+  margin-top: -3px;
+  margin-left: -16px;
+}
+
+.emotion-2 {
+  background: #232729;
+  min-height: 900px;
+  padding: 200px;
+}
+
+.emotion-2 > div {
+  min-height: 100px;
+}
+
+<div
+  className="emotion-2 emotion-3"
+>
+  <div
+    className="emotion-0 emotion-1"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onMouseMove={[Function]}
+    origin={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+  >
+    <a
+      className="tooltip-label"
+      href="#"
+      target="_blank"
+    />
+    <img
+      className="tooltip-accent"
+      src={Object {}}
+      style={
+        Object {
+          "transform": "translate(0px, 0px)",
+        }
+      }
+    />
+    <img
+      className="tooltip-bg"
+      src={Object {}}
+      style={
+        Object {
+          "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`UI-WORKBENCH Portfolio|Tooltip with text 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  min-height: 100px;
+}
+
+.emotion-0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0 .tooltip-label {
+  position: absolute;
+  -webkit-transform: translate(0,150%);
+  -ms-transform: translate(0,150%);
+  transform: translate(0,150%);
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  margin-left: -18px;
+}
+
+.emotion-0 .tooltip-label h3 {
+  display: inline;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.emotion-0 img {
+  z-index: 1;
+  position: absolute;
+}
+
+.emotion-0 .tooltip-accent {
+  margin-top: -3px;
+  margin-left: -16px;
+}
+
+.emotion-2 {
+  background: #232729;
+  min-height: 900px;
+  padding: 200px;
+}
+
+.emotion-2 > div {
+  min-height: 100px;
+}
+
+<div
+  className="emotion-2 emotion-3"
+>
+  <div
+    className="emotion-0 emotion-1"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onMouseMove={[Function]}
+    origin={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+  >
+    <a
+      className="tooltip-label"
+      href="#"
+      target="_blank"
+    >
+      Here is some text.
+    </a>
+    <img
+      className="tooltip-accent"
+      src={Object {}}
+      style={
+        Object {
+          "transform": "translate(0px, 0px)",
+        }
+      }
+    />
+    <img
+      className="tooltip-bg"
+      src={Object {}}
+      style={
+        Object {
+          "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
+        }
+      }
+    />
+  </div>
+</div>
+`;

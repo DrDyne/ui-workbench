@@ -16,7 +16,7 @@ const defaultState = {
 
 const getBoundingClientRect = event =>
   event.currentTarget.getBoundingClientRect()
-const { requestAnimationFrame } = window
+const requestAnimationFrame = fn => window.requestAnimationFrame(fn)
 
 export default (
   Component,
@@ -69,18 +69,34 @@ export default (
 
     render () {
       const { width, height, pos, origin } = this.state
+      const { onMouseEnter, onMouseLeave, onMouseMove, ...other } = this.props
       const trackerProps = {
-        onMouseEnter: event => this.startTracking(event),
-        onMouseLeave: () => this.stopTracking(),
-        onMouseMove: event => this.track(event),
+        onMouseEnter: event => {
+          onMouseEnter(event)
+          this.startTracking(event)
+        },
+        onMouseLeave: event => {
+          onMouseLeave(event)
+          this.stopTracking()
+        },
+        onMouseMove: event => {
+          onMouseMove(event)
+          this.track(event)
+        },
         width,
         height,
         pos,
         origin
       }
 
-      return <Component {...trackerProps} {...this.props} />
+      return <Component {...trackerProps} {...other} />
     }
+  }
+
+  MouseTracker.defaultProps = {
+    onMouseEnter: f => f,
+    onMouseLeave: f => f,
+    onMouseMove: f => f
   }
 
   return MouseTracker

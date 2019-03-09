@@ -1587,6 +1587,7 @@ exports[`UI-WORKBENCH Portfolio|Pages page 6 1`] = `
   margin: 0 auto;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  min-height: 100px;
 }
 
 .emotion-2 a {
@@ -1650,10 +1651,20 @@ exports[`UI-WORKBENCH Portfolio|Pages page 6 1`] = `
     >
       <div
         className="emotion-2 emotion-3"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onMouseMove={[Function]}
+        origin={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
       >
         <a
           className="tooltip-label"
           href="mailto:r.chaumard@gmail.com?subject=UX Engineer&body=Hi remy,"
+          target="_blank"
         >
           <h3
             className="emotion-0 emotion-1"
@@ -1664,10 +1675,20 @@ exports[`UI-WORKBENCH Portfolio|Pages page 6 1`] = `
         <img
           className="tooltip-accent"
           src={Object {}}
+          style={
+            Object {
+              "transform": "translate(0px, 0px)",
+            }
+          }
         />
         <img
           className="tooltip-bg"
           src={Object {}}
+          style={
+            Object {
+              "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
+            }
+          }
         />
       </div>
     </div>
