@@ -28,9 +28,9 @@ const transform = ({
   transformLabel,
   transformAccent
 }) => {
-  const rotate = rx && ry ? `rotateX(${rx}deg) rotateY(${ry}deg)` : ''
-  const rotateAnti =
-    rx && ry ? `rotateX(${-0.5 * rx}deg) rotateY(${-0.5 * ry}deg)` : ''
+  const rotate = `rotateX(${rx || 0}deg) rotateY(${ry || 0}deg)`
+  const rotateAnti = `rotateX(${-0.5 * rx || 0}deg) rotateY(${-0.5 * ry ||
+    0}deg)`
 
   return {
     box: transformBox(rotate, pos),

@@ -119,7 +119,7 @@ exports[`UI-WORKBENCH Portfolio|Button . default 1`] = `
       className="label"
       style={
         Object {
-          "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
+          "transform": "rotateX(0deg) rotateY(0deg)",
         }
       }
     />
@@ -257,7 +257,7 @@ exports[`UI-WORKBENCH Portfolio|Button image 1`] = `
       className="label"
       style={
         Object {
-          "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
+          "transform": "rotateX(0deg) rotateY(0deg)",
         }
       }
     />
@@ -415,7 +415,7 @@ exports[`UI-WORKBENCH Portfolio|Button styled 1`] = `
       className="label"
       style={
         Object {
-          "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
+          "transform": "rotateX(0deg) rotateY(0deg)",
         }
       }
     >
