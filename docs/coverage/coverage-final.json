@@ -596,11 +596,11 @@
       },
       "8": {
         "start": { "line": 31, "column": 17 },
-        "end": { "line": 31, "column": 70 }
+        "end": { "line": 31, "column": 64 }
       },
       "9": {
-        "start": { "line": 33, "column": 4 },
-        "end": { "line": 33, "column": 71 }
+        "start": { "line": 32, "column": 21 },
+        "end": { "line": 33, "column": 11 }
       },
       "10": {
         "start": { "line": 35, "column": 2 },
@@ -884,75 +884,75 @@
       },
       "4": {
         "loc": {
-          "start": { "line": 31, "column": 17 },
-          "end": { "line": 31, "column": 70 }
+          "start": { "line": 31, "column": 28 },
+          "end": { "line": 31, "column": 35 }
         },
-        "type": "cond-expr",
+        "type": "binary-expr",
         "locations": [
           {
             "start": { "line": 31, "column": 28 },
-            "end": { "line": 31, "column": 65 }
+            "end": { "line": 31, "column": 30 }
           },
           {
-            "start": { "line": 31, "column": 68 },
-            "end": { "line": 31, "column": 70 }
+            "start": { "line": 31, "column": 34 },
+            "end": { "line": 31, "column": 35 }
           }
         ],
         "line": 31
       },
       "5": {
         "loc": {
-          "start": { "line": 31, "column": 17 },
-          "end": { "line": 31, "column": 25 }
+          "start": { "line": 31, "column": 51 },
+          "end": { "line": 31, "column": 58 }
         },
         "type": "binary-expr",
         "locations": [
           {
-            "start": { "line": 31, "column": 17 },
-            "end": { "line": 31, "column": 19 }
+            "start": { "line": 31, "column": 51 },
+            "end": { "line": 31, "column": 53 }
           },
           {
-            "start": { "line": 31, "column": 23 },
-            "end": { "line": 31, "column": 25 }
+            "start": { "line": 31, "column": 57 },
+            "end": { "line": 31, "column": 58 }
           }
         ],
         "line": 31
       },
       "6": {
         "loc": {
-          "start": { "line": 33, "column": 4 },
-          "end": { "line": 33, "column": 71 }
-        },
-        "type": "cond-expr",
-        "locations": [
-          {
-            "start": { "line": 33, "column": 15 },
-            "end": { "line": 33, "column": 66 }
-          },
-          {
-            "start": { "line": 33, "column": 69 },
-            "end": { "line": 33, "column": 71 }
-          }
-        ],
-        "line": 33
-      },
-      "7": {
-        "loc": {
-          "start": { "line": 33, "column": 4 },
-          "end": { "line": 33, "column": 12 }
+          "start": { "line": 32, "column": 32 },
+          "end": { "line": 32, "column": 46 }
         },
         "type": "binary-expr",
         "locations": [
           {
-            "start": { "line": 33, "column": 4 },
-            "end": { "line": 33, "column": 6 }
+            "start": { "line": 32, "column": 32 },
+            "end": { "line": 32, "column": 41 }
           },
           {
-            "start": { "line": 33, "column": 10 },
-            "end": { "line": 33, "column": 12 }
+            "start": { "line": 32, "column": 45 },
+            "end": { "line": 32, "column": 46 }
           }
         ],
-        "line": 33
+        "line": 32
+      },
+      "7": {
+        "loc": {
+          "start": { "line": 32, "column": 62 },
+          "end": { "line": 33, "column": 5 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 32, "column": 62 },
+            "end": { "line": 32, "column": 71 }
+          },
+          {
+            "start": { "line": 33, "column": 4 },
+            "end": { "line": 33, "column": 5 }
+          }
+        ],
+        "line": 32
       }
     },
     "s": {
@@ -1002,12 +1002,12 @@
       "2": [0, 11],
       "3": [11, 11],
       "4": [11, 0],
-      "5": [11, 11],
-      "6": [11, 0],
+      "5": [11, 0],
+      "6": [11, 11],
       "7": [11, 11]
     },
     "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-    "hash": "42314659c9f503e609731da65995323d6d1ac7f9"
+    "hash": "d007df957ffd29aff79270828d4e01da64fba017"
   },
   "/home/ry/Documents/01 git/ui-workbench/src/components/Button/index.js": {
     "path": "/home/ry/Documents/01 git/ui-workbench/src/components/Button/index.js",
