@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { text, number } from '@storybook/addon-knobs'
-import Button from '..'
+import Button from '../'
 
 import Kitty from './kitty.jpeg'
 
@@ -15,7 +15,7 @@ const DemoBox = styled.div`
   padding: 100px;
   background: #ccc;
 
-  ${Button} {
+  > div {
     ${btnSize}
   }
 `
@@ -37,11 +37,7 @@ storiesOf('Portfolio|Button', module)
 
   .add('styled', () => {
     const props = {
-      label: text('label', 'Nya! nya! nya!'),
-      offset: {
-        x: number('offset.x', 40),
-        y: number('offset.y', 40)
-      }
+      label: text('label', 'Nya! nya! nya!')
     }
 
     const DemoButton = styled(Button)`
@@ -49,13 +45,18 @@ storiesOf('Portfolio|Button', module)
 
       .label {
         width: ${number('label width', 40)}px;
-        margin-left: ${number('label origin x', 400)}px;
-        margin-top: ${number('label origin y', 20)}px;
+        margin-left: ${number('label x', 400)}px;
+        margin-top: ${number('label y', 20)}px;
       }
 
       :hover .label {
-        margin-left: ${number('label offset x', 400)}px;
-        margin-top: ${number('label offset y', 40)}px;
+        margin-left: ${number('label hover x', 400)}px;
+        margin-top: ${number('label hover y', 40)}px;
+      }
+
+      :hover .accent {
+        margin-left: 40px;
+        margin-top: 40px;
       }
     `
 

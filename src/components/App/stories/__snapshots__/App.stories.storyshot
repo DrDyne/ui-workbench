@@ -776,7 +776,7 @@ Array [
   color: #000;
 }
 
-.emotion-16 {
+.emotion-17 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -789,7 +789,7 @@ Array [
   min-height: 900px;
 }
 
-.emotion-16 .emotion-1 {
+.emotion-17 .emotion-1 {
   color: #fff;
   max-width: 290px;
   margin-top: 240px;
@@ -805,7 +805,7 @@ Array [
   display: flex;
 }
 
-.emotion-12 {
+.emotion-13 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -818,7 +818,7 @@ Array [
   z-index: 1;
 }
 
-.emotion-10 {
+.emotion-11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -834,22 +834,22 @@ Array [
 }
 
 @media (min-width:740px) {
-  .emotion-10 {
+  .emotion-11 {
     padding-left: 200px;
   }
 
-  .emotion-10 > div:first-of-type {
+  .emotion-11 > div:first-of-type {
     margin-top: 240px;
     margin-bottom: -50px;
   }
 
-  .emotion-10 img.react-logo {
+  .emotion-11 img.react-logo {
     padding-left: 300px;
     margin-top: -240px;
   }
 }
 
-.emotion-4 {
+.emotion-5 {
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   position: relative;
@@ -870,13 +870,13 @@ Array [
   box-shadow: 0px 8px 16px rgba(0,0,0,0.25);
 }
 
-.emotion-4 img {
+.emotion-5 img {
   width: 100%;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
-.emotion-4 .label {
+.emotion-5 .label {
   font-family: Encode Sans;
   font-size: 28px;
   font-weight: bold;
@@ -892,7 +892,7 @@ Array [
   transition: opacity 0.2s ease-in,margin 0.2s ease-in 0s;
 }
 
-.emotion-4 .accent {
+.emotion-5 .accent {
   -webkit-perspective: 400px;
   -moz-perspective: 400px;
   -ms-perspective: 400px;
@@ -909,134 +909,132 @@ Array [
   transition: all 0.2s ease-out,margin 0.2s ease-out,opacity 0.4s ease-out,background 0.2s ease-out;
 }
 
-.emotion-4:hover {
+.emotion-5:hover {
   background: linear-gradient( 224.01deg,rgba(255,255,255,0) 12.8%,rgba(255,255,255,0.2) 46.35%,rgba(255,255,255,0) 88.7% ),#232729;
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
 }
 
-.emotion-4:hover img {
+.emotion-5:hover img {
   opacity: 0.6;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.emotion-4:hover .accent,
-.emotion-4:hover .label {
+.emotion-5:hover .accent,
+.emotion-5:hover .label {
   opacity: 1;
 }
 
-.emotion-4:hover .accent {
+.emotion-5:hover .accent {
   z-index: 3;
   background: rgba(255,255,255,0.4);
-  margin-top: 40px;
-  margin-left: 40px;
 }
 
-.emotion-4 img {
+.emotion-5 img {
   max-width: 686px;
   height: 363px;
 }
 
-.emotion-4 .label {
+.emotion-5 .label {
   position: absolute;
   left: 50%;
   top: 50%;
   text-align: center;
 }
 
-.emotion-6 {
+.emotion-7 {
   margin-left: -786px;
 }
 
-.emotion-6 img {
+.emotion-7 img {
   position: absolute;
   left: 0;
   top: 0;
 }
 
-.emotion-6 .figma-logo {
+.emotion-7 .figma-logo {
   left: -50px;
   top: 126px;
   margin-top: 400px;
 }
 
-.emotion-6 .storybook-logo {
+.emotion-7 .storybook-logo {
   left: 316px;
   top: 451px;
   z-index: 1;
 }
 
-.emotion-6 .react-logo {
+.emotion-7 .react-logo {
   padding-left: 695px;
   margin-top: -85px;
 }
 
-.emotion-8 {
+.emotion-9 {
   margin-left: -786px;
   position: absolute;
   margin-left: -120px;
 }
 
-.emotion-8 img {
+.emotion-9 img {
   position: absolute;
   left: 0;
   top: 0;
 }
 
-.emotion-8 .figma-logo {
+.emotion-9 .figma-logo {
   left: -50px;
   top: 126px;
   margin-top: 400px;
 }
 
-.emotion-8 .storybook-logo {
+.emotion-9 .storybook-logo {
   left: 316px;
   top: 451px;
   z-index: 1;
 }
 
-.emotion-8 .react-logo {
+.emotion-9 .react-logo {
   padding-left: 695px;
   margin-top: -85px;
 }
 
-.emotion-14 {
+.emotion-15 {
   margin-left: -786px;
 }
 
-.emotion-14 img {
+.emotion-15 img {
   position: absolute;
   left: 0;
   top: 0;
 }
 
-.emotion-14 .figma-logo {
+.emotion-15 .figma-logo {
   left: -50px;
   top: 126px;
   margin-top: 400px;
 }
 
-.emotion-14 .storybook-logo {
+.emotion-15 .storybook-logo {
   left: 316px;
   top: 451px;
   z-index: 1;
 }
 
-.emotion-14 .react-logo {
+.emotion-15 .react-logo {
   padding-left: 695px;
   margin-top: -85px;
 }
 
 @media (max-width:1200px) {
-  .emotion-14 {
+  .emotion-15 {
     opacity: 0;
   }
 }
 
 @media (min-width:1200px) {
-  .emotion-14 {
+  .emotion-15 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1045,13 +1043,13 @@ Array [
     z-index: 0;
   }
 
-  .emotion-14 img.white-wash {
+  .emotion-15 img.white-wash {
     width: 100%;
   }
 }
 
 <div
-    className="emotion-16 emotion-17"
+    className="emotion-17 emotion-18"
   >
     <section
       className="emotion-2 emotion-3"
@@ -1063,13 +1061,13 @@ Array [
       </h3>
     </section>
     <section
-      className="emotion-12 emotion-13"
+      className="emotion-13 emotion-14"
     >
       <div
-        className="emotion-10 emotion-11"
+        className="emotion-11 emotion-12"
       >
         <div
-          className="emotion-4 emotion-5"
+          className="emotion-4 emotion-5 emotion-6"
           label-width={300}
           offset={
             Object {
@@ -1080,9 +1078,15 @@ Array [
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           onMouseMove={[Function]}
+          origin={
+            Object {
+              "x": 0,
+              "y": 0,
+            }
+          }
           style={
             Object {
-              "transform": "",
+              "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
             }
           }
         >
@@ -1090,7 +1094,7 @@ Array [
             className="label"
             style={
               Object {
-                "transform": " translate(-50%, -50%)",
+                "transform": "rotateX(NaNdeg) rotateY(NaNdeg) translate(-50%, -50%)",
               }
             }
           >
@@ -1101,7 +1105,7 @@ Array [
             href="https://drdyne.github.io/ui-workbench/"
             style={
               Object {
-                "transform": "",
+                "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
               }
             }
             target="_blank"
@@ -1111,7 +1115,7 @@ Array [
           />
         </div>
         <div
-          className="emotion-6 emotion-7"
+          className="emotion-7 emotion-8"
         >
           <img
             className="storybook-logo"
@@ -1123,7 +1127,7 @@ Array [
           />
         </div>
         <div
-          className="emotion-8 emotion-7"
+          className="emotion-9 emotion-8"
           data-rellax-speed={4}
           figma="true"
         >
@@ -1135,7 +1139,7 @@ Array [
       </div>
     </section>
     <div
-      className="emotion-14 emotion-7"
+      className="emotion-15 emotion-8"
       data-rellax-speed={-5}
       wash="true"
     >
@@ -1166,7 +1170,7 @@ Array [
   display: flex;
 }
 
-.emotion-10 {
+.emotion-11 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1179,7 +1183,7 @@ Array [
   z-index: 1;
 }
 
-.emotion-12 {
+.emotion-13 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1192,7 +1196,7 @@ Array [
   min-height: 900px;
 }
 
-.emotion-12 .emotion-1 {
+.emotion-13 .emotion-1 {
   color: #fff;
   max-width: 290px;
   margin-top: 240px;
@@ -1200,7 +1204,7 @@ Array [
   z-index: 1;
 }
 
-.emotion-8 {
+.emotion-9 {
   width: 100%;
   margin-top: 240px;
   margin-left: auto;
@@ -1208,12 +1212,12 @@ Array [
 }
 
 @media (max-width:1200px) {
-  .emotion-8 {
+  .emotion-9 {
     padding-bottom: 200px;
   }
 }
 
-.emotion-4 {
+.emotion-5 {
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   position: relative;
@@ -1231,13 +1235,13 @@ Array [
   width: 900px;
 }
 
-.emotion-4 img {
+.emotion-5 img {
   width: 100%;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
-.emotion-4 .label {
+.emotion-5 .label {
   font-family: Encode Sans;
   font-size: 28px;
   font-weight: bold;
@@ -1253,7 +1257,7 @@ Array [
   transition: opacity 0.2s ease-in,margin 0.2s ease-in 0s;
 }
 
-.emotion-4 .accent {
+.emotion-5 .accent {
   -webkit-perspective: 400px;
   -moz-perspective: 400px;
   -ms-perspective: 400px;
@@ -1270,47 +1274,45 @@ Array [
   transition: all 0.2s ease-out,margin 0.2s ease-out,opacity 0.4s ease-out,background 0.2s ease-out;
 }
 
-.emotion-4:hover {
+.emotion-5:hover {
   background: linear-gradient( 224.01deg,rgba(255,255,255,0) 12.8%,rgba(255,255,255,0.2) 46.35%,rgba(255,255,255,0) 88.7% ),#232729;
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
 }
 
-.emotion-4:hover img {
+.emotion-5:hover img {
   opacity: 0.6;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.emotion-4:hover .accent,
-.emotion-4:hover .label {
+.emotion-5:hover .accent,
+.emotion-5:hover .label {
   opacity: 1;
 }
 
-.emotion-4:hover .accent {
+.emotion-5:hover .accent {
   z-index: 3;
   background: rgba(255,255,255,0.4);
-  margin-top: 0px;
-  margin-left: 0px;
 }
 
-.emotion-4 .label {
+.emotion-5 .label {
   margin-right: 50px;
   right: 0;
   text-align: right;
 }
 
-.emotion-4:hover .label {
+.emotion-5:hover .label {
   margin-right: 20px;
 }
 
-.emotion-4:hover .accent {
+.emotion-5:hover .accent {
   margin-top: 35px;
   margin-left: -35px;
 }
 
-.emotion-6 {
+.emotion-7 {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1320,18 +1322,18 @@ Array [
   margin-left: -384px;
 }
 
-.emotion-6 img {
+.emotion-7 img {
   width: 100%;
 }
 
 @media (max-width:1200px) {
-  .emotion-6 {
+  .emotion-7 {
     opacity: 0;
   }
 }
 
 <div
-    className="emotion-12 emotion-13"
+    className="emotion-13 emotion-14"
   >
     <section
       className="emotion-2 emotion-3"
@@ -1343,25 +1345,25 @@ Array [
       </h3>
     </section>
     <section
-      className="emotion-10 emotion-11"
+      className="emotion-11 emotion-12"
     >
       <div
-        className="emotion-8 emotion-9"
+        className="emotion-9 emotion-10"
       >
         <div
-          className="emotion-4 emotion-5"
-          offset={
+          className="emotion-4 emotion-5 emotion-6"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          origin={
             Object {
               "x": 0,
               "y": 0,
             }
           }
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          onMouseMove={[Function]}
           style={
             Object {
-              "transform": "",
+              "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
             }
           }
         >
@@ -1369,7 +1371,7 @@ Array [
             className="label"
             style={
               Object {
-                "transform": "",
+                "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
               }
             }
           >
@@ -1384,7 +1386,7 @@ Array [
             href="https://www.behance.net/rchaumard25b7"
             style={
               Object {
-                "transform": "",
+                "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
               }
             }
             target="_blank"
@@ -1394,7 +1396,7 @@ Array [
           />
         </div>
         <div
-          className="emotion-6 emotion-7"
+          className="emotion-7 emotion-8"
           data-rellax-speed={-2}
         >
           <img
@@ -1417,7 +1419,7 @@ Array [
   color: #000;
 }
 
-.emotion-6 {
+.emotion-7 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1431,7 +1433,7 @@ Array [
   z-index: 3;
 }
 
-.emotion-6 .emotion-1 {
+.emotion-7 .emotion-1 {
   color: #fff;
   max-width: 290px;
   margin-top: 240px;
@@ -1439,7 +1441,7 @@ Array [
   z-index: 1;
 }
 
-.emotion-6 .bg {
+.emotion-7 .bg {
   display: block;
   width: 100%;
   height: auto;
@@ -1447,16 +1449,16 @@ Array [
   margin-bottom: -5px;
 }
 
-.emotion-6 [data-rellax-speed] {
+.emotion-7 [data-rellax-speed] {
   width: 100%;
 }
 
-.emotion-6 div img {
+.emotion-7 div img {
   margin-top: 150px;
   width: 100%;
 }
 
-.emotion-6 .emotion-1 {
+.emotion-7 .emotion-1 {
   width: 100%;
   max-width: 800px;
   text-align: center;
@@ -1478,7 +1480,7 @@ Array [
   width: 100%;
 }
 
-.emotion-4 {
+.emotion-5 {
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   position: relative;
@@ -1496,13 +1498,13 @@ Array [
   padding: 2em;
 }
 
-.emotion-4 img {
+.emotion-5 img {
   width: 100%;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
-.emotion-4 .label {
+.emotion-5 .label {
   font-family: Encode Sans;
   font-size: 28px;
   font-weight: bold;
@@ -1518,7 +1520,7 @@ Array [
   transition: opacity 0.2s ease-in,margin 0.2s ease-in 0s;
 }
 
-.emotion-4 .accent {
+.emotion-5 .accent {
   -webkit-perspective: 400px;
   -moz-perspective: 400px;
   -ms-perspective: 400px;
@@ -1535,51 +1537,49 @@ Array [
   transition: all 0.2s ease-out,margin 0.2s ease-out,opacity 0.4s ease-out,background 0.2s ease-out;
 }
 
-.emotion-4:hover {
+.emotion-5:hover {
   background: linear-gradient( 224.01deg,rgba(255,255,255,0) 12.8%,rgba(255,255,255,0.2) 46.35%,rgba(255,255,255,0) 88.7% ),#232729;
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
 }
 
-.emotion-4:hover img {
+.emotion-5:hover img {
   opacity: 0.6;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.emotion-4:hover .accent,
-.emotion-4:hover .label {
+.emotion-5:hover .accent,
+.emotion-5:hover .label {
   opacity: 1;
 }
 
-.emotion-4:hover .accent {
+.emotion-5:hover .accent {
   z-index: 3;
   background: rgba(255,255,255,0.4);
-  margin-top: 0px;
-  margin-left: 0px;
 }
 
-.emotion-4 .label {
+.emotion-5 .label {
   margin-top: 20px;
   margin-left: 75px;
   opacity: 1;
   color: #232729;
 }
 
-.emotion-4:hover .label {
+.emotion-5:hover .label {
   margin-top: 50px;
   margin-left: 75px;
   color: white;
 }
 
-.emotion-4:hover .accent {
+.emotion-5:hover .accent {
   margin-top: -75px;
   margin-left: 25px;
 }
 
 <div
-    className="emotion-6 emotion-7"
+    className="emotion-7 emotion-8"
   >
     <h3
       className="emotion-0 emotion-1"
@@ -1597,19 +1597,19 @@ Array [
         />
       </div>
       <div
-        className="emotion-4 emotion-5"
-        offset={
+        className="emotion-4 emotion-5 emotion-6"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onMouseMove={[Function]}
+        origin={
           Object {
             "x": 0,
             "y": 0,
           }
         }
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
-        onMouseMove={[Function]}
         style={
           Object {
-            "transform": " translate(0, -25px)",
+            "transform": "rotateX(NaNdeg) rotateY(NaNdeg) translate(0, -25px)",
           }
         }
       >
@@ -1617,7 +1617,7 @@ Array [
           className="label"
           style={
             Object {
-              "transform": "",
+              "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
             }
           }
         >
@@ -1634,7 +1634,7 @@ Array [
           href="https://dr-dyne.tumblr.com/tagged/sketch"
           style={
             Object {
-              "transform": "",
+              "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
             }
           }
           target="_blank"
@@ -1655,7 +1655,7 @@ Array [
   color: #000;
 }
 
-.emotion-8 {
+.emotion-9 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1668,7 +1668,7 @@ Array [
   min-height: 900px;
 }
 
-.emotion-8 .emotion-1 {
+.emotion-9 .emotion-1 {
   color: #000;
   max-width: 290px;
   margin-top: 240px;
@@ -1676,7 +1676,7 @@ Array [
   z-index: 1;
 }
 
-.emotion-8 .emotion-1 {
+.emotion-9 .emotion-1 {
   max-width: 1200px;
   color: #9EC4E7;
   margin: 0 auto;
@@ -1685,13 +1685,13 @@ Array [
   text-align: center;
 }
 
-.emotion-6 {
+.emotion-7 {
   width: 100%;
   background: #9EC4E7;
   background-opacity: 0.4;
 }
 
-.emotion-2 {
+.emotion-3 {
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   position: relative;
@@ -1708,13 +1708,13 @@ Array [
   margin: 100px auto;
 }
 
-.emotion-2 img {
+.emotion-3 img {
   width: 100%;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
-.emotion-2 .label {
+.emotion-3 .label {
   font-family: Encode Sans;
   font-size: 28px;
   font-weight: bold;
@@ -1730,7 +1730,7 @@ Array [
   transition: opacity 0.2s ease-in,margin 0.2s ease-in 0s;
 }
 
-.emotion-2 .accent {
+.emotion-3 .accent {
   -webkit-perspective: 400px;
   -moz-perspective: 400px;
   -ms-perspective: 400px;
@@ -1747,39 +1747,37 @@ Array [
   transition: all 0.2s ease-out,margin 0.2s ease-out,opacity 0.4s ease-out,background 0.2s ease-out;
 }
 
-.emotion-2:hover {
+.emotion-3:hover {
   background: linear-gradient( 224.01deg,rgba(255,255,255,0) 12.8%,rgba(255,255,255,0.2) 46.35%,rgba(255,255,255,0) 88.7% ),#232729;
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
 }
 
-.emotion-2:hover img {
+.emotion-3:hover img {
   opacity: 0.6;
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
-.emotion-2:hover .accent,
-.emotion-2:hover .label {
+.emotion-3:hover .accent,
+.emotion-3:hover .label {
   opacity: 1;
 }
 
-.emotion-2:hover .accent {
+.emotion-3:hover .accent {
   z-index: 3;
   background: rgba(255,255,255,0.4);
-  margin-top: 0px;
-  margin-left: 0px;
 }
 
-.emotion-2 .label {
+.emotion-3 .label {
   text-align: center;
   top: 50%;
   left: 50%;
 }
 
 <div
-    className="emotion-8 emotion-9"
+    className="emotion-9 emotion-10"
   >
     <h3
       className="emotion-0 emotion-1"
@@ -1787,25 +1785,25 @@ Array [
       Most of my experience is based on secure, enterprise-level, innovative web apps, with optimized bundling and offline support, developed and tested by small teams and released in fast iteration cycles through a solid CI pipeline to a wide array of devices.
     </h3>
     <div
-      className="emotion-6 emotion-7"
+      className="emotion-7 emotion-8"
     >
       <div
-        className="emotion-4 emotion-5"
+        className="emotion-5 emotion-6"
       >
         <div
-          className="emotion-2 emotion-3"
-          offset={
+          className="emotion-2 emotion-3 emotion-4"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          origin={
             Object {
               "x": 0,
               "y": 0,
             }
           }
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          onMouseMove={[Function]}
           style={
             Object {
-              "transform": "",
+              "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
             }
           }
         >
@@ -1828,7 +1826,7 @@ Array [
             href="https://github.com/DrDyne/ui-workbench/raw/master/src/pages/assets/resume%20anon.png"
             style={
               Object {
-                "transform": "",
+                "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
               }
             }
             target="_blank"
