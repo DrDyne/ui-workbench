@@ -732,7 +732,7 @@ exports[`UI-WORKBENCH Portfolio|Pages page 2 1`] = `
             className="label"
             style={
               Object {
-                "transform": "rotateX(NaNdeg) rotateY(NaNdeg) translate(-50%, -50%)",
+                "transform": "rotateX(0deg) rotateY(0deg) translate(-50%, -50%)",
               }
             }
           >
@@ -1020,7 +1020,7 @@ exports[`UI-WORKBENCH Portfolio|Pages page 3 1`] = `
             className="label"
             style={
               Object {
-                "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
+                "transform": "rotateX(0deg) rotateY(0deg)",
               }
             }
           >
@@ -1277,7 +1277,7 @@ exports[`UI-WORKBENCH Portfolio|Pages page 4 1`] = `
           className="label"
           style={
             Object {
-              "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
+              "transform": "rotateX(0deg) rotateY(0deg)",
             }
           }
         >

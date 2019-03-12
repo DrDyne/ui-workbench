@@ -1094,7 +1094,7 @@ Array [
             className="label"
             style={
               Object {
-                "transform": "rotateX(NaNdeg) rotateY(NaNdeg) translate(-50%, -50%)",
+                "transform": "rotateX(0deg) rotateY(0deg) translate(-50%, -50%)",
               }
             }
           >
@@ -1371,7 +1371,7 @@ Array [
             className="label"
             style={
               Object {
-                "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
+                "transform": "rotateX(0deg) rotateY(0deg)",
               }
             }
           >
@@ -1617,7 +1617,7 @@ Array [
           className="label"
           style={
             Object {
-              "transform": "rotateX(NaNdeg) rotateY(NaNdeg)",
+              "transform": "rotateX(0deg) rotateY(0deg)",
             }
           }
         >

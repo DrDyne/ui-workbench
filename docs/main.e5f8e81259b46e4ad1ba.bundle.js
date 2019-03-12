@@ -3075,16 +3075,12 @@
                 transformBox = _ref2.transformBox,
                 transformLabel = _ref2.transformLabel,
                 transformAccent = _ref2.transformAccent,
-                rotate =
-                  rx && ry
-                    ? 'rotateX('.concat(rx, 'deg) rotateY(').concat(ry, 'deg)')
-                    : '',
-                rotateAnti =
-                  rx && ry
-                    ? 'rotateX('
-                        .concat(-0.5 * rx, 'deg) rotateY(')
-                        .concat(-0.5 * ry, 'deg)')
-                    : ''
+                rotate = 'rotateX('
+                  .concat(rx || 0, 'deg) rotateY(')
+                  .concat(ry || 0, 'deg)'),
+                rotateAnti = 'rotateX('
+                  .concat(-0.5 * rx || 0, 'deg) rotateY(')
+                  .concat(-0.5 * ry || 0, 'deg)')
               return {
                 box: transformBox(rotate, pos),
                 label: transformLabel(rotateAnti, pos),
@@ -3168,4 +3164,4 @@
   },
   [[339, 1, 2]]
 ])
-//# sourceMappingURL=main.10601890ecea4cd6fc2d.bundle.js.map
+//# sourceMappingURL=main.e5f8e81259b46e4ad1ba.bundle.js.map
