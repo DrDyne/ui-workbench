@@ -1,4 +1,4 @@
 import React from 'react'
 import App from '../'
 
-storiesOf('Portfolio', module).add('App', () => <App />)
+storiesOf('Portfolio|📌 App', module).add('Desktop and tablet', () => <App />)

@@ -99,10 +99,10 @@
     (__webpack_require__.n = function (module) {
       var getter =
         module && module.__esModule
-          ? function () {
+          ? function getDefault () {
               return module.default
             }
-          : function () {
+          : function getModuleExports () {
               return module
             }
       return __webpack_require__.d(getter, 'a', getter), getter
@@ -119,4 +119,4 @@
   var parentJsonpFunction = oldJsonpFunction
   checkDeferredModules()
 })([])
-//# sourceMappingURL=runtime~main.e5f8e81259b46e4ad1ba.bundle.js.map
+//# sourceMappingURL=runtime~main.1fcb3f5c23c2d09df8bf.bundle.js.map
