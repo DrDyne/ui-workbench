@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from '@emotion/styled'
+
 import theme from '../theme'
+import readme from './readme'
 
 const ColorBox = styled.div`
   display: flex;
@@ -60,8 +62,24 @@ const ColorBlock = styled(({ name, hex, bg, ...other }) => (
     opacity: 1;
   }
 `
+const TldrBox = styled.div`
+  font-family: ${props => props.theme.font.family};
+  h1 {
+    text-transform: uppercase;
+  }
+  padding: 40px;
 
-storiesOf('📌 TLDR;', module).add('README', () => <div> hello </div>)
+  blockquote {
+    margin: 1em;
+  }
+  blockquote > p:before {
+    content: ' ';
+    border-left: 4px solid #ccc;
+    margin-right: 1em;
+  }
+`
+
+storiesOf('📌 TLDR;', module).add('README', () => <TldrBox> {readme} </TldrBox>)
 
 storiesOf('Portfolio|Theme', module).add('Palette', () => (
   <ColorBox>
