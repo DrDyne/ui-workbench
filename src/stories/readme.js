@@ -38,7 +38,14 @@ export default (
         <a href='https://preview.uxpin.com/2840e897e0acc0aad4cb45cddcae28d8306242c3#/pages/107312594/simulate/no-panels?mode=chdm'>
           UXpin - Mobile prototype
         </a>{' '}
-        for the Portfolio app.
+        for the Portfolio app (iPhone X).
+      </p>
+
+      <p>
+        <a href='https://preview.uxpin.com/2840e897e0acc0aad4cb45cddcae28d8306242c3#/pages/107312594/simulate/no-panels?mode=chdm'>
+          UXpin - Interaction design
+        </a>{' '}
+        for the Portfolio menu (Desktop and Tablets).
       </p>
 
       <p>
@@ -50,7 +57,7 @@ export default (
 
       <p>
         <a href='https://github.com/DrDyne/ui-workbench'>
-          Github - source code
+          Github - Source code
         </a>{' '}
         for everything you'll see here.
       </p>

@@ -16,4 +16,4 @@ live storybook available at [https://drdyne.github.io/ui-workbench](https://drdy
 
 > [Jest - Code coverage](https://drdyne.github.io/ui-workbench/coverage/lcov-report/index.html) for the entire ui-workbench.
 
-> [Github - source code](https://github.com/DrDyne/ui-workbench) for everything you'll see here.
+> [Github - Source code](https://github.com/DrDyne/ui-workbench) for everything you'll see here.
