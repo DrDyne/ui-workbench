@@ -42,7 +42,7 @@ export default (
       </p>
 
       <p>
-        <a href='https://preview.uxpin.com/2840e897e0acc0aad4cb45cddcae28d8306242c3#/pages/107312594/simulate/no-panels?mode=chdm'>
+        <a href='https://preview.uxpin.com/415e0bf603b7bc024b966305cd994265a1b41aa9#/pages/107317001'>
           UXpin - Interaction design
         </a>{' '}
         for the Portfolio menu (Desktop and Tablets).
