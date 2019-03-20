@@ -1371,7 +1371,21 @@
               'UXpin - Mobile prototype'
             ),
             ' ',
-            'for the Portfolio app.'
+            'for the Portfolio app (iPhone X).'
+          ),
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+            'p',
+            null,
+            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+              'a',
+              {
+                href:
+                  'https://preview.uxpin.com/415e0bf603b7bc024b966305cd994265a1b41aa9#/pages/107317001'
+              },
+              'UXpin - Interaction design'
+            ),
+            ' ',
+            'for the Portfolio menu (Desktop and Tablets).'
           ),
           react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
             'p',
@@ -1393,7 +1407,7 @@
             react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
               'a',
               { href: 'https://github.com/DrDyne/ui-workbench' },
-              'Github - source code'
+              'Github - Source code'
             ),
             ' ',
             "for everything you'll see here."
@@ -3210,4 +3224,4 @@
   },
   [[243, 1, 2]]
 ])
-//# sourceMappingURL=main.290ba4712339030475e8.bundle.js.map
+//# sourceMappingURL=main.29f6d02f63662b4a6849.bundle.js.map

@@ -10,8 +10,10 @@ live storybook available at [https://drdyne.github.io/ui-workbench](https://drdy
 
 > [Figma - Designs](https://www.figma.com/file/B5A4DV5M6miRnod9KsFovVnh/10-portfolio-website?node-id=0%3A1) for the Portfolio app.
 
-> [UXpin - Mobile prototype](https://preview.uxpin.com/2840e897e0acc0aad4cb45cddcae28d8306242c3#/pages/107312594/simulate/no-panels?mode=chdm) for the Portfolio app.
+> [UXpin - Mobile prototype](https://preview.uxpin.com/2840e897e0acc0aad4cb45cddcae28d8306242c3#/pages/107312594/simulate/no-panels?mode=chdm) for the Portfolio app (iPhone X).
+
+> [UXpin - Interaction design](https://preview.uxpin.com/415e0bf603b7bc024b966305cd994265a1b41aa9#/pages/107317001) for the Portfolio menu (Desktop and Tablets).
 
 > [Jest - Code coverage](https://drdyne.github.io/ui-workbench/coverage/lcov-report/index.html) for the entire ui-workbench.
 
-> [Github - source code](https://github.com/DrDyne/ui-workbench) for everything you'll see here.
+> [Github - Source code](https://github.com/DrDyne/ui-workbench) for everything you'll see here.
