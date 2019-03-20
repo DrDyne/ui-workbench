@@ -1,7 +1,7 @@
 ;(window.webpackJsonp = window.webpackJsonp || []).push([
   [0],
   {
-    101: function (module, __webpack_exports__, __webpack_require__) {
+    103: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           1
@@ -10,46 +10,46 @@
         react__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
           react__WEBPACK_IMPORTED_MODULE_1__
         ),
-        react_waypoint__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(221),
-        _ctx_links__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(58),
+        react_waypoint__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(223),
+        _ctx_links__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(57),
         _components_Typography__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
           2
         ),
         _components_TopBar_logo_behance_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-          107
+          109
         ),
         _components_TopBar_logo_behance_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
           _components_TopBar_logo_behance_png__WEBPACK_IMPORTED_MODULE_5__
         ),
         _components_TopBar_logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-          108
+          110
         ),
         _components_TopBar_logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
           _components_TopBar_logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6__
         ),
         _components_TopBar_logo_linked_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-          109
+          111
         ),
         _components_TopBar_logo_linked_png__WEBPACK_IMPORTED_MODULE_7___default = __webpack_require__.n(
           _components_TopBar_logo_linked_png__WEBPACK_IMPORTED_MODULE_7__
         ),
         _components_TopBar_logo_github_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-          110
+          112
         ),
         _components_TopBar_logo_github_png__WEBPACK_IMPORTED_MODULE_8___default = __webpack_require__.n(
           _components_TopBar_logo_github_png__WEBPACK_IMPORTED_MODULE_8__
         ),
         _components_TopBar_Link__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
-          46
+          45
         ),
         _assets_arrow_down_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
-          222
+          224
         ),
         _assets_arrow_down_png__WEBPACK_IMPORTED_MODULE_10___default = __webpack_require__.n(
           _assets_arrow_down_png__WEBPACK_IMPORTED_MODULE_10__
         ),
         _assets_white_wash_p1_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
-          223
+          225
         ),
         _assets_white_wash_p1_png__WEBPACK_IMPORTED_MODULE_11___default = __webpack_require__.n(
           _assets_white_wash_p1_png__WEBPACK_IMPORTED_MODULE_11__
@@ -252,23 +252,23 @@
             path: 'src/pages/page-01-hi.js'
           })
     },
-    107: function (module, exports, __webpack_require__) {
+    109: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'b66756c49b5ca9a79130b13c86fa2556.png'
     },
-    108: function (module, exports, __webpack_require__) {
+    110: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '90ff6e21f548d1a59cd9435cdba990e3.png'
     },
-    109: function (module, exports, __webpack_require__) {
+    111: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '0b603076dfc832af9f9f357e2552dd5c.png'
     },
-    110: function (module, exports, __webpack_require__) {
+    112: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'f440148b22f2a412e69f2c32edde7302.png'
     },
-    111: function (module, __webpack_exports__, __webpack_require__) {
+    113: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           1
@@ -277,7 +277,7 @@
         react__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
           react__WEBPACK_IMPORTED_MODULE_1__
         ),
-        react_rellax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(60),
+        react_rellax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(59),
         react_rellax__WEBPACK_IMPORTED_MODULE_2___default = __webpack_require__.n(
           react_rellax__WEBPACK_IMPORTED_MODULE_2__
         ),
@@ -285,31 +285,31 @@
           2
         ),
         _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          224
+          226
         ),
         _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4__
         ),
         _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-          225
+          227
         ),
         _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
           _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5__
         ),
         _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-          226
+          228
         ),
         _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
           _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6__
         ),
         _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-          227
+          229
         ),
         _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7___default = __webpack_require__.n(
           _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7__
         ),
         _assets_workbench_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-          228
+          230
         ),
         _assets_workbench_png__WEBPACK_IMPORTED_MODULE_8___default = __webpack_require__.n(
           _assets_workbench_png__WEBPACK_IMPORTED_MODULE_8__
@@ -458,7 +458,7 @@
             path: 'src/pages/page-02-ui-workbench.js'
           })
     },
-    112: function (module, __webpack_exports__, __webpack_require__) {
+    114: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           25
@@ -473,25 +473,25 @@
           _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__
         ),
         _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-          102
+          104
         ),
         _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_2___default = __webpack_require__.n(
           _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_2__
         ),
         _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-          103
+          105
         ),
         _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
           _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_3__
         ),
         _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          104
+          106
         ),
         _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__
         ),
         _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-          105
+          107
         ),
         _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
           _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__
@@ -503,7 +503,7 @@
           _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__
         ),
         _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-          106
+          108
         ),
         _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_7___default = __webpack_require__.n(
           _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_7__
@@ -705,7 +705,7 @@
         )
       }
     },
-    113: function (module, __webpack_exports__, __webpack_require__) {
+    115: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           1
@@ -719,18 +719,18 @@
         ),
         _Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7),
         _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          229
+          231
         ),
         _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4__
         ),
         _assets_button_behance_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-          230
+          232
         ),
         _assets_button_behance_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
           _assets_button_behance_png__WEBPACK_IMPORTED_MODULE_5__
         ),
-        react_rellax__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(60),
+        react_rellax__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(59),
         react_rellax__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
           react_rellax__WEBPACK_IMPORTED_MODULE_6__
         ),
@@ -832,7 +832,7 @@
             path: 'src/pages/page-03-design.js'
           })
     },
-    114: function (module, __webpack_exports__, __webpack_require__) {
+    116: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           25
@@ -853,7 +853,7 @@
         react__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
           react__WEBPACK_IMPORTED_MODULE_3__
         ),
-        react_rellax__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(60),
+        react_rellax__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(59),
         react_rellax__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           react_rellax__WEBPACK_IMPORTED_MODULE_4__
         ),
@@ -862,7 +862,7 @@
         ),
         _Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7),
         _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-          231
+          233
         ),
         _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_7___default = __webpack_require__.n(
           _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_7__
@@ -947,7 +947,7 @@
         )
       }
     },
-    115: function (module, __webpack_exports__, __webpack_require__) {
+    117: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           1
@@ -961,7 +961,7 @@
         ),
         _Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7),
         _assets_button_vim_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          232
+          234
         ),
         _assets_button_vim_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _assets_button_vim_png__WEBPACK_IMPORTED_MODULE_4__
@@ -1034,7 +1034,7 @@
         )
       }
     },
-    116: function (module, __webpack_exports__, __webpack_require__) {
+    118: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0),
         react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
@@ -1044,16 +1044,16 @@
           2
         ),
         _components_Tooltip__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-          63
+          62
         ),
         _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-          235
+          237
         ),
         _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
           _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_3__
         ),
         _assets_contact_bg_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          236
+          238
         ),
         _assets_contact_bg_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _assets_contact_bg_png__WEBPACK_IMPORTED_MODULE_4__
@@ -1100,7 +1100,7 @@
         )
       }
     },
-    144: function (module, exports, __webpack_require__) {
+    146: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'ca3211105d00b409071de21d18e0e14c.jpeg'
     },
@@ -1118,7 +1118,7 @@
         __webpack_require__.d(__webpack_exports__, 'c', function () {
           return Link
         })
-      __webpack_require__(399)
+      __webpack_require__(402)
       var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
           6
         ),
@@ -1221,84 +1221,204 @@
           ';}'
         )
     },
-    222: function (module, exports, __webpack_require__) {
+    224: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'be7e58f2816f4ac7b1724e0ef97cab76.png'
     },
-    223: function (module, exports, __webpack_require__) {
+    225: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'e85b811087b5cc277431d08e3067b05b.png'
     },
-    224: function (module, exports, __webpack_require__) {
+    226: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '468fcabd781f738c798265f8c0ea74bf.png'
     },
-    225: function (module, exports, __webpack_require__) {
+    227: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '7de29fdc8f8e2eda4deb45d0c9183cbf.png'
     },
-    226: function (module, exports, __webpack_require__) {
+    228: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '8816ff05da90adccb506956d783e714e.png'
     },
-    227: function (module, exports, __webpack_require__) {
+    229: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '7be0947c8fe5546ea0c3230108a58235.png'
     },
-    228: function (module, exports, __webpack_require__) {
+    230: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'f77ed3cbca39a21c9feca15019b11bcc.png'
     },
-    229: function (module, exports, __webpack_require__) {
+    231: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '0a0f0ab71ac53ae2b254e80df8dd43ef.png'
     },
-    230: function (module, exports, __webpack_require__) {
+    232: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '16506319dbfb7bfb5cf6e056d4f25056.png'
     },
-    231: function (module, exports, __webpack_require__) {
+    233: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '82bc2804d31e833aa47371d997cf8156.png'
     },
-    232: function (module, exports, __webpack_require__) {
+    234: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '139c4c4807da03366f70dca731ae4fc4.png'
     },
-    233: function (module, exports, __webpack_require__) {
+    235: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '77fbc1420bac05b1e65551b56fa3fd6b.png'
     },
-    234: function (module, exports, __webpack_require__) {
+    236: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '91c6d698ec34e58517eb7504c1e5cb5a.png'
     },
-    235: function (module, exports, __webpack_require__) {
+    237: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'ae5770c5fc4008d1a2c5b4d8eebf3692.png'
     },
-    236: function (module, exports, __webpack_require__) {
+    238: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'afd4f28dd4335cfafa8f9505eb7410dc.png'
     },
-    238: function (module, __webpack_exports__, __webpack_require__) {
+    240: function (module, __webpack_exports__, __webpack_require__) {
+      'use strict'
+      var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0),
+        react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
+          react__WEBPACK_IMPORTED_MODULE_0__
+        )
+      __webpack_exports__.a = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+        'div',
+        null,
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+          'h1',
+          { id: 'uiworkbench' },
+          'ui-workbench'
+        ),
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+          'p',
+          null,
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+            'a',
+            {
+              href:
+                'https://drdyne.github.io/ui-workbench/?selectedKind=Portfolio&selectedStory=App&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Fstories%2Fstories-panel'
+            },
+            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('img', {
+              src:
+                'https://github.com/storybooks/brand/raw/master/badge/badge-storybook.svg?sanitize=true',
+              alt: 'Storybook'
+            })
+          ),
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+            'a',
+            {
+              href:
+                'https://drdyne.github.io/ui-workbench/coverage/lcov-report/index.html'
+            },
+            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement('img', {
+              src: 'https://jestjs.io/img/jest-badge.svg',
+              alt: 'Jest'
+            })
+          )
+        ),
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+          'p',
+          null,
+          'web-ui/x portfolio'
+        ),
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+          'p',
+          null,
+          'live storybook available at',
+          ' ',
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+            'a',
+            {
+              href:
+                'https://drdyne.github.io/ui-workbench/?selectedKind=Portfolio&selectedStory=App&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Fstories%2Fstories-panel'
+            },
+            'https://drdyne.github.io/ui-workbench'
+          ),
+          ', enjoy ;)'
+        ),
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+          'blockquote',
+          null,
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+            'p',
+            null,
+            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+              'a',
+              {
+                href:
+                  'https://www.figma.com/file/B5A4DV5M6miRnod9KsFovVnh/10-portfolio-website?node-id=0%3A1'
+              },
+              'Figma - Designs'
+            ),
+            ' ',
+            'for the Portfolio app.'
+          ),
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+            'p',
+            null,
+            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+              'a',
+              {
+                href:
+                  'https://preview.uxpin.com/2840e897e0acc0aad4cb45cddcae28d8306242c3#/pages/107312594/simulate/no-panels?mode=chdm'
+              },
+              'UXpin - Mobile prototype'
+            ),
+            ' ',
+            'for the Portfolio app.'
+          ),
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+            'p',
+            null,
+            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+              'a',
+              {
+                href:
+                  'https://drdyne.github.io/ui-workbench/coverage/lcov-report/index.html'
+              },
+              'Jest - Code coverage'
+            ),
+            ' ',
+            'for the entire ui-workbench.'
+          ),
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+            'p',
+            null,
+            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+              'a',
+              { href: 'https://github.com/DrDyne/ui-workbench' },
+              'Github - source code'
+            ),
+            ' ',
+            "for everything you'll see here."
+          )
+        )
+      )
+    },
+    241: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var Component,
         styled_base_browser_esm = __webpack_require__(1),
         react = __webpack_require__(0),
         react_default = __webpack_require__.n(react),
         emotion_theming_browser_esm = __webpack_require__(99),
-        page_01_hi = __webpack_require__(101),
-        page_02_ui_workbench = __webpack_require__(111),
-        page_03_design = __webpack_require__(113),
-        page_04_sketches = __webpack_require__(114),
-        page_05_resume = __webpack_require__(115),
-        page_06_contact = __webpack_require__(116),
+        page_01_hi = __webpack_require__(103),
+        page_02_ui_workbench = __webpack_require__(113),
+        page_03_design = __webpack_require__(115),
+        page_04_sketches = __webpack_require__(116),
+        page_05_resume = __webpack_require__(117),
+        page_06_contact = __webpack_require__(118),
         theme = __webpack_require__(4),
-        links = __webpack_require__(58),
+        links = __webpack_require__(57),
         helpers_extends = __webpack_require__(25),
         extends_default = __webpack_require__.n(helpers_extends),
-        TopBar = __webpack_require__(61),
+        TopBar = __webpack_require__(60),
         components_TopBar = ((Component = TopBar.a),
         function (props) {
           return react_default.a.createElement(
@@ -1357,12 +1477,12 @@
             path: 'src/components/App/index.js'
           })
     },
-    240: function (module, exports, __webpack_require__) {
-      __webpack_require__(241),
-        __webpack_require__(319),
-        (module.exports = __webpack_require__(320))
+    243: function (module, exports, __webpack_require__) {
+      __webpack_require__(244),
+        __webpack_require__(322),
+        (module.exports = __webpack_require__(323))
     },
-    320: function (module, __webpack_exports__, __webpack_require__) {
+    323: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (global, module) {
@@ -1374,9 +1494,9 @@
               react__WEBPACK_IMPORTED_MODULE_3__
             ),
             _storybook_react__WEBPACK_IMPORTED_MODULE_5__ = (__webpack_require__(
-              145
+              147
             ),
-            __webpack_require__(45)),
+            __webpack_require__(63)),
             _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
               21
             ),
@@ -1386,7 +1506,7 @@
             )
           global.storiesOf =
             _storybook_react__WEBPACK_IMPORTED_MODULE_5__.storiesOf
-          var req = __webpack_require__(392)
+          var req = __webpack_require__(395)
           Object(_storybook_react__WEBPACK_IMPORTED_MODULE_5__.addParameters)({
             options: {
               brandTitle: 'ui-workbench',
@@ -1417,15 +1537,15 @@
             )
         }.call(this, __webpack_require__(8), __webpack_require__(30)(module))
     },
-    392: function (module, exports, __webpack_require__) {
+    395: function (module, exports, __webpack_require__) {
       var map = {
-        './components/App/stories/App.stories.js': 393,
-        './components/Button/stories/Button.stories.js': 403,
-        './components/Tooltip/stories/Tooltip.stories.js': 404,
-        './components/TopBar/stories/TopBar.stories.js': 474,
-        './components/Typography/stories/Typography.stories.js': 475,
-        './pages/stories/pages.stories.js': 476,
-        './stories/index.stories.js': 477
+        './components/App/stories/App.stories.js': 396,
+        './components/Button/stories/Button.stories.js': 406,
+        './components/Tooltip/stories/Tooltip.stories.js': 407,
+        './components/TopBar/stories/TopBar.stories.js': 477,
+        './components/Typography/stories/Typography.stories.js': 478,
+        './pages/stories/pages.stories.js': 479,
+        './stories/index.stories.js': 480
       }
       function webpackContext (req) {
         var id = webpackContextResolve(req)
@@ -1443,9 +1563,9 @@
       }),
         (webpackContext.resolve = webpackContextResolve),
         (module.exports = webpackContext),
-        (webpackContext.id = 392)
+        (webpackContext.id = 395)
     },
-    393: function (module, __webpack_exports__, __webpack_require__) {
+    396: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -1474,7 +1594,7 @@
             react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
               react__WEBPACK_IMPORTED_MODULE_0__
             ),
-            ___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(238),
+            ___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(241),
             withStorySource = __webpack_require__(44).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport App from '../';\n\nstoriesOf('Portfolio|📌 App', module).add('Desktop and tablet', () => <App />);\n",
@@ -1546,7 +1666,7 @@
         breakpoint: 1200
       }
     },
-    403: function (module, __webpack_exports__, __webpack_require__) {
+    406: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -1581,8 +1701,8 @@
             _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
               21
             ),
-            ___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(62),
-            _kitty_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(144),
+            ___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(61),
+            _kitty_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(146),
             _kitty_jpeg__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
               _kitty_jpeg__WEBPACK_IMPORTED_MODULE_4__
             ),
@@ -1689,7 +1809,7 @@
             })
         }.call(this, __webpack_require__(30)(module))
     },
-    404: function (module, __webpack_exports__, __webpack_require__) {
+    407: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -1715,7 +1835,7 @@
               }
             )
           var _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-              59
+              58
             ),
             _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
               _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0__
@@ -1728,9 +1848,9 @@
               react__WEBPACK_IMPORTED_MODULE_2__
             ),
             _storybook_addon_actions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-              237
+              239
             ),
-            ___WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(63),
+            ___WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(62),
             withStorySource = __webpack_require__(44).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport { actions } from '@storybook/addon-actions';\nimport styled from '@emotion/styled';\nimport Tooltip from '../';\n\nconst DemoBox = styled.div`\n  background: ${props => props.theme.colors.black};\n  min-height: 900px;\n  padding: 200px;\n  > div {\n    min-height: 100px;\n  }\n`;\nconst eventProps = {\n  ...actions('onMouseEnter', 'onMouseLeave', 'onMouseMove'),\n};\n\nstoriesOf('Portfolio|Tooltip', module)\n  .addDecorator(story => <DemoBox>{story()}</DemoBox>)\n  .add('. default', () => <Tooltip />)\n  .add('with text', () => <Tooltip>Here is some text.</Tooltip>)\n  .add('event logger', () => <Tooltip {...eventProps} />);\n",
@@ -1798,9 +1918,9 @@
             })
         }.call(this, __webpack_require__(30)(module))
     },
-    46: function (module, __webpack_exports__, __webpack_require__) {
+    45: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
-      var emotion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(239),
+      var emotion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(242),
         _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
           25
         ),
@@ -1847,7 +1967,7 @@
         )
       }
     },
-    474: function (module, __webpack_exports__, __webpack_require__) {
+    477: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -1882,7 +2002,7 @@
             _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
               21
             ),
-            _TopBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(61),
+            _TopBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(60),
             withStorySource = __webpack_require__(44).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport { boolean } from '@storybook/addon-knobs';\nimport styled from '@emotion/styled';\nimport TopBar from '../TopBar';\n\nconst DemoBox = styled.div`\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n`;\n\nstoriesOf('Portfolio|TopBar', module)\n  .add('. default', () => <TopBar />)\n  .add('with links', () => <TopBar showLinks />)\n  .add('fixed top', () => {\n    const props = { showLinks: boolean('showLinks?', true) };\n\n    return (\n      <DemoBox>\n        <TopBar {...props} />\n      </DemoBox>\n    );\n  });\n",
@@ -1942,7 +2062,7 @@
             })
         }.call(this, __webpack_require__(30)(module))
     },
-    475: function (module, __webpack_exports__, __webpack_require__) {
+    478: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -2081,7 +2201,7 @@
             })
         }.call(this, __webpack_require__(30)(module))
     },
-    476: function (module, __webpack_exports__, __webpack_require__) {
+    479: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -2113,21 +2233,21 @@
             react__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
               react__WEBPACK_IMPORTED_MODULE_1__
             ),
-            _page_01_hi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(101),
+            _page_01_hi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(103),
             _page_02_ui_workbench__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-              111
-            ),
-            _page_03_design__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
               113
             ),
-            _page_04_sketches__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-              114
-            ),
-            _page_05_resume__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+            _page_03_design__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
               115
             ),
-            _page_06_contact__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+            _page_04_sketches__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
               116
+            ),
+            _page_05_resume__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+              117
+            ),
+            _page_06_contact__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+              118
             ),
             withStorySource = __webpack_require__(44).withStorySource,
             __STORY__ =
@@ -2216,7 +2336,7 @@
             })
         }.call(this, __webpack_require__(30)(module))
     },
-    477: function (module, __webpack_exports__, __webpack_require__) {
+    480: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -2256,17 +2376,18 @@
               react__WEBPACK_IMPORTED_MODULE_3__
             ),
             _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4),
+            _readme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(240),
             withStorySource = __webpack_require__(44).withStorySource,
             __STORY__ =
-              'import React from \'react\';\nimport styled from \'@emotion/styled\';\nimport theme from \'../theme\';\n\nconst ColorBox = styled.div`\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  max-width: 1250px;\n  margin: 0 auto;\n`;\n\nconst ColorBlock = styled(({ name, hex, bg, ...other }) => (\n  <div {...other}>\n    <div />\n    <div>\n      <p>{name}</p>\n      <p>{hex || \'gradient\'}</p>\n    </div>\n  </div>\n))`\n  font-family: ${props => props.theme.font.family};\n  background-color: ${props => props.hex};\n  border-radius: 16px;\n  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);\n  margin: 16px;\n  max-width: 250px;\n  min-height: 250px;\n  width: 100%;\n  position: relative;\n\n  :hover {\n    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.4);\n  }\n  transition: box-shadow 0.3s ease-out;\n\n  ${props =>\n    props.bg &&\n    `\n    background: ${props.bg};\n  `}\n\n  div {\n    min-height: 130px;\n    width: 100%;\n    border-radius: 0 0 16px 16px;\n  }\n  div + div {\n    min-height: 0;\n    background: white;\n    position: absolute;\n    bottom: 0;\n  }\n  div + div > p {\n    padding: 0 1em;\n    opacity: 0.4;\n  }\n\n  div + div > p + p {\n    opacity: 1;\n  }\n`;\n\nstoriesOf(\'📌 TLDR;\', module).add(\'README\', () => <div> hello </div>);\n\nstoriesOf(\'Portfolio|Theme\', module).add(\'Palette\', () => (\n  <ColorBox>\n    <ColorBlock name="Black Pearl" hex={theme.colors.black} />\n    <ColorBlock name="Brink Pink" hex={theme.colors.workbench} />\n    <ColorBlock name="Royal Blue" hex={theme.colors.design} />\n    <ColorBlock name="East Bay" hex={theme.colors.tumblr} />\n    <ColorBlock name="Sail" hex={theme.colors.resume} />\n    <ColorBlock name="Black Pearl to Pure Black" bg={theme.gradients.header} />\n    <ColorBlock name="Accent (light)" bg={theme.gradients.accentLight} />\n    <ColorBlock name="Accent (dark)" bg={theme.gradients.accentDark} />\n  </ColorBox>\n));\n',
+              "import React from 'react';\nimport styled from '@emotion/styled';\n\nimport theme from '../theme';\nimport readme from './readme';\n\nconst ColorBox = styled.div`\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  max-width: 1250px;\n  margin: 0 auto;\n`;\n\nconst ColorBlock = styled(({ name, hex, bg, ...other }) => (\n  <div {...other}>\n    <div />\n    <div>\n      <p>{name}</p>\n      <p>{hex || 'gradient'}</p>\n    </div>\n  </div>\n))`\n  font-family: ${props => props.theme.font.family};\n  background-color: ${props => props.hex};\n  border-radius: 16px;\n  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);\n  margin: 16px;\n  max-width: 250px;\n  min-height: 250px;\n  width: 100%;\n  position: relative;\n\n  :hover {\n    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.4);\n  }\n  transition: box-shadow 0.3s ease-out;\n\n  ${props =>\n    props.bg &&\n    `\n    background: ${props.bg};\n  `}\n\n  div {\n    min-height: 130px;\n    width: 100%;\n    border-radius: 0 0 16px 16px;\n  }\n  div + div {\n    min-height: 0;\n    background: white;\n    position: absolute;\n    bottom: 0;\n  }\n  div + div > p {\n    padding: 0 1em;\n    opacity: 0.4;\n  }\n\n  div + div > p + p {\n    opacity: 1;\n  }\n`;\nconst TldrBox = styled.div`\n  font-family: ${props => props.theme.font.family};\n  h1 {\n    text-transform: uppercase;\n  }\n  padding: 40px;\n\n  blockquote {\n    margin: 1em;\n  }\n  blockquote > p:before {\n    content: ' ';\n    border-left: 4px solid #ccc;\n    margin-right: 1em;\n  }\n`;\n\nstoriesOf('📌 TLDR;', module).add('README', () => <TldrBox> {readme} </TldrBox>);\n\nstoriesOf('Portfolio|Theme', module).add('Palette', () => (\n  <ColorBox>\n    <ColorBlock name=\"Black Pearl\" hex={theme.colors.black} />\n    <ColorBlock name=\"Brink Pink\" hex={theme.colors.workbench} />\n    <ColorBlock name=\"Royal Blue\" hex={theme.colors.design} />\n    <ColorBlock name=\"East Bay\" hex={theme.colors.tumblr} />\n    <ColorBlock name=\"Sail\" hex={theme.colors.resume} />\n    <ColorBlock name=\"Black Pearl to Pure Black\" bg={theme.gradients.header} />\n    <ColorBlock name=\"Accent (light)\" bg={theme.gradients.accentLight} />\n    <ColorBlock name=\"Accent (dark)\" bg={theme.gradients.accentDark} />\n  </ColorBox>\n));\n",
             __ADDS_MAP__ = {
               '📌-tldr--readme': {
-                startLoc: { col: 34, line: 64 },
-                endLoc: { col: 68, line: 64 }
+                startLoc: { col: 34, line: 82 },
+                endLoc: { col: 79, line: 82 }
               },
               'portfolio-theme--palette': {
-                startLoc: { col: 41, line: 66 },
-                endLoc: { col: 1, line: 77 }
+                startLoc: { col: 41, line: 84 },
+                endLoc: { col: 1, line: 95 }
               }
             },
             ColorBox = Object(
@@ -2327,25 +2448,36 @@
                 )
               },
               ' div{min-height:130px;width:100%;border-radius:0 0 16px 16px;}div + div{min-height:0;background:white;position:absolute;bottom:0;}div + div > p{padding:0 1em;opacity:0.4;}div + div > p + p{opacity:1;}'
+            ),
+            TldrBox = Object(
+              _emotion_styled_base__WEBPACK_IMPORTED_MODULE_2__.a
+            )('div', { target: 'eex7ddx2' })(
+              'font-family:',
+              function (props) {
+                return props.theme.font.family
+              },
+              ";h1{text-transform:uppercase;}padding:40px;blockquote{margin:1em;}blockquote > p:before{content:' ';border-left:4px solid #ccc;margin-right:1em;}"
             )
           storiesOf('📌 TLDR;', module)
             .addDecorator(
               withStorySource(
-                'import React from \'react\';\nimport styled from \'@emotion/styled\';\nimport theme from \'../theme\';\n\nconst ColorBox = styled.div`\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  max-width: 1250px;\n  margin: 0 auto;\n`;\n\nconst ColorBlock = styled(({ name, hex, bg, ...other }) => (\n  <div {...other}>\n    <div />\n    <div>\n      <p>{name}</p>\n      <p>{hex || \'gradient\'}</p>\n    </div>\n  </div>\n))`\n  font-family: ${props => props.theme.font.family};\n  background-color: ${props => props.hex};\n  border-radius: 16px;\n  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);\n  margin: 16px;\n  max-width: 250px;\n  min-height: 250px;\n  width: 100%;\n  position: relative;\n\n  :hover {\n    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.4);\n  }\n  transition: box-shadow 0.3s ease-out;\n\n  ${props =>\n    props.bg &&\n    `\n    background: ${props.bg};\n  `}\n\n  div {\n    min-height: 130px;\n    width: 100%;\n    border-radius: 0 0 16px 16px;\n  }\n  div + div {\n    min-height: 0;\n    background: white;\n    position: absolute;\n    bottom: 0;\n  }\n  div + div > p {\n    padding: 0 1em;\n    opacity: 0.4;\n  }\n\n  div + div > p + p {\n    opacity: 1;\n  }\n`;\n\nstoriesOf(\'📌 TLDR;\', module).add(\'README\', () => <div> hello </div>);\n\nstoriesOf(\'Portfolio|Theme\', module).add(\'Palette\', () => (\n  <ColorBox>\n    <ColorBlock name="Black Pearl" hex={theme.colors.black} />\n    <ColorBlock name="Brink Pink" hex={theme.colors.workbench} />\n    <ColorBlock name="Royal Blue" hex={theme.colors.design} />\n    <ColorBlock name="East Bay" hex={theme.colors.tumblr} />\n    <ColorBlock name="Sail" hex={theme.colors.resume} />\n    <ColorBlock name="Black Pearl to Pure Black" bg={theme.gradients.header} />\n    <ColorBlock name="Accent (light)" bg={theme.gradients.accentLight} />\n    <ColorBlock name="Accent (dark)" bg={theme.gradients.accentDark} />\n  </ColorBox>\n));\n',
+                "import React from 'react';\nimport styled from '@emotion/styled';\n\nimport theme from '../theme';\nimport readme from './readme';\n\nconst ColorBox = styled.div`\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  max-width: 1250px;\n  margin: 0 auto;\n`;\n\nconst ColorBlock = styled(({ name, hex, bg, ...other }) => (\n  <div {...other}>\n    <div />\n    <div>\n      <p>{name}</p>\n      <p>{hex || 'gradient'}</p>\n    </div>\n  </div>\n))`\n  font-family: ${props => props.theme.font.family};\n  background-color: ${props => props.hex};\n  border-radius: 16px;\n  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);\n  margin: 16px;\n  max-width: 250px;\n  min-height: 250px;\n  width: 100%;\n  position: relative;\n\n  :hover {\n    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.4);\n  }\n  transition: box-shadow 0.3s ease-out;\n\n  ${props =>\n    props.bg &&\n    `\n    background: ${props.bg};\n  `}\n\n  div {\n    min-height: 130px;\n    width: 100%;\n    border-radius: 0 0 16px 16px;\n  }\n  div + div {\n    min-height: 0;\n    background: white;\n    position: absolute;\n    bottom: 0;\n  }\n  div + div > p {\n    padding: 0 1em;\n    opacity: 0.4;\n  }\n\n  div + div > p + p {\n    opacity: 1;\n  }\n`;\nconst TldrBox = styled.div`\n  font-family: ${props => props.theme.font.family};\n  h1 {\n    text-transform: uppercase;\n  }\n  padding: 40px;\n\n  blockquote {\n    margin: 1em;\n  }\n  blockquote > p:before {\n    content: ' ';\n    border-left: 4px solid #ccc;\n    margin-right: 1em;\n  }\n`;\n\nstoriesOf('📌 TLDR;', module).add('README', () => <TldrBox> {readme} </TldrBox>);\n\nstoriesOf('Portfolio|Theme', module).add('Palette', () => (\n  <ColorBox>\n    <ColorBlock name=\"Black Pearl\" hex={theme.colors.black} />\n    <ColorBlock name=\"Brink Pink\" hex={theme.colors.workbench} />\n    <ColorBlock name=\"Royal Blue\" hex={theme.colors.design} />\n    <ColorBlock name=\"East Bay\" hex={theme.colors.tumblr} />\n    <ColorBlock name=\"Sail\" hex={theme.colors.resume} />\n    <ColorBlock name=\"Black Pearl to Pure Black\" bg={theme.gradients.header} />\n    <ColorBlock name=\"Accent (light)\" bg={theme.gradients.accentLight} />\n    <ColorBlock name=\"Accent (dark)\" bg={theme.gradients.accentDark} />\n  </ColorBox>\n));\n",
                 __ADDS_MAP__
               )
             )
             .add('README', function () {
               return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
-                'div',
+                TldrBox,
                 null,
-                ' hello '
+                ' ',
+                _readme__WEBPACK_IMPORTED_MODULE_5__.a,
+                ' '
               )
             }),
             storiesOf('Portfolio|Theme', module)
               .addDecorator(
                 withStorySource(
-                  'import React from \'react\';\nimport styled from \'@emotion/styled\';\nimport theme from \'../theme\';\n\nconst ColorBox = styled.div`\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  max-width: 1250px;\n  margin: 0 auto;\n`;\n\nconst ColorBlock = styled(({ name, hex, bg, ...other }) => (\n  <div {...other}>\n    <div />\n    <div>\n      <p>{name}</p>\n      <p>{hex || \'gradient\'}</p>\n    </div>\n  </div>\n))`\n  font-family: ${props => props.theme.font.family};\n  background-color: ${props => props.hex};\n  border-radius: 16px;\n  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);\n  margin: 16px;\n  max-width: 250px;\n  min-height: 250px;\n  width: 100%;\n  position: relative;\n\n  :hover {\n    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.4);\n  }\n  transition: box-shadow 0.3s ease-out;\n\n  ${props =>\n    props.bg &&\n    `\n    background: ${props.bg};\n  `}\n\n  div {\n    min-height: 130px;\n    width: 100%;\n    border-radius: 0 0 16px 16px;\n  }\n  div + div {\n    min-height: 0;\n    background: white;\n    position: absolute;\n    bottom: 0;\n  }\n  div + div > p {\n    padding: 0 1em;\n    opacity: 0.4;\n  }\n\n  div + div > p + p {\n    opacity: 1;\n  }\n`;\n\nstoriesOf(\'📌 TLDR;\', module).add(\'README\', () => <div> hello </div>);\n\nstoriesOf(\'Portfolio|Theme\', module).add(\'Palette\', () => (\n  <ColorBox>\n    <ColorBlock name="Black Pearl" hex={theme.colors.black} />\n    <ColorBlock name="Brink Pink" hex={theme.colors.workbench} />\n    <ColorBlock name="Royal Blue" hex={theme.colors.design} />\n    <ColorBlock name="East Bay" hex={theme.colors.tumblr} />\n    <ColorBlock name="Sail" hex={theme.colors.resume} />\n    <ColorBlock name="Black Pearl to Pure Black" bg={theme.gradients.header} />\n    <ColorBlock name="Accent (light)" bg={theme.gradients.accentLight} />\n    <ColorBlock name="Accent (dark)" bg={theme.gradients.accentDark} />\n  </ColorBox>\n));\n',
+                  "import React from 'react';\nimport styled from '@emotion/styled';\n\nimport theme from '../theme';\nimport readme from './readme';\n\nconst ColorBox = styled.div`\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  max-width: 1250px;\n  margin: 0 auto;\n`;\n\nconst ColorBlock = styled(({ name, hex, bg, ...other }) => (\n  <div {...other}>\n    <div />\n    <div>\n      <p>{name}</p>\n      <p>{hex || 'gradient'}</p>\n    </div>\n  </div>\n))`\n  font-family: ${props => props.theme.font.family};\n  background-color: ${props => props.hex};\n  border-radius: 16px;\n  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);\n  margin: 16px;\n  max-width: 250px;\n  min-height: 250px;\n  width: 100%;\n  position: relative;\n\n  :hover {\n    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.4);\n  }\n  transition: box-shadow 0.3s ease-out;\n\n  ${props =>\n    props.bg &&\n    `\n    background: ${props.bg};\n  `}\n\n  div {\n    min-height: 130px;\n    width: 100%;\n    border-radius: 0 0 16px 16px;\n  }\n  div + div {\n    min-height: 0;\n    background: white;\n    position: absolute;\n    bottom: 0;\n  }\n  div + div > p {\n    padding: 0 1em;\n    opacity: 0.4;\n  }\n\n  div + div > p + p {\n    opacity: 1;\n  }\n`;\nconst TldrBox = styled.div`\n  font-family: ${props => props.theme.font.family};\n  h1 {\n    text-transform: uppercase;\n  }\n  padding: 40px;\n\n  blockquote {\n    margin: 1em;\n  }\n  blockquote > p:before {\n    content: ' ';\n    border-left: 4px solid #ccc;\n    margin-right: 1em;\n  }\n`;\n\nstoriesOf('📌 TLDR;', module).add('README', () => <TldrBox> {readme} </TldrBox>);\n\nstoriesOf('Portfolio|Theme', module).add('Palette', () => (\n  <ColorBox>\n    <ColorBlock name=\"Black Pearl\" hex={theme.colors.black} />\n    <ColorBlock name=\"Brink Pink\" hex={theme.colors.workbench} />\n    <ColorBlock name=\"Royal Blue\" hex={theme.colors.design} />\n    <ColorBlock name=\"East Bay\" hex={theme.colors.tumblr} />\n    <ColorBlock name=\"Sail\" hex={theme.colors.resume} />\n    <ColorBlock name=\"Black Pearl to Pure Black\" bg={theme.gradients.header} />\n    <ColorBlock name=\"Accent (light)\" bg={theme.gradients.accentLight} />\n    <ColorBlock name=\"Accent (dark)\" bg={theme.gradients.accentDark} />\n  </ColorBox>\n));\n",
                   __ADDS_MAP__
                 )
               )
@@ -2418,37 +2550,37 @@
               })
         }.call(this, __webpack_require__(30)(module))
     },
-    58: function (module, __webpack_exports__, __webpack_require__) {
+    57: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.d(__webpack_exports__, 'a', function () {
         return LinksContext
       })
       var _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          59
+          58
         ),
         _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
           _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0__
         ),
         _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          102
+          104
         ),
         _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
           _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__
         ),
         _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-          103
+          105
         ),
         _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default = __webpack_require__.n(
           _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__
         ),
         _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-          104
+          106
         ),
         _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
           _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__
         ),
         _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          105
+          107
         ),
         _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__
@@ -2460,7 +2592,7 @@
           _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__
         ),
         _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-          106
+          108
         ),
         _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
           _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6__
@@ -2571,7 +2703,7 @@
         })(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component)
       }
     },
-    61: function (module, __webpack_exports__, __webpack_require__) {
+    60: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
           6
@@ -2587,27 +2719,27 @@
           react__WEBPACK_IMPORTED_MODULE_2__
         ),
         _Typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2),
-        _Link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(46),
+        _Link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(45),
         _logo_behance_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-          107
+          109
         ),
         _logo_behance_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
           _logo_behance_png__WEBPACK_IMPORTED_MODULE_5__
         ),
         _logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-          108
+          110
         ),
         _logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
           _logo_tumblr_png__WEBPACK_IMPORTED_MODULE_6__
         ),
         _logo_linked_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-          109
+          111
         ),
         _logo_linked_png__WEBPACK_IMPORTED_MODULE_7___default = __webpack_require__.n(
           _logo_linked_png__WEBPACK_IMPORTED_MODULE_7__
         ),
         _logo_github_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-          110
+          112
         ),
         _logo_github_png__WEBPACK_IMPORTED_MODULE_8___default = __webpack_require__.n(
           _logo_github_png__WEBPACK_IMPORTED_MODULE_8__
@@ -2764,12 +2896,12 @@
             path: 'src/components/TopBar/TopBar.js'
           })
     },
-    62: function (module, __webpack_exports__, __webpack_require__) {
+    61: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
-      var withMouseTracker_hoc = __webpack_require__(112),
+      var withMouseTracker_hoc = __webpack_require__(114),
         helpers_extends = __webpack_require__(25),
         extends_default = __webpack_require__.n(helpers_extends),
-        objectSpread = __webpack_require__(59),
+        objectSpread = __webpack_require__(58),
         objectSpread_default = __webpack_require__.n(objectSpread),
         objectWithoutProperties = __webpack_require__(6),
         objectWithoutProperties_default = __webpack_require__.n(
@@ -2909,7 +3041,7 @@
       )
       __webpack_exports__.a = Object(withMouseTracker_hoc.a)(Button_Button)
     },
-    63: function (module, __webpack_exports__, __webpack_require__) {
+    62: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var objectWithoutProperties = __webpack_require__(6),
         objectWithoutProperties_default = __webpack_require__.n(
@@ -2918,9 +3050,9 @@
         styled_base_browser_esm = __webpack_require__(1),
         react = __webpack_require__(0),
         react_default = __webpack_require__.n(react),
-        bg = __webpack_require__(233),
+        bg = __webpack_require__(235),
         bg_default = __webpack_require__.n(bg),
-        accent = __webpack_require__(234),
+        accent = __webpack_require__(236),
         accent_default = __webpack_require__.n(accent),
         tr_translate = function (_ref) {
           var x = _ref.x,
@@ -2981,7 +3113,7 @@
           styles:
             'position:relative;display:flex;margin:0 auto;transition:all 0.2s ease-out;min-height:100px;a{text-decoration:none;}.tooltip-label{position:absolute;transform:translate(0,150%);width:100%;text-align:center;z-index:2;margin-left:-18px;}.tooltip-label h3{display:inline;margin:0 auto;padding:0;}img{z-index:1;position:absolute;transition:all 0.2s ease-out;}.tooltip-accent{margin-top:-3px;margin-left:-16px;}:hover .tooltip-bg{-webkit-filter:drop-shadow(8px 8px 10px black);filter:drop-shadow(8px 8px 10px black);}:hover .tooltip-accent{-webkit-filter:drop-shadow(8px 8px 10px white);filter:drop-shadow(8px 8px 10px white);}'
         }),
-        withMouseTracker_hoc = __webpack_require__(112)
+        withMouseTracker_hoc = __webpack_require__(114)
       __webpack_exports__.a = Object(withMouseTracker_hoc.a)(Tooltip_Tooltip)
     },
     7: function (module, __webpack_exports__, __webpack_require__) {
@@ -3003,7 +3135,7 @@
         ),
         _theme__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4),
         _components_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-          62
+          61
         ),
         _components_Typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
           2
@@ -3076,6 +3208,6 @@
         )('')
     }
   },
-  [[240, 1, 2]]
+  [[243, 1, 2]]
 ])
-//# sourceMappingURL=main.1fcb3f5c23c2d09df8bf.bundle.js.map
+//# sourceMappingURL=main.290ba4712339030475e8.bundle.js.map
