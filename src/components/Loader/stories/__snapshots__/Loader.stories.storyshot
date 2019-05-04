@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI-WORKBENCH Animation|Loader . default 1`] = `
+.emotion-2 {
+  padding: 40px;
+}
+
+.emotion-0 {
+  position: relative;
+  padding: 40px;
+}
+
+.emotion-0 section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background: orange;
+}
+
+.emotion-0 section + section {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  border: 4px solid royalblue;
+  background: white;
+  box-shadow: 0px 2px 2px black;
+}
+
+<div
+  className="emotion-2 emotion-3"
+>
+  <div
+    className="emotion-0 emotion-1"
+    role="loader"
+  >
+    <section />
+    <section />
+  </div>
+</div>
+`;

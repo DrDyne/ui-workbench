@@ -10,7 +10,7 @@
         react__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
           react__WEBPACK_IMPORTED_MODULE_1__
         ),
-        react_waypoint__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(223),
+        react_waypoint__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(224),
         _ctx_links__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(57),
         _components_Typography__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
           2
@@ -43,13 +43,13 @@
           45
         ),
         _assets_arrow_down_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
-          224
+          225
         ),
         _assets_arrow_down_png__WEBPACK_IMPORTED_MODULE_10___default = __webpack_require__.n(
           _assets_arrow_down_png__WEBPACK_IMPORTED_MODULE_10__
         ),
         _assets_white_wash_p1_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
-          225
+          226
         ),
         _assets_white_wash_p1_png__WEBPACK_IMPORTED_MODULE_11___default = __webpack_require__.n(
           _assets_white_wash_p1_png__WEBPACK_IMPORTED_MODULE_11__
@@ -285,31 +285,31 @@
           2
         ),
         _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          226
+          227
         ),
         _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _assets_logo_figma_png__WEBPACK_IMPORTED_MODULE_4__
         ),
         _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-          227
+          228
         ),
         _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
           _assets_logo_react_png__WEBPACK_IMPORTED_MODULE_5__
         ),
         _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-          228
+          229
         ),
         _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6___default = __webpack_require__.n(
           _assets_logo_storybook_png__WEBPACK_IMPORTED_MODULE_6__
         ),
         _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-          229
+          230
         ),
         _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7___default = __webpack_require__.n(
           _assets_white_wash_p2_png__WEBPACK_IMPORTED_MODULE_7__
         ),
         _assets_workbench_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-          230
+          231
         ),
         _assets_workbench_png__WEBPACK_IMPORTED_MODULE_8___default = __webpack_require__.n(
           _assets_workbench_png__WEBPACK_IMPORTED_MODULE_8__
@@ -461,7 +461,7 @@
     114: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          25
+          19
         ),
         _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
           _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__
@@ -719,13 +719,13 @@
         ),
         _Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7),
         _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          231
+          232
         ),
         _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _assets_white_wash_p3_png__WEBPACK_IMPORTED_MODULE_4__
         ),
         _assets_button_behance_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-          232
+          233
         ),
         _assets_button_behance_png__WEBPACK_IMPORTED_MODULE_5___default = __webpack_require__.n(
           _assets_button_behance_png__WEBPACK_IMPORTED_MODULE_5__
@@ -835,7 +835,7 @@
     116: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          25
+          19
         ),
         _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
           _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__
@@ -862,7 +862,7 @@
         ),
         _Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7),
         _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-          233
+          234
         ),
         _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_7___default = __webpack_require__.n(
           _assets_bg_sketches_png__WEBPACK_IMPORTED_MODULE_7__
@@ -961,7 +961,7 @@
         ),
         _Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7),
         _assets_button_vim_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          234
+          235
         ),
         _assets_button_vim_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _assets_button_vim_png__WEBPACK_IMPORTED_MODULE_4__
@@ -1047,13 +1047,13 @@
           62
         ),
         _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-          237
+          238
         ),
         _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
           _assets_contact_line_png__WEBPACK_IMPORTED_MODULE_3__
         ),
         _assets_contact_bg_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          238
+          239
         ),
         _assets_contact_bg_png__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
           _assets_contact_bg_png__WEBPACK_IMPORTED_MODULE_4__
@@ -1118,7 +1118,7 @@
         __webpack_require__.d(__webpack_exports__, 'c', function () {
           return Link
         })
-      __webpack_require__(402)
+      __webpack_require__(404)
       var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
           6
         ),
@@ -1221,67 +1221,133 @@
           ';}'
         )
     },
-    224: function (module, exports, __webpack_require__) {
+    225: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'be7e58f2816f4ac7b1724e0ef97cab76.png'
     },
-    225: function (module, exports, __webpack_require__) {
+    226: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'e85b811087b5cc277431d08e3067b05b.png'
     },
-    226: function (module, exports, __webpack_require__) {
+    227: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '468fcabd781f738c798265f8c0ea74bf.png'
     },
-    227: function (module, exports, __webpack_require__) {
+    228: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '7de29fdc8f8e2eda4deb45d0c9183cbf.png'
     },
-    228: function (module, exports, __webpack_require__) {
+    229: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '8816ff05da90adccb506956d783e714e.png'
     },
-    229: function (module, exports, __webpack_require__) {
+    230: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '7be0947c8fe5546ea0c3230108a58235.png'
     },
-    230: function (module, exports, __webpack_require__) {
+    231: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'f77ed3cbca39a21c9feca15019b11bcc.png'
     },
-    231: function (module, exports, __webpack_require__) {
+    232: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '0a0f0ab71ac53ae2b254e80df8dd43ef.png'
     },
-    232: function (module, exports, __webpack_require__) {
+    233: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '16506319dbfb7bfb5cf6e056d4f25056.png'
     },
-    233: function (module, exports, __webpack_require__) {
+    234: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '82bc2804d31e833aa47371d997cf8156.png'
     },
-    234: function (module, exports, __webpack_require__) {
+    235: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '139c4c4807da03366f70dca731ae4fc4.png'
     },
-    235: function (module, exports, __webpack_require__) {
+    236: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '77fbc1420bac05b1e65551b56fa3fd6b.png'
     },
-    236: function (module, exports, __webpack_require__) {
+    237: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + '91c6d698ec34e58517eb7504c1e5cb5a.png'
     },
-    237: function (module, exports, __webpack_require__) {
+    238: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'ae5770c5fc4008d1a2c5b4d8eebf3692.png'
     },
-    238: function (module, exports, __webpack_require__) {
+    239: function (module, exports, __webpack_require__) {
       module.exports =
         __webpack_require__.p + 'afd4f28dd4335cfafa8f9505eb7410dc.png'
     },
     240: function (module, __webpack_exports__, __webpack_require__) {
+      'use strict'
+      var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+          19
+        ),
+        _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
+          _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__
+        ),
+        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+          1
+        ),
+        react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0),
+        react__WEBPACK_IMPORTED_MODULE_2___default = __webpack_require__.n(
+          react__WEBPACK_IMPORTED_MODULE_2__
+        ),
+        animejs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(147),
+        rotateLoop = function () {
+          console.log('rotate'),
+            Object(animejs__WEBPACK_IMPORTED_MODULE_3__.a)({
+              targets: '[role="loader"] section',
+              duration: 1800,
+              delay: 400,
+              keyframes: [
+                { rotateY: 180, scaleZ: -50 },
+                { rotateY: 180, scaleZ: 100 }
+              ],
+              loop: !0,
+              easing: 'easeOutElastic(1, .8)'
+            }),
+            Object(animejs__WEBPACK_IMPORTED_MODULE_3__.a)({
+              targets: '[role="loader"] section + section',
+              duration: 1200,
+              keyframes: [{ rotateY: -360 }],
+              loop: !0,
+              easing: 'easeOutElastic(1, .8)'
+            })
+        },
+        Loader = function (props) {
+          return (
+            Object(react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(rotateLoop),
+            react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+              'div',
+              _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()(
+                {},
+                props,
+                { role: 'loader' }
+              ),
+              react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                'section',
+                null
+              ),
+              react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+                'section',
+                null
+              )
+            )
+          )
+        }
+      __webpack_exports__.a = Object(
+        _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1__.a
+      )(Loader, { target: 'e1a431he0' })({
+        name: '1ewzlz4',
+        styles:
+          'position:relative;padding:40px;section{position:absolute;top:0;left:0;display:flex;justify-content:center;align-items:center;width:80px;height:80px;background:orange;}section + section{position:absolute;top:24px;left:24px;display:flex;width:24px;height:24px;border:4px solid royalblue;background:white;box-shadow:0px 2px 2px black;}'
+      })
+    },
+    242: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0),
         react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
@@ -1415,7 +1481,7 @@
         )
       )
     },
-    241: function (module, __webpack_exports__, __webpack_require__) {
+    243: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var Component,
         styled_base_browser_esm = __webpack_require__(1),
@@ -1430,7 +1496,7 @@
         page_06_contact = __webpack_require__(118),
         theme = __webpack_require__(4),
         links = __webpack_require__(57),
-        helpers_extends = __webpack_require__(25),
+        helpers_extends = __webpack_require__(19),
         extends_default = __webpack_require__.n(helpers_extends),
         TopBar = __webpack_require__(60),
         components_TopBar = ((Component = TopBar.a),
@@ -1491,28 +1557,28 @@
             path: 'src/components/App/index.js'
           })
     },
-    243: function (module, exports, __webpack_require__) {
-      __webpack_require__(244),
-        __webpack_require__(322),
-        (module.exports = __webpack_require__(323))
+    245: function (module, exports, __webpack_require__) {
+      __webpack_require__(246),
+        __webpack_require__(324),
+        (module.exports = __webpack_require__(325))
     },
-    323: function (module, __webpack_exports__, __webpack_require__) {
+    325: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (global, module) {
-          __webpack_require__(23),
-            __webpack_require__(24),
+          __webpack_require__(24),
+            __webpack_require__(25),
             __webpack_require__(32)
           var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(0),
             react__WEBPACK_IMPORTED_MODULE_3___default = __webpack_require__.n(
               react__WEBPACK_IMPORTED_MODULE_3__
             ),
             _storybook_react__WEBPACK_IMPORTED_MODULE_5__ = (__webpack_require__(
-              147
+              148
             ),
             __webpack_require__(63)),
             _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-              21
+              22
             ),
             _src_theme__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(4),
             emotion_theming__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
@@ -1520,7 +1586,7 @@
             )
           global.storiesOf =
             _storybook_react__WEBPACK_IMPORTED_MODULE_5__.storiesOf
-          var req = __webpack_require__(395)
+          var req = __webpack_require__(397)
           Object(_storybook_react__WEBPACK_IMPORTED_MODULE_5__.addParameters)({
             options: {
               brandTitle: 'ui-workbench',
@@ -1549,17 +1615,18 @@
               },
               module
             )
-        }.call(this, __webpack_require__(8), __webpack_require__(30)(module))
+        }.call(this, __webpack_require__(8), __webpack_require__(26)(module))
     },
-    395: function (module, exports, __webpack_require__) {
+    397: function (module, exports, __webpack_require__) {
       var map = {
-        './components/App/stories/App.stories.js': 396,
-        './components/Button/stories/Button.stories.js': 406,
-        './components/Tooltip/stories/Tooltip.stories.js': 407,
-        './components/TopBar/stories/TopBar.stories.js': 477,
-        './components/Typography/stories/Typography.stories.js': 478,
-        './pages/stories/pages.stories.js': 479,
-        './stories/index.stories.js': 480
+        './components/App/stories/App.stories.js': 398,
+        './components/Button/stories/Button.stories.js': 408,
+        './components/Loader/stories/Loader.stories.js': 409,
+        './components/Tooltip/stories/Tooltip.stories.js': 410,
+        './components/TopBar/stories/TopBar.stories.js': 480,
+        './components/Typography/stories/Typography.stories.js': 481,
+        './pages/stories/pages.stories.js': 482,
+        './stories/index.stories.js': 483
       }
       function webpackContext (req) {
         var id = webpackContextResolve(req)
@@ -1577,9 +1644,9 @@
       }),
         (webpackContext.resolve = webpackContextResolve),
         (module.exports = webpackContext),
-        (webpackContext.id = 395)
+        (webpackContext.id = 397)
     },
-    396: function (module, __webpack_exports__, __webpack_require__) {
+    398: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -1608,8 +1675,8 @@
             react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(
               react__WEBPACK_IMPORTED_MODULE_0__
             ),
-            ___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(241),
-            withStorySource = __webpack_require__(44).withStorySource,
+            ___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(243),
+            withStorySource = __webpack_require__(35).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport App from '../';\n\nstoriesOf('Portfolio|📌 App', module).add('Desktop and tablet', () => <App />);\n",
             __ADDS_MAP__ = {
@@ -1631,7 +1698,7 @@
                 null
               )
             })
-        }.call(this, __webpack_require__(30)(module))
+        }.call(this, __webpack_require__(26)(module))
     },
     4: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
@@ -1680,7 +1747,7 @@
         breakpoint: 1200
       }
     },
-    406: function (module, __webpack_exports__, __webpack_require__) {
+    408: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -1713,14 +1780,14 @@
               react__WEBPACK_IMPORTED_MODULE_1__
             ),
             _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-              21
+              22
             ),
             ___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(61),
             _kitty_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(146),
             _kitty_jpeg__WEBPACK_IMPORTED_MODULE_4___default = __webpack_require__.n(
               _kitty_jpeg__WEBPACK_IMPORTED_MODULE_4__
             ),
-            withStorySource = __webpack_require__(44).withStorySource,
+            withStorySource = __webpack_require__(35).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport styled from '@emotion/styled';\nimport { text, number } from '@storybook/addon-knobs';\nimport Button from '../';\n\nimport Kitty from './kitty.jpeg';\n\nconst btnSize = `\n  width: 500px;\n  height: 333px;\n`;\nconst DemoBox = styled.div`\n  display: flex;\n  justify-content: center;\n  padding: 100px;\n  background: #ccc;\n\n  > div {\n    ${btnSize}\n  }\n`;\n\nstoriesOf('Portfolio|Button', module)\n  .add('. default', () => (\n    <DemoBox>\n      <Button>This is a button</Button>\n    </DemoBox>\n  ))\n\n  .add('image', () => (\n    <DemoBox>\n      <Button>\n        <img src={Kitty} />\n      </Button>\n    </DemoBox>\n  ))\n\n  .add('styled', () => {\n    const props = {\n      label: text('label', 'Nya! nya! nya!'),\n    };\n\n    const DemoButton = styled(Button)`\n      ${btnSize}\n\n      .label {\n        width: ${number('label width', 40)}px;\n        margin-left: ${number('label x', 400)}px;\n        margin-top: ${number('label y', 20)}px;\n      }\n\n      :hover .label {\n        margin-left: ${number('label hover x', 400)}px;\n        margin-top: ${number('label hover y', 40)}px;\n      }\n\n      :hover .accent {\n        margin-left: 40px;\n        margin-top: 40px;\n      }\n    `;\n\n    return (\n      <DemoBox>\n        <DemoButton {...props}>\n          <img src={Kitty} />\n        </DemoButton>\n      </DemoBox>\n    );\n  });\n",
             __ADDS_MAP__ = {
@@ -1821,9 +1888,76 @@
                 )
               )
             })
-        }.call(this, __webpack_require__(30)(module))
+        }.call(this, __webpack_require__(26)(module))
     },
-    407: function (module, __webpack_exports__, __webpack_require__) {
+    409: function (module, __webpack_exports__, __webpack_require__) {
+      'use strict'
+      __webpack_require__.r(__webpack_exports__),
+        function (module) {
+          __webpack_require__.d(
+            __webpack_exports__,
+            'withStorySource',
+            function () {
+              return withStorySource
+            }
+          ),
+            __webpack_require__.d(
+              __webpack_exports__,
+              '__STORY__',
+              function () {
+                return __STORY__
+              }
+            ),
+            __webpack_require__.d(
+              __webpack_exports__,
+              '__ADDS_MAP__',
+              function () {
+                return __ADDS_MAP__
+              }
+            )
+          var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+              1
+            ),
+            react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0),
+            react__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
+              react__WEBPACK_IMPORTED_MODULE_1__
+            ),
+            _Loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(240),
+            withStorySource = __webpack_require__(35).withStorySource,
+            __STORY__ =
+              "import React from 'react';\nimport styled from '@emotion/styled';\nimport Loader from '../Loader';\n\nconst DemoBox = styled.div`\n  padding: 40px;\n`;\n\nstoriesOf('Animation|Loader', module).add('. default', () => (\n  <DemoBox>\n    <Loader />\n  </DemoBox>\n));\n",
+            __ADDS_MAP__ = {
+              'animation-loader--default': {
+                startLoc: { col: 42, line: 9 },
+                endLoc: { col: 1, line: 13 }
+              }
+            },
+            DemoBox = Object(
+              _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__.a
+            )('div', { target: 'e7bvk3c0' })({
+              name: '1mb7ed4',
+              styles: 'padding:40px;'
+            })
+          storiesOf('Animation|Loader', module)
+            .addDecorator(
+              withStorySource(
+                "import React from 'react';\nimport styled from '@emotion/styled';\nimport Loader from '../Loader';\n\nconst DemoBox = styled.div`\n  padding: 40px;\n`;\n\nstoriesOf('Animation|Loader', module).add('. default', () => (\n  <DemoBox>\n    <Loader />\n  </DemoBox>\n));\n",
+                __ADDS_MAP__
+              )
+            )
+            .add('. default', function () {
+              return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                DemoBox,
+                null,
+                react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
+                  _Loader__WEBPACK_IMPORTED_MODULE_2__.a,
+                  null
+                )
+              )
+            })
+        }.call(this, __webpack_require__(26)(module))
+    },
+    410: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -1862,10 +1996,10 @@
               react__WEBPACK_IMPORTED_MODULE_2__
             ),
             _storybook_addon_actions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-              239
+              241
             ),
             ___WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(62),
-            withStorySource = __webpack_require__(44).withStorySource,
+            withStorySource = __webpack_require__(35).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport { actions } from '@storybook/addon-actions';\nimport styled from '@emotion/styled';\nimport Tooltip from '../';\n\nconst DemoBox = styled.div`\n  background: ${props => props.theme.colors.black};\n  min-height: 900px;\n  padding: 200px;\n  > div {\n    min-height: 100px;\n  }\n`;\nconst eventProps = {\n  ...actions('onMouseEnter', 'onMouseLeave', 'onMouseMove'),\n};\n\nstoriesOf('Portfolio|Tooltip', module)\n  .addDecorator(story => <DemoBox>{story()}</DemoBox>)\n  .add('. default', () => <Tooltip />)\n  .add('with text', () => <Tooltip>Here is some text.</Tooltip>)\n  .add('event logger', () => <Tooltip {...eventProps} />);\n",
             __ADDS_MAP__ = {
@@ -1930,13 +2064,13 @@
                 eventProps
               )
             })
-        }.call(this, __webpack_require__(30)(module))
+        }.call(this, __webpack_require__(26)(module))
     },
     45: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
-      var emotion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(242),
+      var emotion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(244),
         _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          25
+          19
         ),
         _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(
           _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__
@@ -1981,7 +2115,7 @@
         )
       }
     },
-    477: function (module, __webpack_exports__, __webpack_require__) {
+    480: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -2014,10 +2148,10 @@
               react__WEBPACK_IMPORTED_MODULE_1__
             ),
             _storybook_addon_knobs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-              21
+              22
             ),
             _TopBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(60),
-            withStorySource = __webpack_require__(44).withStorySource,
+            withStorySource = __webpack_require__(35).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport { boolean } from '@storybook/addon-knobs';\nimport styled from '@emotion/styled';\nimport TopBar from '../TopBar';\n\nconst DemoBox = styled.div`\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n`;\n\nstoriesOf('Portfolio|TopBar', module)\n  .add('. default', () => <TopBar />)\n  .add('with links', () => <TopBar showLinks />)\n  .add('fixed top', () => {\n    const props = { showLinks: boolean('showLinks?', true) };\n\n    return (\n      <DemoBox>\n        <TopBar {...props} />\n      </DemoBox>\n    );\n  });\n",
             __ADDS_MAP__ = {
@@ -2074,9 +2208,9 @@
                 )
               )
             })
-        }.call(this, __webpack_require__(30)(module))
+        }.call(this, __webpack_require__(26)(module))
     },
-    478: function (module, __webpack_exports__, __webpack_require__) {
+    481: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -2117,7 +2251,7 @@
             ),
             _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4),
             ___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2),
-            withStorySource = __webpack_require__(44).withStorySource,
+            withStorySource = __webpack_require__(35).withStorySource,
             __STORY__ =
               'import React from \'react\';\nimport styled from \'@emotion/styled\';\n\nimport { font } from \'../../../theme\';\n\nimport { Header, Subtitle, Link } from \'..\';\n\nconst TypoListItem = styled(({ name, children, ...other }) => (\n  <li {...other}>\n    <p>{name}</p>\n    {children}\n  </li>\n))`\n  display: flex;\n  align-items: baseline;\n\n  p {\n    min-width: 120px;\n    opacity: 0.4;\n    font-family: ${font.familty};\n    font-size: ${font.size.subtitle};\n    margin: 0 1em;\n  }\n`;\n\nstoriesOf(\'Portfolio|Theme\', module).add(\'Typography\', () => (\n  <div>\n    <TypoListItem name="Header">\n      <Header>Hi</Header>\n    </TypoListItem>\n\n    <TypoListItem name="Subtitle">\n      <Subtitle>\n        I\'m a UX Engineer with 10 years experience in bringing together designers and developers to create amazing web\n        apps.\n      </Subtitle>\n    </TypoListItem>\n\n    <TypoListItem name="Link">\n      <Link href="#">Lorem ipsum dolor</Link>\n    </TypoListItem>\n\n    <TypoListItem name="Link/to">\n      <Link href="#" to="github">\n        Github\n      </Link>\n    </TypoListItem>\n\n    <TypoListItem name="Link/light">\n      <Link href="#" to="github" light>\n        Github\n      </Link>\n    </TypoListItem>\n  </div>\n));\n',
             __ADDS_MAP__ = {
@@ -2213,9 +2347,9 @@
                 )
               )
             })
-        }.call(this, __webpack_require__(30)(module))
+        }.call(this, __webpack_require__(26)(module))
     },
-    479: function (module, __webpack_exports__, __webpack_require__) {
+    482: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -2263,7 +2397,7 @@
             _page_06_contact__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
               118
             ),
-            withStorySource = __webpack_require__(44).withStorySource,
+            withStorySource = __webpack_require__(35).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport styled from '@emotion/styled';\nimport Page1 from '../page-01-hi';\nimport Page2 from '../page-02-ui-workbench';\nimport Page3 from '../page-03-design';\nimport Page4 from '../page-04-sketches';\nimport Page5 from '../page-05-resume';\nimport Page6 from '../page-06-contact';\n\nconst PageBox = styled.div`\n  min-height: 1800px;\n`;\nstoriesOf('Portfolio|Pages', module)\n  .addDecorator(story => <PageBox>{story()}</PageBox>)\n  .add('page 1', () => <Page1 />)\n  .add('page 2', () => <Page2 />)\n  .add('page 3', () => <Page3 />)\n  .add('page 4', () => <Page4 />)\n  .add('page 5', () => <Page5 />)\n  .add('page 6', () => <Page6 />);\n",
             __ADDS_MAP__ = {
@@ -2348,9 +2482,9 @@
                 null
               )
             })
-        }.call(this, __webpack_require__(30)(module))
+        }.call(this, __webpack_require__(26)(module))
     },
-    480: function (module, __webpack_exports__, __webpack_require__) {
+    483: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       __webpack_require__.r(__webpack_exports__),
         function (module) {
@@ -2390,8 +2524,8 @@
               react__WEBPACK_IMPORTED_MODULE_3__
             ),
             _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4),
-            _readme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(240),
-            withStorySource = __webpack_require__(44).withStorySource,
+            _readme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(242),
+            withStorySource = __webpack_require__(35).withStorySource,
             __STORY__ =
               "import React from 'react';\nimport styled from '@emotion/styled';\n\nimport theme from '../theme';\nimport readme from './readme';\n\nconst ColorBox = styled.div`\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  max-width: 1250px;\n  margin: 0 auto;\n`;\n\nconst ColorBlock = styled(({ name, hex, bg, ...other }) => (\n  <div {...other}>\n    <div />\n    <div>\n      <p>{name}</p>\n      <p>{hex || 'gradient'}</p>\n    </div>\n  </div>\n))`\n  font-family: ${props => props.theme.font.family};\n  background-color: ${props => props.hex};\n  border-radius: 16px;\n  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);\n  margin: 16px;\n  max-width: 250px;\n  min-height: 250px;\n  width: 100%;\n  position: relative;\n\n  :hover {\n    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.4);\n  }\n  transition: box-shadow 0.3s ease-out;\n\n  ${props =>\n    props.bg &&\n    `\n    background: ${props.bg};\n  `}\n\n  div {\n    min-height: 130px;\n    width: 100%;\n    border-radius: 0 0 16px 16px;\n  }\n  div + div {\n    min-height: 0;\n    background: white;\n    position: absolute;\n    bottom: 0;\n  }\n  div + div > p {\n    padding: 0 1em;\n    opacity: 0.4;\n  }\n\n  div + div > p + p {\n    opacity: 1;\n  }\n`;\nconst TldrBox = styled.div`\n  font-family: ${props => props.theme.font.family};\n  h1 {\n    text-transform: uppercase;\n  }\n  padding: 40px;\n\n  blockquote {\n    margin: 1em;\n  }\n  blockquote > p:before {\n    content: ' ';\n    border-left: 4px solid #ccc;\n    margin-right: 1em;\n  }\n`;\n\nstoriesOf('📌 TLDR;', module).add('README', () => <TldrBox> {readme} </TldrBox>);\n\nstoriesOf('Portfolio|Theme', module).add('Palette', () => (\n  <ColorBox>\n    <ColorBlock name=\"Black Pearl\" hex={theme.colors.black} />\n    <ColorBlock name=\"Brink Pink\" hex={theme.colors.workbench} />\n    <ColorBlock name=\"Royal Blue\" hex={theme.colors.design} />\n    <ColorBlock name=\"East Bay\" hex={theme.colors.tumblr} />\n    <ColorBlock name=\"Sail\" hex={theme.colors.resume} />\n    <ColorBlock name=\"Black Pearl to Pure Black\" bg={theme.gradients.header} />\n    <ColorBlock name=\"Accent (light)\" bg={theme.gradients.accentLight} />\n    <ColorBlock name=\"Accent (dark)\" bg={theme.gradients.accentDark} />\n  </ColorBox>\n));\n",
             __ADDS_MAP__ = {
@@ -2562,7 +2696,7 @@
                   )
                 )
               })
-        }.call(this, __webpack_require__(30)(module))
+        }.call(this, __webpack_require__(26)(module))
     },
     57: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
@@ -2913,7 +3047,7 @@
     61: function (module, __webpack_exports__, __webpack_require__) {
       'use strict'
       var withMouseTracker_hoc = __webpack_require__(114),
-        helpers_extends = __webpack_require__(25),
+        helpers_extends = __webpack_require__(19),
         extends_default = __webpack_require__.n(helpers_extends),
         objectSpread = __webpack_require__(58),
         objectSpread_default = __webpack_require__.n(objectSpread),
@@ -3064,9 +3198,9 @@
         styled_base_browser_esm = __webpack_require__(1),
         react = __webpack_require__(0),
         react_default = __webpack_require__.n(react),
-        bg = __webpack_require__(235),
+        bg = __webpack_require__(236),
         bg_default = __webpack_require__.n(bg),
-        accent = __webpack_require__(236),
+        accent = __webpack_require__(237),
         accent_default = __webpack_require__.n(accent),
         tr_translate = function (_ref) {
           var x = _ref.x,
@@ -3222,6 +3356,6 @@
         )('')
     }
   },
-  [[243, 1, 2]]
+  [[245, 1, 2]]
 ])
-//# sourceMappingURL=main.29f6d02f63662b4a6849.bundle.js.map
+//# sourceMappingURL=main.3a46a0983ef0ef3a5a91.bundle.js.map
