@@ -96,6 +96,7 @@
   },
   "repository": "https://github.com/DrDyne/ui-workbench.git",
   "dependencies": {
+    "animejs": "^3.0.1",
     "storybook": "^1.0.0"
   }
 }
